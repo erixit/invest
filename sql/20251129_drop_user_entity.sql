@@ -1,0 +1,1 @@
+drop table invest_db.user_entity;

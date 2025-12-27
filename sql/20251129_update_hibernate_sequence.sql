@@ -1,0 +1,1 @@
+update invest_db.hibernate_sequence set sequence_name = 'common'; 

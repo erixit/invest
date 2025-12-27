@@ -1,0 +1,227 @@
+services:
+  app:
+    image: tomcat:9.0-jdk17
+    container_name: invest_tomcat
+    restart: always
+    volumes:
+      - ./deploy/web-1.0.0.war:/usr/local/tomcat/webapps/ROOT.war
+      - ./deploy/invest.xml:/usr/local/tomcat/conf/Catalina/localhost/ROOT.xml
+      - ./lib/mysql-connector-j-8.3.0.jar:/usr/local/tomcat/lib/mysql-connector.jar
+    environment:
+      JAVA_OPTS: "-Xms256m -Xmx512m"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  corems:
+    image: eclipse-temurin:17-jre
+    container_name: invest_corems
+    restart: always
+    working_dir: /app
+    ports:
+      - "6980:6980"
+    volumes:
+      - ./deploy/corems-1.0.0.jar:/app/app.jar
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/invest?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["java", "-jar", "app.jar"]
+    depends_on:
+      db:
+        condition: service_healthy
+
+  administration:
+    image: eclipse-temurin:17-jre
+    container_name: invest_administration
+    restart: always
+    working_dir: /app
+    network_mode: "host"
+    volumes:
+      - ./deploy/administration-1.0.0.jar:/app/app.jar
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
+      LOGGING_LEVEL_ROOT: INFO
+      DEBUG: "false"
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["java", "-jar", "app.jar"]
+    depends_on:
+      db:
+        condition: service_healthy
+      corems:
+        condition: service_started
+  adminui:
+    image: nginx:alpine
+    container_name: invest_adminui
+    restart: always
+    ports:
+      - "8088:80"
+    volumes:
+      - ./deploy/adminui/dist/adminui:/usr/share/nginx/html
+      - ./deploy/adminui/nginx.conf:/etc/nginx/conf.d/default.conf
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  consultui:
+    image: nginx:alpine
+    container_name: invest_consultui
+    restart: always
+    ports:
+      - "8089:80"
+    volumes:
+      - ./deploy/consultui/dist/consultui:/usr/share/nginx/html
+      - ./deploy/consultui/nginx.conf:/etc/nginx/conf.d/default.conf
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  adminapi:
+    image: eclipse-temurin:17-jre
+    container_name: invest_adminapi
+    restart: always
+    working_dir: /app
+    network_mode: "host"
+    volumes:
+      - ./deploy/adminapi-1.0.0.jar:/app/app.jar
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["java", "-jar", "app.jar"]
+    depends_on:
+      db:
+        condition: service_healthy
+      corems:
+        condition: service_started
+
+  adminms:
+    image: eclipse-temurin:17-jre
+    container_name: invest_adminms
+    restart: always
+    working_dir: /app
+    network_mode: "host"
+    volumes:
+      - ./deploy/adminms-1.0.0.jar:/app/app.jar
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["java", "-jar", "app.jar"]
+    depends_on:
+      db:
+        condition: service_healthy
+      adminapi:
+        condition: service_started
+
+  consultms:
+    image: eclipse-temurin:17-jre
+    container_name: invest_consultms
+    restart: always
+    working_dir: /app
+    network_mode: "host"
+    volumes:
+      - ./deploy/consultms-1.0.0.jar:/app/app.jar
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["java", "-jar", "app.jar"]
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: mysql:8.0
+    container_name: invest_db
+    restart: always
+    command: --lower_case_table_names=1 --disable-log-bin
+    environment:
+      MYSQL_ROOT_PASSWORD: Ivanchuk_1969
+      MYSQL_DATABASE: invest
+    ports:
+      - "3306:3306"
+    volumes:
+      # Relative to the invest folder now
+      - ./init_db:/docker-entrypoint-initdb.d
+      - invest_db_data:/var/lib/mysql
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pIvanchuk_1969"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  monitor:
+    image: nicolargo/glances:latest-full
+    container_name: invest_monitor
+    restart: always
+    pid: host
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    ports:
+      - "61208:61208"
+    environment:
+      GLANCES_OPT: "-w"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  invest_db_data:
+
+networks:
+  default:
+    name: nginx_network
+    external: true
