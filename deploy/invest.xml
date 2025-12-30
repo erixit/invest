@@ -1,9 +1,0 @@
-<Context>
-    <Resource name="jdbc/investDS" auth="Container" type="javax.sql.DataSource"
-              maxTotal="100" maxIdle="30" maxWaitMillis="10000"
-              username="root" password="Ivanchuk_1969"
-              driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://db:3306/invest?useSSL=false&amp;allowPublicKeyRetrieval=true"
-              validationQuery="select 1"/>
-    <Parameter name="configuration" value="development" override="false"/>
-</Context>

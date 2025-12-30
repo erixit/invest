@@ -1,28 +1,9 @@
-# Java / Maven
-target/
-*.class
+# --- Logs ---
+*.log
+
+# --- Large Binaries ---
 *.jar
 *.war
 
-# Node / Angular
-node_modules/
-dist/
-.angular/
-
-# IDEs
-.vscode/
-.idea/
-*.iml
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Environment variables (Security)
-.env
-
-# Docker
-docker-compose.override.yml
+# --- Deploy ---
+deploy/
