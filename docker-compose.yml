@@ -7,6 +7,8 @@ services:
       - ./deploy/web-1.0.0.war:/usr/local/tomcat/webapps/ROOT.war
       - ./deploy/invest.xml:/usr/local/tomcat/conf/Catalina/localhost/ROOT.xml
       - ./lib/mysql-connector-j-8.3.0.jar:/usr/local/tomcat/lib/mysql-connector.jar
+    ports:
+      - "8080:8080"
     environment:
       JAVA_OPTS: "-Xms256m -Xmx512m"
     logging:
@@ -113,6 +115,9 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
+      SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
+      SPRING_ARTEMIS_USER: artemis
+      SPRING_ARTEMIS_PASSWORD: artemis
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
     logging:
       driver: "json-file"
@@ -139,6 +144,9 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
+      SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
+      SPRING_ARTEMIS_USER: artemis
+      SPRING_ARTEMIS_PASSWORD: artemis
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
     logging:
       driver: "json-file"
@@ -150,6 +158,8 @@ services:
       db:
         condition: service_healthy
       adminapi:
+        condition: service_started
+      artemis:
         condition: service_started
 
   consultms:
@@ -201,22 +211,45 @@ services:
       timeout: 5s
       retries: 5
 
-  monitor:
-    image: nicolargo/glances:latest-full
-    container_name: invest_monitor
+  artemis:
+    image: apache/activemq-artemis:latest
+    container_name: invest_artemis
     restart: always
-    pid: host
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock:ro
     ports:
-      - "61208:61208"
+      - "8161:8161"
+      - "61616:61616"
     environment:
-      GLANCES_OPT: "-w"
+      ARTEMIS_USER: artemis
+      ARTEMIS_PASSWORD: artemis
     logging:
       driver: "json-file"
       options:
         max-size: "10m"
         max-file: "3"
+
+  messaging:
+    image: eclipse-temurin:17-jre
+    container_name: invest_messaging
+    restart: always
+    working_dir: /app
+    network_mode: "host"
+    volumes:
+      - ./deploy/messaging-1.0.0.jar:/app/app.jar
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
+      SPRING_ARTEMIS_USER: artemis
+      SPRING_ARTEMIS_PASSWORD: artemis
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["java", "-jar", "app.jar"]
+    depends_on:
+      artemis:
+        condition: service_started
 
 volumes:
   invest_db_data:
