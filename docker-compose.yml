@@ -11,6 +11,10 @@ services:
       - "8080:8080"
     environment:
       JAVA_OPTS: "-Xms256m -Xmx512m"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
     logging:
       driver: "json-file"
       options:
@@ -35,6 +39,10 @@ services:
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
     logging:
       driver: "json-file"
       options:
@@ -61,6 +69,10 @@ services:
       LOGGING_LEVEL_ROOT: INFO
       DEBUG: "false"
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
     logging:
       driver: "json-file"
       options:
@@ -119,6 +131,10 @@ services:
       SPRING_ARTEMIS_USER: artemis
       SPRING_ARTEMIS_PASSWORD: artemis
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
     logging:
       driver: "json-file"
       options:
@@ -139,6 +155,7 @@ services:
     network_mode: "host"
     volumes:
       - ./deploy/adminms-1.0.0.jar:/app/app.jar
+      - /home/pi/data/invest_data:/home/pi/data/invest_data
     environment:
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
@@ -147,7 +164,11 @@ services:
       SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
       SPRING_ARTEMIS_USER: artemis
       SPRING_ARTEMIS_PASSWORD: artemis
-      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
     logging:
       driver: "json-file"
       options:
@@ -176,6 +197,10 @@ services:
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
     logging:
       driver: "json-file"
       options:
@@ -241,6 +266,10 @@ services:
       SPRING_ARTEMIS_USER: artemis
       SPRING_ARTEMIS_PASSWORD: artemis
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
     logging:
       driver: "json-file"
       options:
