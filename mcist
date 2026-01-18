@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# 1. Identify the project root (assuming Git repository)
+# This ensures we mount the root so sub-modules can find their parent pom.xml
+PROJECT_ROOT=$(git rev-parse --show-toplevel 2>/dev/null)
+
+if [ -z "$PROJECT_ROOT" ]; then
+  echo "Error: Could not determine project root. Are you inside a Git repository?"
+  exit 1
+fi
+
+# 2. Calculate the relative path from the root to the current directory
+CURRENT_DIR=$(pwd)
+RELATIVE_PATH=${CURRENT_DIR#"$PROJECT_ROOT"}
+# Remove leading slash if it exists
+RELATIVE_PATH=${RELATIVE_PATH#/}
+
+# 3. Run the Docker command
+# - Mount the PROJECT_ROOT to /usr/src/app
+# - Mount the local .m2 cache
+# - Set the working directory inside the container to match the subdirectory
+echo "--------------------------------------------------"
+echo "Building with Docker (JDK 17)"
+echo "Project Root: $PROJECT_ROOT"
+echo "Module Path:  ${RELATIVE_PATH:-.}"
+echo "--------------------------------------------------"
+
+docker run -it --rm \
+    -v "$PROJECT_ROOT":/usr/src/app \
+    -v "$HOME/.m2":/root/.m2 \
+    -w "/usr/src/app/$RELATIVE_PATH" \
+    maven:3.9-eclipse-temurin-17 \
+    mvn clean install -DskipTests

@@ -128,7 +128,7 @@ services:
       # Reuses the existing nginx config
       - ./deploy/consultui/nginx.conf:/etc/nginx/conf.d/default.conf
 
-  adminapi:
+  adminapi: &adminapi
     image: eclipse-temurin:17-jre
     container_name: invest_adminapi
     restart: always
@@ -136,7 +136,7 @@ services:
     network_mode: "host"
     volumes:
       - ./deploy/adminapi-1.0.0.jar:/app/app.jar
-    environment:
+    environment: &adminapi_env
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
@@ -161,7 +161,15 @@ services:
       corems:
         condition: service_started
 
-  adminms:
+  adminapi_debug:
+    <<: *adminapi
+    container_name: invest_adminapi_debug
+    profiles: ["debug"]
+    environment:
+      <<: *adminapi_env
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5006"
+
+  adminms: &adminms
     image: eclipse-temurin:17-jre
     container_name: invest_adminms
     restart: always
@@ -170,7 +178,7 @@ services:
     volumes:
       - ./deploy/adminms-1.0.0.jar:/app/app.jar
       - /home/pi/data/invest_data:/home/pi/data/invest_data
-    environment:
+    environment: &adminms_env
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
@@ -178,7 +186,7 @@ services:
       SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
       SPRING_ARTEMIS_USER: artemis
       SPRING_ARTEMIS_PASSWORD: artemis
-      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
     deploy:
       resources:
         limits:
@@ -197,6 +205,14 @@ services:
       artemis:
         condition: service_started
 
+  adminms_debug:
+    <<: *adminms
+    container_name: invest_adminms_debug
+    profiles: ["debug"]
+    environment:
+      <<: *adminms_env
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"
+
   consultms:
     image: eclipse-temurin:17-jre
     container_name: invest_consultms
@@ -206,6 +222,7 @@ services:
     volumes:
       - ./deploy/consultms-1.0.0.jar:/app/app.jar
     environment:
+      SERVER_FORWARD_HEADERS_STRATEGY: NATIVE
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
