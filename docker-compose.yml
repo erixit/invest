@@ -92,7 +92,7 @@ services:
       - "8088:80"
     volumes:
       - ./deploy/adminui/dist/adminui:/usr/share/nginx/html
-      - ./deploy/adminui/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./invest_userinterfaces/adminui/nginx.conf:/etc/nginx/conf.d/default.conf
     logging:
       driver: "json-file"
       options:
@@ -107,7 +107,7 @@ services:
       - "8089:80"
     volumes:
       - ./deploy/consultui/dist/consultui:/usr/share/nginx/html
-      - ./deploy/consultui/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./invest_userinterfaces/consultui/nginx.conf:/etc/nginx/conf.d/default.conf
     logging:
       driver: "json-file"
       options:
@@ -126,7 +126,7 @@ services:
       # Points to a separate test directory
       - ./deploy/consultui_test/dist/consultui:/usr/share/nginx/html
       # Reuses the existing nginx config
-      - ./deploy/consultui/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./invest_userinterfaces/consultui/nginx.conf:/etc/nginx/conf.d/default.conf
 
   adminapi: &adminapi
     image: eclipse-temurin:17-jre
@@ -136,6 +136,7 @@ services:
     network_mode: "host"
     volumes:
       - ./deploy/adminapi-1.0.0.jar:/app/app.jar
+      - /home/pi/data/invest_data:/home/pi/data/invest_data
     environment: &adminapi_env
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true

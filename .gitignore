@@ -5,5 +5,7 @@
 *.jar
 *.war
 
-# --- Deploy ---
-deploy/
+# --- Deploy (keep nginx configs) ---
+deploy/*
+!deploy/**/nginx.conf
+!deploy/.gitkeep
