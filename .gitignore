@@ -9,3 +9,6 @@
 deploy/*
 !deploy/**/nginx.conf
 !deploy/.gitkeep
+
+# --- Local env ---
+.env
