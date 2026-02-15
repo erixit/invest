@@ -1,4 +1,4 @@
-services:
+﻿services:
   app:
     image: tomcat:9.0-jdk17
     container_name: invest_tomcat
@@ -53,39 +53,6 @@ services:
       db:
         condition: service_healthy
 
-  administration:
-    image: eclipse-temurin:17-jre
-    container_name: invest_administration
-    restart: always
-    profiles:
-      - docker
-    working_dir: /app
-    volumes:
-      - ./deploy/administration-1.0.0.jar:/app/app.jar
-    environment:
-      SPRING_PROFILES_ACTIVE: docker
-      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/invest?useSSL=false&allowPublicKeyRetrieval=true
-      SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
-      LOGGING_LEVEL_ROOT: INFO
-      DEBUG: "false"
-      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
-    deploy:
-      resources:
-        limits:
-          cpus: '0.50'
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "3"
-    command: ["java", "-jar", "app.jar"]
-    depends_on:
-      db:
-        condition: service_healthy
-      corems:
-        condition: service_started
-
   adminui:
     image: nginx:alpine
     container_name: invest_adminui
@@ -139,14 +106,14 @@ services:
       - "5580:5580"
     volumes:
       - ./deploy/adminapi-1.0.0.jar:/app/app.jar
-      - /home/pi/data/invest_data:/home/pi/data/invest_data
+      - C:/msi_data/invest_data:/home/pi/data/invest_data
     environment:
       SPRING_PROFILES_ACTIVE: docker
       COREMS_BASE_URL: http://corems:6980/springboot-crud-rest-corems/api/v1
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/invest?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
-      SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
+      SPRING_ARTEMIS_BROKER_URL: tcp://artemis:61616
       SPRING_ARTEMIS_USER: artemis
       SPRING_ARTEMIS_PASSWORD: artemis
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
@@ -179,14 +146,14 @@ services:
       - "5006:5006"
     volumes:
       - ./deploy/adminapi-1.0.0.jar:/app/app.jar
-      - /home/pi/data/invest_data:/home/pi/data/invest_data
+      - C:/msi_data/invest_data:/home/pi/data/invest_data
     environment:
       SPRING_PROFILES_ACTIVE: docker
       COREMS_BASE_URL: http://corems:6980/springboot-crud-rest-corems/api/v1
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/invest?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
-      SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
+      SPRING_ARTEMIS_BROKER_URL: tcp://artemis:61616
       SPRING_ARTEMIS_USER: artemis
       SPRING_ARTEMIS_PASSWORD: artemis
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5006"
@@ -217,13 +184,13 @@ services:
       - "6780:6780"
     volumes:
       - ./deploy/adminms-1.0.0.jar:/app/app.jar
-      - /home/pi/data/invest_data:/home/pi/data/invest_data
+      - C:/msi_data/invest_data:/home/pi/data/invest_data
     environment:
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
-      SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
+      SPRING_ARTEMIS_BROKER_URL: tcp://artemis:61616
       SPRING_ARTEMIS_USER: artemis
       SPRING_ARTEMIS_PASSWORD: artemis
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
@@ -255,13 +222,13 @@ services:
     working_dir: /app
     volumes:
       - ./deploy/adminms-1.0.0.jar:/app/app.jar
-      - /home/pi/data/invest_data:/home/pi/data/invest_data
+      - C:/msi_data/invest_data:/home/pi/data/invest_data
     environment:
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
-      SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
+      SPRING_ARTEMIS_BROKER_URL: tcp://artemis:61616
       SPRING_ARTEMIS_USER: artemis
       SPRING_ARTEMIS_PASSWORD: artemis
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"
@@ -366,7 +333,7 @@ services:
       - ./deploy/messaging-1.0.0.jar:/app/app.jar
     environment:
       SPRING_PROFILES_ACTIVE: docker
-      SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
+      SPRING_ARTEMIS_BROKER_URL: tcp://artemis:61616
       SPRING_ARTEMIS_USER: artemis
       SPRING_ARTEMIS_PASSWORD: artemis
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
@@ -386,3 +353,4 @@ services:
 
 volumes:
   invest_db_data:
+

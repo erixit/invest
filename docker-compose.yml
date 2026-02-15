@@ -53,37 +53,6 @@ services:
       db:
         condition: service_healthy
 
-  administration:
-    image: eclipse-temurin:17-jre
-    container_name: invest_administration
-    restart: always
-    working_dir: /app
-    network_mode: "${NETWORK_MODE:-host}"
-    volumes:
-      - ./deploy/administration-1.0.0.jar:/app/app.jar
-    environment:
-      SPRING_PROFILES_ACTIVE: docker
-      SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest?useSSL=false&allowPublicKeyRetrieval=true
-      SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
-      LOGGING_LEVEL_ROOT: INFO
-      DEBUG: "false"
-      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
-    deploy:
-      resources:
-        limits:
-          cpus: '0.50'
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "3"
-    command: ["java", "-jar", "app.jar"]
-    depends_on:
-      db:
-        condition: service_healthy
-      corems:
-        condition: service_started
   adminui:
     image: nginx:alpine
     container_name: invest_adminui
