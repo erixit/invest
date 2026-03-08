@@ -1,4 +1,4 @@
-﻿services:
+services:
   app:
     image: tomcat:9.0-jdk17
     container_name: invest_tomcat
@@ -10,6 +10,7 @@
     ports:
       - "8080:8080"
     environment:
+      TZ: Europe/Brussels
       JAVA_OPTS: "-Xms256m -Xmx512m"
     deploy:
       resources:
@@ -28,12 +29,14 @@
     image: eclipse-temurin:17-jre
     container_name: invest_corems
     restart: always
-    working_dir: /app
+    working_dir: /logs
     ports:
       - "6980:6980"
     volumes:
       - ./deploy/corems-1.0.0.jar:/app/app.jar
+      - /home/pi/data/logs/corems:/logs
     environment:
+      TZ: Europe/Brussels
       SPRING_PROFILES_ACTIVE: linux
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/invest?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
@@ -48,7 +51,7 @@
       options:
         max-size: "10m"
         max-file: "3"
-    command: ["java", "-jar", "app.jar"]
+    command: ["java", "-jar", "/app/app.jar"]
     depends_on:
       db:
         condition: service_healthy
@@ -62,6 +65,8 @@
     volumes:
       - ./deploy/adminui/dist/adminui:/usr/share/nginx/html
       - ./config/adminui/nginx.conf:/etc/nginx/conf.d/default.conf
+    environment:
+      TZ: Europe/Brussels
     logging:
       driver: "json-file"
       options:
@@ -77,6 +82,8 @@
     volumes:
       - ./deploy/consultui/dist/consultui:/usr/share/nginx/html
       - ./config/consultui/nginx.conf:/etc/nginx/conf.d/default.conf
+    environment:
+      TZ: Europe/Brussels
     logging:
       driver: "json-file"
       options:
@@ -97,16 +104,20 @@
       # Reuses the existing nginx config
       - ./config/consultui/nginx.conf:/etc/nginx/conf.d/default.conf
 
+    environment:
+      TZ: Europe/Brussels
   adminapi: &adminapi
     image: eclipse-temurin:17-jre
     container_name: invest_adminapi
     restart: always
-    working_dir: /app
+    working_dir: /logs
     network_mode: "${NETWORK_MODE:-host}"
     volumes:
       - ./deploy/adminapi-1.0.0.jar:/app/app.jar
       - /home/pi/data/invest_data:/home/pi/data/invest_data
+      - /home/pi/data/logs/adminapi:/logs
     environment: &adminapi_env
+      TZ: Europe/Brussels
       SPRING_PROFILES_ACTIVE: linux
       SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
@@ -124,7 +135,7 @@
       options:
         max-size: "10m"
         max-file: "3"
-    command: ["java", "-jar", "app.jar"]
+    command: ["java", "-jar", "/app/app.jar"]
     depends_on:
       db:
         condition: service_healthy
@@ -135,7 +146,12 @@
     <<: *adminapi
     container_name: invest_adminapi_debug
     profiles: ["debug"]
+    volumes:
+      - ./deploy/adminapi-1.0.0.jar:/app/app.jar
+      - /home/pi/data/invest_data:/home/pi/data/invest_data
+      - /home/pi/data/logs/adminapi_debug:/logs
     environment:
+      TZ: Europe/Brussels
       <<: *adminapi_env
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5006"
 
@@ -143,12 +159,14 @@
     image: eclipse-temurin:17-jre
     container_name: invest_adminms
     restart: always
-    working_dir: /app
+    working_dir: /logs
     network_mode: "${NETWORK_MODE:-host}"
     volumes:
       - ./deploy/adminms-1.0.0.jar:/app/app.jar
       - /home/pi/data/invest_data:/home/pi/data/invest_data
+      - /home/pi/data/logs/adminms:/logs
     environment: &adminms_env
+      TZ: Europe/Brussels
       SPRING_PROFILES_ACTIVE: linux
       SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
@@ -166,7 +184,7 @@
       options:
         max-size: "10m"
         max-file: "3"
-    command: ["java", "-jar", "app.jar"]
+    command: ["java", "-jar", "/app/app.jar"]
     depends_on:
       db:
         condition: service_healthy
@@ -179,7 +197,12 @@
     <<: *adminms
     container_name: invest_adminms_debug
     profiles: ["debug"]
+    volumes:
+      - ./deploy/adminms-1.0.0.jar:/app/app.jar
+      - /home/pi/data/invest_data:/home/pi/data/invest_data
+      - /home/pi/data/logs/adminms_debug:/logs
     environment:
+      TZ: Europe/Brussels
       <<: *adminms_env
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"
 
@@ -187,11 +210,13 @@
     image: eclipse-temurin:17-jre
     container_name: invest_consultms
     restart: always
-    working_dir: /app
+    working_dir: /logs
     network_mode: "${NETWORK_MODE:-host}"
     volumes:
       - ./deploy/consultms-1.0.0.jar:/app/app.jar
+      - /home/pi/data/logs/consultms:/logs
     environment:
+      TZ: Europe/Brussels
       SERVER_FORWARD_HEADERS_STRATEGY: NATIVE
       SPRING_PROFILES_ACTIVE: linux
       SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
@@ -207,7 +232,7 @@
       options:
         max-size: "10m"
         max-file: "3"
-    command: ["java", "-jar", "app.jar"]
+    command: ["java", "-jar", "/app/app.jar"]
     depends_on:
       db:
         condition: service_healthy
@@ -218,6 +243,7 @@
     restart: always
     command: --lower_case_table_names=1 --disable-log-bin
     environment:
+      TZ: Europe/Brussels
       MYSQL_ROOT_PASSWORD: Ivanchuk_1969
       MYSQL_DATABASE: invest
     ports:
@@ -245,6 +271,7 @@
       - "8161:8161"
       - "61616:61616"
     environment:
+      TZ: Europe/Brussels
       ARTEMIS_USER: artemis
       ARTEMIS_PASSWORD: artemis
     logging:
@@ -257,11 +284,13 @@
     image: eclipse-temurin:17-jre
     container_name: invest_messaging
     restart: always
-    working_dir: /app
+    working_dir: /logs
     network_mode: "${NETWORK_MODE:-host}"
     volumes:
       - ./deploy/messaging-1.0.0.jar:/app/app.jar
+      - /home/pi/data/logs/messaging:/logs
     environment:
+      TZ: Europe/Brussels
       SPRING_PROFILES_ACTIVE: linux
       SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
       SPRING_ARTEMIS_USER: artemis
@@ -276,7 +305,7 @@
       options:
         max-size: "10m"
         max-file: "3"
-    command: ["java", "-jar", "app.jar"]
+    command: ["java", "-jar", "/app/app.jar"]
     depends_on:
       artemis:
         condition: service_started
@@ -288,4 +317,6 @@ networks:
   default:
     name: nginx_network
     external: true
+
+
 
