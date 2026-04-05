@@ -1,58 +1,66 @@
-param(
-    [string]$MicroservicesRoot = (Join-Path $PSScriptRoot "..\..\invest_microservices"),
-    [string]$DeployDir = (Join-Path $PSScriptRoot "..\deploy")
-)
-
 $ErrorActionPreference = "Stop"
 
-function Get-LatestJar {
-    param(
-        [Parameter(Mandatory = $true)]
-        [string]$TargetDir,
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$microservicesRoot = if ($args.Count -ge 1) { $args[0] } else { Join-Path $scriptDir "..\..\invest_microservices" }
+$deployDir = if ($args.Count -ge 2) { $args[1] } else { Join-Path $scriptDir "..\deploy" }
 
-        [Parameter(Mandatory = $true)]
-        [string]$ArtifactPrefix
-    )
-
-    if (-not (Test-Path -Path $TargetDir)) {
-        throw "Target directory not found: $TargetDir"
-    }
-
-    $jar = Get-ChildItem -Path $TargetDir -Filter "$ArtifactPrefix-*.jar" -File |
-        Where-Object { $_.Name -notmatch 'sources|javadoc|original' } |
-        Sort-Object LastWriteTime -Descending |
-        Select-Object -First 1
-
-    if (-not $jar) {
-        throw "No jar found for artifact '$ArtifactPrefix' in $TargetDir"
-    }
-
-    return $jar
+if (-not (Test-Path -Path $microservicesRoot)) {
+    Write-Error "Target directory not found: $microservicesRoot"
+    exit 1
 }
 
-$services = @(
+New-Item -ItemType Directory -Path $deployDir -Force | Out-Null
+
+$resolvedMicroservicesRoot = (Resolve-Path $microservicesRoot).Path
+$resolvedDeployDir = (Resolve-Path $deployDir).Path
+
+Write-Host "Microservices root: $resolvedMicroservicesRoot"
+Write-Host "Deploy dir: $resolvedDeployDir"
+
+$deployItems = @(
     @{ Module = "corems"; Artifact = "corems" },
-    @{ Module = "adminapi"; Artifact = "adminapi" },
     @{ Module = "adminms"; Artifact = "adminms" },
     @{ Module = "consultms"; Artifact = "consultms" },
     @{ Module = "messaging"; Artifact = "messaging" }
 )
 
-$resolvedMicroservicesRoot = (Resolve-Path $MicroservicesRoot).Path
-if (-not (Test-Path -Path $DeployDir)) {
-    New-Item -Path $DeployDir -ItemType Directory -Force | Out-Null
+function Get-LatestJar {
+    param(
+        [string]$TargetDir,
+        [string]$ArtifactPrefix
+    )
+
+    if (-not (Test-Path -Path $TargetDir)) {
+        Write-Error "Target directory not found: $TargetDir"
+        return $null
+    }
+
+    $jar = Get-ChildItem -Path $TargetDir -Filter "$ArtifactPrefix-*.jar" -File |
+        Where-Object { $_.Name -notmatch '(sources|javadoc|original)' } |
+        Sort-Object LastWriteTime -Descending |
+        Select-Object -First 1
+
+    if (-not $jar) {
+        Write-Error "No jar found for artifact '$ArtifactPrefix' in $TargetDir"
+        return $null
+    }
+
+    return $jar.FullName
 }
-$resolvedDeployDir = (Resolve-Path $DeployDir).Path
 
-Write-Host "Microservices root: $resolvedMicroservicesRoot"
-Write-Host "Deploy dir: $resolvedDeployDir"
+foreach ($item in $deployItems) {
+    $module = $item.Module
+    $artifact = $item.Artifact
+    $targetDir = Join-Path $resolvedMicroservicesRoot "$module\target"
 
-foreach ($service in $services) {
-    $targetDir = Join-Path $resolvedMicroservicesRoot (Join-Path $service.Module "target")
-    $jar = Get-LatestJar -TargetDir $targetDir -ArtifactPrefix $service.Artifact
-    $destPath = Join-Path $resolvedDeployDir $jar.Name
-    Copy-Item -Path $jar.FullName -Destination $destPath -Force
-    Write-Host ("Copied {0} -> {1}" -f $jar.Name, $destPath)
+    $jarPath = Get-LatestJar -TargetDir $targetDir -ArtifactPrefix $artifact
+    if (-not $jarPath) { exit 1 }
+
+    $jarName = Split-Path $jarPath -Leaf
+    $destPath = Join-Path $resolvedDeployDir $jarName
+
+    Copy-Item -Path $jarPath -Destination $destPath -Force
+    Write-Host "Copied $jarName -> $destPath"
 }
 
 Write-Host "JAR deployment complete."

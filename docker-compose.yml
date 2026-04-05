@@ -35,6 +35,7 @@ services:
     volumes:
       - ./deploy/corems-1.0.0.jar:/app/app.jar
       - /home/pi/data/logs/corems:/logs
+      - /home/pi/data/invest_data:/home/pi/data/invest_data
     environment:
       TZ: Europe/Brussels
       SPRING_PROFILES_ACTIVE: linux
@@ -106,55 +107,6 @@ services:
 
     environment:
       TZ: Europe/Brussels
-  adminapi: &adminapi
-    image: eclipse-temurin:17-jre
-    container_name: invest_adminapi
-    restart: always
-    working_dir: /logs
-    network_mode: "${NETWORK_MODE:-host}"
-    volumes:
-      - ./deploy/adminapi-1.0.0.jar:/app/app.jar
-      - /home/pi/data/invest_data:/home/pi/data/invest_data
-      - /home/pi/data/logs/adminapi:/logs
-    environment: &adminapi_env
-      TZ: Europe/Brussels
-      SPRING_PROFILES_ACTIVE: linux
-      SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
-      SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: Ivanchuk_1969
-      SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
-      SPRING_ARTEMIS_USER: artemis
-      SPRING_ARTEMIS_PASSWORD: artemis
-      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
-    deploy:
-      resources:
-        limits:
-          cpus: '0.50'
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "3"
-    command: ["java", "-jar", "/app/app.jar"]
-    depends_on:
-      db:
-        condition: service_healthy
-      corems:
-        condition: service_started
-
-  adminapi_debug:
-    <<: *adminapi
-    container_name: invest_adminapi_debug
-    profiles: ["debug"]
-    volumes:
-      - ./deploy/adminapi-1.0.0.jar:/app/app.jar
-      - /home/pi/data/invest_data:/home/pi/data/invest_data
-      - /home/pi/data/logs/adminapi_debug:/logs
-    environment:
-      TZ: Europe/Brussels
-      <<: *adminapi_env
-      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5006"
-
   adminms: &adminms
     image: eclipse-temurin:17-jre
     container_name: invest_adminms
@@ -188,8 +140,6 @@ services:
     depends_on:
       db:
         condition: service_healthy
-      adminapi:
-        condition: service_started
       artemis:
         condition: service_started
 
@@ -317,6 +267,7 @@ networks:
   default:
     name: nginx_network
     external: true
+
 
 
 

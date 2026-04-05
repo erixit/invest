@@ -21,7 +21,6 @@ echo "Deploy dir: ${resolved_deploy_dir}"
 
 services=(
   "corems:corems"
-  "adminapi:adminapi"
   "adminms:adminms"
   "consultms:consultms"
   "messaging:messaging"
