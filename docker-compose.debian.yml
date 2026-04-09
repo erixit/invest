@@ -63,9 +63,11 @@ services:
     restart: always
     ports:
       - "8088:80"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     volumes:
       - ./deploy/adminui/dist/adminui:/usr/share/nginx/html
-      - ./config/adminui/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./config/adminui/nginx.debian.conf:/etc/nginx/conf.d/default.conf
     environment:
       TZ: Europe/Brussels
     logging:
@@ -80,9 +82,11 @@ services:
     restart: always
     ports:
       - "8089:80"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     volumes:
       - ./deploy/consultui/dist/consultui:/usr/share/nginx/html
-      - ./config/consultui/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./config/consultui/nginx.debian.conf:/etc/nginx/conf.d/default.conf
     environment:
       TZ: Europe/Brussels
     logging:
@@ -238,6 +242,7 @@ services:
     network_mode: "${NETWORK_MODE:-host}"
     volumes:
       - ./deploy/messaging-1.0.0.jar:/app/app.jar
+      - /home/pi/data/invest_data:/home/pi/data/invest_data
       - /home/pi/data/logs/messaging:/logs
     environment:
       TZ: Europe/Brussels
@@ -267,4 +272,3 @@ networks:
   default:
     name: nginx_network
     external: true
-

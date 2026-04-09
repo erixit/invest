@@ -9,8 +9,46 @@ if (-not $env:COMPOSE_PROFILES) {
     $env:COMPOSE_PROFILES = "docker"
 }
 
-$services = docker compose config --services | Where-Object { $_ -notmatch "_debug$" }
-if ($services) {
-    docker compose stop $services
-    docker compose rm -f $services
+if ($args.Count -gt 1) {
+    Write-Error "Usage: .\scripts\dc-down.ps1 [service]"
+    exit 1
+}
+
+$requestedService = if ($args.Count -eq 1) { $args[0] } else { $null }
+
+$composeFiles = @()
+if ($env:COMPOSE_FILE) {
+    $composeFiles = $env:COMPOSE_FILE -split [IO.Path]::PathSeparator
+} elseif ($IsWindows) {
+    $composeFiles = @("docker-compose.windows.yml")
+} elseif ($IsLinux) {
+    $composeFiles = @("docker-compose.debian.yml")
+} else {
+    $composeFiles = @("docker-compose.yml")
+}
+
+$composeArgs = @("compose")
+foreach ($file in $composeFiles) {
+    $composeArgs += @("-f", $file)
+}
+
+Write-Host "Using compose file(s): $($composeFiles -join ', ')"
+
+$availableServices = @(docker @composeArgs config --services)
+
+if ($requestedService) {
+    if ($availableServices -notcontains $requestedService) {
+        Write-Error "Unknown service: $requestedService`nAvailable services: $($availableServices -join ' ')"
+        exit 1
+    }
+    $services = @($requestedService)
+} else {
+    $services = @($availableServices | Where-Object { $_ -notmatch "_debug$" })
+}
+
+if ($services.Count -gt 0) {
+    docker @composeArgs stop $services
+    docker @composeArgs rm -f $services
+} else {
+    Write-Host "No services selected."
 }
