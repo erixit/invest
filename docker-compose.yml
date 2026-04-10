@@ -238,6 +238,7 @@ services:
     network_mode: "${NETWORK_MODE:-host}"
     volumes:
       - ./deploy/messaging-1.0.0.jar:/app/app.jar
+      - /home/pi/data/invest_data:/home/pi/data/invest_data
       - /home/pi/data/logs/messaging:/logs
     environment:
       TZ: Europe/Brussels
@@ -267,4 +268,3 @@ networks:
   default:
     name: nginx_network
     external: true
-

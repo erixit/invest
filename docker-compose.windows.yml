@@ -266,6 +266,7 @@ services:
     working_dir: /logs
     volumes:
       - ./deploy/messaging-1.0.0.jar:/app/app.jar
+      - C:/msi_data/invest_data:/home/pi/data/invest_data      
       - C:/msi_data/docker_logs/messaging:/logs
     environment:
       TZ: Europe/Brussels
