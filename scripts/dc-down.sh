@@ -14,22 +14,7 @@ if (($# > 1)); then
 fi
 requested_service="${1:-}"
 
-compose_files=()
-if [[ -n "${COMPOSE_FILE:-}" ]]; then
-  IFS=':' read -r -a compose_files <<< "${COMPOSE_FILE}"
-else
-  case "${OSTYPE:-}" in
-    linux*)
-      compose_files=("docker-compose.yml")
-      ;;
-    msys*|cygwin*|win32*)
-      compose_files=("docker-compose.windows.yml")
-      ;;
-    *)
-      compose_files=("docker-compose.yml")
-      ;;
-  esac
-fi
+compose_files=("docker-compose.yml")
 
 compose_cmd=(docker compose)
 for file in "${compose_files[@]}"; do

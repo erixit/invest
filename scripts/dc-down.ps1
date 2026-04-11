@@ -1,4 +1,4 @@
-$ErrorActionPreference = "Stop"
+﻿$ErrorActionPreference = "Stop"
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $projectDir = Split-Path -Parent $scriptDir
@@ -16,16 +16,7 @@ if ($args.Count -gt 1) {
 
 $requestedService = if ($args.Count -eq 1) { $args[0] } else { $null }
 
-$composeFiles = @()
-if ($env:COMPOSE_FILE) {
-    $composeFiles = $env:COMPOSE_FILE -split [IO.Path]::PathSeparator
-} elseif ($IsWindows) {
-    $composeFiles = @("docker-compose.windows.yml")
-} elseif ($IsLinux) {
-    $composeFiles = @("docker-compose.debian.yml")
-} else {
-    $composeFiles = @("docker-compose.yml")
-}
+$composeFiles = @("docker-compose.windows.yml")
 
 $composeArgs = @("compose")
 foreach ($file in $composeFiles) {
@@ -52,3 +43,4 @@ if ($services.Count -gt 0) {
 } else {
     Write-Host "No services selected."
 }
+

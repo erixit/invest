@@ -8,10 +8,22 @@ cd "${project_dir}"
 # Default to the docker profile unless caller already set COMPOSE_PROFILES.
 export COMPOSE_PROFILES="${COMPOSE_PROFILES:-docker}"
 
-if (($# > 1)); then
-  echo "Usage: $0 [service]" >&2
+if (($# > 2)); then
+  echo "Usage: $0 [-f] [service]" >&2
   exit 1
 fi
+follow=false
+requested_service=""
+
+if (($# > 0)); then
+  case "$1" in
+    -f|--follow)
+      follow=true
+      shift
+      ;;
+  esac
+fi
+
 requested_service="${1:-}"
 
 compose_files=("docker-compose.debian.yml")
@@ -37,8 +49,11 @@ else
 fi
 
 if ((${#services[@]} > 0)); then
-  "${compose_cmd[@]}" stop "${services[@]}"
-  "${compose_cmd[@]}" rm -f "${services[@]}"
+  if [[ "${follow}" == "true" ]]; then
+    "${compose_cmd[@]}" logs -f "${services[@]}"
+  else
+    "${compose_cmd[@]}" logs "${services[@]}"
+  fi
 else
   echo "No services selected."
 fi

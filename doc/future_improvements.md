@@ -11,3 +11,8 @@
 - In `consultui`, the actual portfolio has both a list view and a graph view.
 - Closed gains and closed losses currently only have graph views.
 - Needed improvement: also provide list views for closed gains and closed losses.
+
+## Slow Refresh Of Open Positions
+
+- Refreshing the list of open positions takes a very long time, and the intermediate results are untrustworthy while calculation is still running.
+- Proposed fix: replace the refresh button with an explicit background job: `Recalculate positions`.

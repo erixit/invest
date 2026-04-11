@@ -9,12 +9,19 @@ if (-not $env:COMPOSE_PROFILES) {
     $env:COMPOSE_PROFILES = "docker"
 }
 
-if ($args.Count -gt 1) {
-    Write-Error "Usage: .\scripts\dc-up.ps1 [service]"
+if ($args.Count -gt 2) {
+    Write-Error "Usage: .\scripts\dc-logs.ps1 [-f] [service]"
     exit 1
 }
 
-$requestedService = if ($args.Count -eq 1) { $args[0] } else { $null }
+$follow = $false
+$remainingArgs = @($args)
+if ($remainingArgs.Count -gt 0 -and ($remainingArgs[0] -eq "-f" -or $remainingArgs[0] -eq "--follow")) {
+    $follow = $true
+    $remainingArgs = $remainingArgs[1..($remainingArgs.Count - 1)]
+}
+
+$requestedService = if ($remainingArgs.Count -eq 1) { $remainingArgs[0] } else { $null }
 
 $composeFiles = @("docker-compose.windows.yml")
 
@@ -38,7 +45,11 @@ if ($requestedService) {
 }
 
 if ($services.Count -gt 0) {
-    docker @composeArgs up -d $services
+    if ($follow) {
+        docker @composeArgs logs -f $services
+    } else {
+        docker @composeArgs logs $services
+    }
 } else {
     Write-Host "No services selected."
 }
