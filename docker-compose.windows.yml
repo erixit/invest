@@ -91,20 +91,6 @@ services:
         max-size: "10m"
         max-file: "3"
 
-  consultui_test:
-    image: nginx:alpine
-    container_name: invest_consultui_test
-    restart: always
-    profiles:
-      - test_only    
-    ports:
-      - "8090:80"
-    volumes:
-      - ./deploy/consultui_test/dist/consultui:/usr/share/nginx/html
-      - ./config/consultui/nginx.conf:/etc/nginx/conf.d/default.conf
-
-    environment:
-      TZ: Europe/Brussels
   adminms:
     image: eclipse-temurin:17-jre
     container_name: invest_adminms
