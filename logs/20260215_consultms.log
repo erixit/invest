@@ -1,0 +1,399 @@
+invest_consultms  | Picked up JAVA_TOOL_OPTIONS: -Xms128m -Xmx384m
+invest_consultms  | Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+invest_consultms  | 15:16:54,672 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.5.18
+invest_consultms  | 15:16:54,681 |-INFO in ch.qos.logback.classic.util.ContextInitializer@2df3b89c - Here is a list of configurators discovered as a service, by rank: 
+invest_consultms  | 15:16:54,681 |-INFO in ch.qos.logback.classic.util.ContextInitializer@2df3b89c -   org.springframework.boot.logging.logback.RootLogLevelConfigurator
+invest_consultms  | 15:16:54,681 |-INFO in ch.qos.logback.classic.util.ContextInitializer@2df3b89c - They will be invoked in order until ExecutionStatus.DO_NOT_INVOKE_NEXT_IF_ANY is returned.
+invest_consultms  | 15:16:54,682 |-INFO in ch.qos.logback.classic.util.ContextInitializer@2df3b89c - Constructed configurator of type class org.springframework.boot.logging.logback.RootLogLevelConfigurator
+invest_consultms  | 15:16:54,756 |-INFO in ch.qos.logback.classic.util.ContextInitializer@2df3b89c - org.springframework.boot.logging.logback.RootLogLevelConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+invest_consultms  | 15:16:54,756 |-INFO in ch.qos.logback.classic.util.ContextInitializer@2df3b89c - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+invest_consultms  | 15:16:54,757 |-INFO in ch.qos.logback.classic.util.ContextInitializer@2df3b89c - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+invest_consultms  | 15:16:54,767 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+invest_consultms  | 15:16:54,770 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+invest_consultms  | 15:16:54,770 |-INFO in ch.qos.logback.classic.util.ContextInitializer@2df3b89c - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 13 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+invest_consultms  | 15:16:54,770 |-INFO in ch.qos.logback.classic.util.ContextInitializer@2df3b89c - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+invest_consultms  | 15:16:54,776 |-INFO in ch.qos.logback.classic.util.ContextInitializer@2df3b89c - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+invest_consultms  | 15:16:54,783 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+invest_consultms  | 15:16:54,784 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:nested:/app/app.jar/!BOOT-INF/classes/!/logback.xml]
+invest_consultms  | 15:16:54,786 |-WARN in ch.qos.logback.classic.util.DefaultJoranConfigurator@23348b5d - Resource [logback.xml] occurs multiple times on the classpath.
+invest_consultms  | 15:16:54,807 |-WARN in ch.qos.logback.classic.util.DefaultJoranConfigurator@23348b5d - Resource [logback.xml] occurs at [jar:nested:/app/app.jar/!BOOT-INF/classes/!/logback.xml]
+invest_consultms  | 15:16:54,807 |-WARN in ch.qos.logback.classic.util.DefaultJoranConfigurator@23348b5d - Resource [logback.xml] occurs at [jar:nested:/app/app.jar/!BOOT-INF/lib/coremsclient-1.0.0.jar!/logback.xml]
+invest_consultms  | 15:16:54,807 |-WARN in ch.qos.logback.classic.util.DefaultJoranConfigurator@23348b5d - Resource [logback.xml] occurs at [jar:nested:/app/app.jar/!BOOT-INF/lib/restapiservices-1.0.0.jar!/logback.xml]
+invest_consultms  | 15:16:54,962 |-INFO in ConfigurationWatchList(mainURL=jar:nested:/app/app.jar/!BOOT-INF/classes/!/logback.xml, fileWatchList={}, urlWatchList=[}) - URL [jar:nested:/app/app.jar/!BOOT-INF/classes/!/logback.xml] is not of type file
+invest_consultms  | 15:16:57,069 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [stdout]
+invest_consultms  | 15:16:57,069 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+invest_consultms  | 15:16:57,160 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+invest_consultms  | 15:16:57,668 |-INFO in ch.qos.logback.core.ConsoleAppender[stdout] - BEWARE: Writing to the console can be very slow. Avoid logging to the 
+invest_consultms  | 15:16:57,668 |-INFO in ch.qos.logback.core.ConsoleAppender[stdout] - console in production environments, especially in high volume systems.
+invest_consultms  | 15:16:57,668 |-INFO in ch.qos.logback.core.ConsoleAppender[stdout] - See also https://logback.qos.ch/codes.html#slowConsole
+invest_consultms  | 15:16:57,668 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [R]
+invest_consultms  | 15:16:57,668 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+invest_consultms  | 15:16:57,758 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+invest_consultms  | 15:16:57,763 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@7c9d8e2 - No compression will be used
+invest_consultms  | 15:16:57,862 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[R] - Active log file name: consultms.log
+invest_consultms  | 15:16:57,863 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[R] - File property is set to [consultms.log]
+invest_consultms  | 15:16:57,951 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.erixit.investms] to DEBUG
+invest_consultms  | 15:16:57,952 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+invest_consultms  | 15:16:57,952 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [stdout] to Logger[ROOT]
+invest_consultms  | 15:16:57,953 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [R] to Logger[ROOT]
+invest_consultms  | 15:16:57,953 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@20d525 - End of configuration.
+invest_consultms  | 15:16:57,954 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@6200f9cb - Registering current configuration as safe fallback point
+invest_consultms  | 15:16:57,954 |-INFO in ch.qos.logback.classic.util.ContextInitializer@2df3b89c - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 3178 milliseconds. ExecutionStatus=DO_NOT_INVOKE_NEXT_IF_ANY
+invest_consultms  | 
+invest_consultms  | 
+invest_consultms  |   .   ____          _            __ _ _
+invest_consultms  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+invest_consultms  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+invest_consultms  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+invest_consultms  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+invest_consultms  |  =========|_|==============|___/=/_/_/_/
+invest_consultms  | 
+invest_consultms  |  :: Spring Boot ::                (v3.5.5)
+invest_consultms  | 
+invest_consultms  | 2026-02-15 15:17:06 [background-preinit] INFO o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+invest_consultms  | 2026-02-15 15:17:07 [main] INFO c.e.i.c.ConsultMicroServiceApplication - Starting ConsultMicroServiceApplication using Java 17.0.17 with PID 1 (/app/app.jar started by root in /app)
+invest_consultms  | 2026-02-15 15:17:07 [main] DEBUG c.e.i.c.ConsultMicroServiceApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+invest_consultms  | 2026-02-15 15:17:07 [main] INFO c.e.i.c.ConsultMicroServiceApplication - The following 1 profile is active: "docker"
+invest_consultms  | 2026-02-15 15:17:25 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+invest_consultms  | 2026-02-15 15:17:27 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1394 ms. Found 14 JPA repository interfaces.
+invest_consultms  | 2026-02-15 15:17:44 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6680 (http)
+invest_consultms  | 2026-02-15 15:17:44 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-6680"]
+invest_consultms  | 2026-02-15 15:17:44 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+invest_consultms  | 2026-02-15 15:17:44 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+invest_consultms  | 2026-02-15 15:17:45 [main] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-consultms] - Initializing Spring embedded WebApplicationContext
+invest_consultms  | 2026-02-15 15:17:45 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 36791 ms
+invest_consultms  | Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+invest_consultms  | 2026-02-15 15:17:48 [main] INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+invest_consultms  | 2026-02-15 15:17:49 [main] INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+invest_consultms  | 2026-02-15 15:17:50 [main] INFO o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+invest_consultms  | 2026-02-15 15:17:53 [main] INFO o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+invest_consultms  | 2026-02-15 15:17:54 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+invest_consultms  | 2026-02-15 15:17:55 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60b4d934
+invest_consultms  | 2026-02-15 15:17:55 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+invest_consultms  | 2026-02-15 15:17:56 [main] WARN org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+invest_consultms  | 2026-02-15 15:17:56 [main] INFO o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+invest_consultms  | 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+invest_consultms  | 	Database driver: undefined/unknown
+invest_consultms  | 	Database version: 8.0.44
+invest_consultms  | 	Autocommit mode: undefined/unknown
+invest_consultms  | 	Isolation level: undefined/unknown
+invest_consultms  | 	Minimum pool size: undefined/unknown
+invest_consultms  | 	Maximum pool size: undefined/unknown
+invest_consultms  | 2026-02-15 15:18:09 [main] INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+invest_consultms  | 2026-02-15 15:18:10 [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+invest_consultms  | 2026-02-15 15:18:13 [main] INFO o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+invest_consultms  | 2026-02-15 15:18:25 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+invest_consultms  | 2026-02-15 15:18:25 [main] DEBUG o.s.web.filter.CorsFilter - Filter 'corsFilter' configured for use
+invest_consultms  | 2026-02-15 15:18:25 [main] DEBUG c.e.i.c.filters.JwtRequestFilter - Filter 'jwtRequestFilter' configured for use
+invest_consultms  | 2026-02-15 15:18:31 [main] INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.data.domain.Sort com.erixit.investms.restapi.services.service.impl.JobServiceImpl.SortById
+invest_consultms  | 2026-02-15 15:18:36 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://fc.yahoo.com'
+invest_consultms  | Set-Cookie : A3=d=AQABBMzjkWkCEKZ5eJ-wERSr9izzU4-9LnEFEgEBAQE1k2mbaRScJm0A_eMDAA&S=AQAAAg88FMOVUB_nERYjKT4eyz0; Expires=Mon, 15 Feb 2027 21:18:36 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly
+invest_consultms  | 2026-02-15 15:18:37 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://query1.finance.yahoo.com/v1/test/getcrumb'
+invest_consultms  | 2026-02-15 15:18:39 [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+invest_consultms  | 2026-02-15 15:18:41 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 44 mappings in 'requestMappingHandlerMapping'
+invest_consultms  | 2026-02-15 15:18:42 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+invest_consultms  | 2026-02-15 15:18:42 [main] WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [applicationUserDetailsServiceImpl, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+invest_consultms  | 2026-02-15 15:18:45 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+invest_consultms  | 2026-02-15 15:18:46 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+invest_consultms  | 2026-02-15 15:18:51 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-6680"]
+invest_consultms  | 2026-02-15 15:18:51 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6680 (http) with context path '/springboot-crud-rest-consultms'
+invest_consultms  | 2026-02-15 15:18:53 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6690 (http)
+invest_consultms  | 2026-02-15 15:18:53 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6690"]
+invest_consultms  | 2026-02-15 15:18:53 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+invest_consultms  | 2026-02-15 15:18:53 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+invest_consultms  | 2026-02-15 15:18:53 [main] INFO o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+invest_consultms  | 2026-02-15 15:18:53 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1305 ms
+invest_consultms  | Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+invest_consultms  | 2026-02-15 15:18:53 [main] INFO o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+invest_consultms  | 2026-02-15 15:18:53 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+invest_consultms  | 2026-02-15 15:18:53 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+invest_consultms  | 2026-02-15 15:18:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+invest_consultms  | 2026-02-15 15:18:54 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6690"]
+invest_consultms  | 2026-02-15 15:18:54 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6690 (http) with context path '/'
+invest_consultms  | 2026-02-15 15:18:54 [main] INFO c.e.i.c.ConsultMicroServiceApplication - Started ConsultMicroServiceApplication in 114.811 seconds (process running for 124.46)
+invest_consultms  | 2026-02-15 15:27:23 [http-nio-0.0.0.0-6680-exec-1] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-consultms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+invest_consultms  | 2026-02-15 15:27:23 [http-nio-0.0.0.0-6680-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+invest_consultms  | 2026-02-15 15:27:23 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+invest_consultms  | 2026-02-15 15:27:23 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+invest_consultms  | 2026-02-15 15:27:23 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+invest_consultms  | 2026-02-15 15:27:23 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1a35041
+invest_consultms  | 2026-02-15 15:27:23 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@42e58f8e
+invest_consultms  | 2026-02-15 15:27:23 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+invest_consultms  | 2026-02-15 15:27:23 [http-nio-0.0.0.0-6680-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 89 ms
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/swagger-ui/index.html", parameters={}
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/swagger-ui/swagger-ui.css", parameters={}
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/swagger-ui/index.css", parameters={}
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/swagger-ui/swagger-ui-bundle.js", parameters={}
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/swagger-ui/swagger-initializer.js", parameters={}
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:27:24 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:27:25 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/v3/api-docs/swagger-config", parameters={}
+invest_consultms  | 2026-02-15 15:27:25 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+invest_consultms  | 2026-02-15 15:27:25 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/swagger-ui/favicon-32x32.png", parameters={}
+invest_consultms  | 2026-02-15 15:27:25 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+invest_consultms  | 2026-02-15 15:27:25 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:27:25 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+invest_consultms  | 2026-02-15 15:27:25 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{configUrl=/springboot-crud-rest-consultms/v3/api-docs/swagger-config, oauth2RedirectUrl=http://192. (truncated)...]
+invest_consultms  | 2026-02-15 15:27:25 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:27:25 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/v3/api-docs", parameters={}
+invest_consultms  | 2026-02-15 15:27:25 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+invest_consultms  | 2026-02-15 15:27:34 [http-nio-0.0.0.0-6680-exec-9] INFO o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 9198 ms
+invest_consultms  | 2026-02-15 15:27:35 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, */*] and supported [application/json]
+invest_consultms  | 2026-02-15 15:27:35 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 49, 46, 48, 34, 44, 34, 105, 110, 10 (truncated)...]
+invest_consultms  | 2026-02-15 15:27:35 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:35:16 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/springboot-crud-rest-consultms/authenticate", parameters={}
+invest_consultms  | 2026-02-15 15:35:16 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.AuthenticateController#authenticate(AuthenticationRequest)
+invest_consultms  | 2026-02-15 15:35:16 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [AuthenticationRequest(email=erik, password=erik)]
+invest_consultms  | com.erixit.investms.consultms.model.UserPrincipal@64032500
+invest_consultms  | 2026-02-15 15:35:17 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:35:17 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [AuthenticationResponse(token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlcmlrIiwiaWF0IjoxNzcxMTY5NzE3LCJleHAiOj (truncated)...]
+invest_consultms  | 2026-02-15 15:35:17 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+invest_consultms  | 2026-02-15 15:35:18 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments?page=0&size=8", parameters={masked}
+invest_consultms  | 2026-02-15 15:35:18 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:35:19 [http-nio-0.0.0.0-6680-exec-4] WARN o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+invest_consultms  | 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+invest_consultms  | 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+invest_consultms  | 
+invest_consultms  | 2026-02-15 15:35:19 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:35:19 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:35:19 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments", parameters={}
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/buysells?page=0&size=8&startDate=2025-02-15&endDate=2026-02-15&investmentSelector=-1", parameters={masked}
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.BuysellController#getAllBuysells(int, int, String, String, int)
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@315374f6]
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766": corems]
+invest_consultms  | 2026-02-15 15:35:22 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:35:25 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/positions?page=0&size=8&includeZeroes=false", parameters={masked}
+invest_consultms  | 2026-02-15 15:35:25 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.PositionController#getAllPositions(int, int, boolean, boolean)
+invest_consultms  | 2026-02-15 15:35:26 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/9
+invest_consultms  | 2026-02-15 15:35:26 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:35:26 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:35:26 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:35:26 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@15865b44]
+invest_consultms  | 2026-02-15 15:35:26 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/9": corems]
+invest_consultms  | 2026-02-15 15:35:26 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:35:28 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/positions?page=0&size=8&force=true&includeZeroes=false", parameters={masked}
+invest_consultms  | 2026-02-15 15:35:28 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.PositionController#getAllPositions(int, int, boolean, boolean)
+invest_consultms  | 2026-02-15 15:35:28 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/9
+invest_consultms  | 2026-02-15 15:35:28 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:35:28 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:35:28 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:35:28 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@66b93063]
+invest_consultms  | 2026-02-15 15:35:28 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/9": corems]
+invest_consultms  | 2026-02-15 15:35:28 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:36:07 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments?page=0&size=8", parameters={masked}
+invest_consultms  | 2026-02-15 15:36:07 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:36:07 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:36:07 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:36:07 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments", parameters={}
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/buysells?page=0&size=8&startDate=2025-02-15&endDate=2026-02-15&investmentSelector=-1", parameters={masked}
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.BuysellController#getAllBuysells(int, int, String, String, int)
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@592e2f20]
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766": corems]
+invest_consultms  | 2026-02-15 15:36:09 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:36:12 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments", parameters={}
+invest_consultms  | 2026-02-15 15:36:12 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:36:12 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:36:12 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:36:12 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:36:12 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/cashtransactions?page=0&size=8&investmentSelector=-1", parameters={masked}
+invest_consultms  | 2026-02-15 15:36:12 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.CashtransactionController#getAllCashtransactions(int, int, int)
+invest_consultms  | 2026-02-15 15:36:12 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:36:12 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 11 containing com.erixit.invest.dto.CashtransactionDto instances]
+invest_consultms  | 2026-02-15 15:36:12 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments", parameters={}
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/dividendtransactions?page=0&size=8&startDate=2025-02-15&endDate=2026-02-15&investmentSelector=-1", parameters={masked}
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.DividendtransactionController#getAllDividendtransactions(int, int, String, String, int)
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-8] DEBUG c.e.i.c.c.DividendtransactionController - Received /dividendtransactions request, with params 0 8
+invest_consultms  | 
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-8] DEBUG c.e.i.r.s.s.i.DividendtransactionServiceImpl - enrich com.erixit.investms.restapi.services.model.Dividendtransaction@47f972e6
+invest_consultms  | 
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/8130
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@140a106e]
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/8130": corems]
+invest_consultms  | 2026-02-15 15:36:14 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:36:16 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/stocksplits?page=0&size=8", parameters={masked}
+invest_consultms  | 2026-02-15 15:36:16 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.StocksplitController#getAllStocksplits(int, int)
+invest_consultms  | 2026-02-15 15:36:16 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/501
+invest_consultms  | 2026-02-15 15:36:16 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:36:16 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:36:16 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:36:16 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@14728bab]
+invest_consultms  | 2026-02-15 15:36:16 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/501": corems]
+invest_consultms  | 2026-02-15 15:36:16 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:36:30 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/currencies?page=0&size=8", parameters={masked}
+invest_consultms  | 2026-02-15 15:36:30 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.CurrencyController#getAllCurrencies(int, int, boolean)
+invest_consultms  | 2026-02-15 15:36:30 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:36:30 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.CurrencyDto instances]
+invest_consultms  | 2026-02-15 15:36:30 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:36:34 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/prices?shareid=undefined&page=0&size=8&period=maximum&endofmonthonly=false", parameters={masked}
+invest_consultms  | 2026-02-15 15:36:34 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.PriceController#getAllPrices(long, int, int, String, String, boolean)
+invest_consultms  | 2026-02-15 15:36:34 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [0] in public org.springframework.data.domain.Page<com.erixit.invest.dto.PriceDto> com.erixit.investms.consultms.controller.PriceController.getAllPrices(long,int,int,java.lang.String,java.lang.String,boolean): Method parameter 'shareid': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "undefined"
+invest_consultms  | 2026-02-15 15:36:34 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#handleException(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:36:34 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/problem+json', given [application/json, text/plain, */*] and supported [application/problem+json]
+invest_consultms  | 2026-02-15 15:36:34 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ProblemDetail[type='about:blank', title='Bad Request', status=400, detail='Failed to convert 'sharei (truncated)...]
+invest_consultms  | 2026-02-15 15:36:34 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'shareid': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "undefined"]
+invest_consultms  | 2026-02-15 15:36:34 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+invest_consultms  | 2026-02-15 15:36:39 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/prices?shareid=9&page=0&size=8&period=maximum&endofmonthonly=false", parameters={masked}
+invest_consultms  | 2026-02-15 15:36:39 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.PriceController#getAllPrices(long, int, int, String, String, boolean)
+invest_consultms  | 2026-02-15 15:36:39 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/9
+invest_consultms  | 2026-02-15 15:36:39 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:36:39 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:36:39 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:36:39 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@7efa9cbf]
+invest_consultms  | 2026-02-15 15:36:39 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/9": corems]
+invest_consultms  | 2026-02-15 15:36:39 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:37:03 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments?page=0&size=8", parameters={masked}
+invest_consultms  | 2026-02-15 15:37:03 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:37:03 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:03 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:37:03 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:37:05 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments", parameters={}
+invest_consultms  | 2026-02-15 15:37:05 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:37:05 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:05 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:37:05 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:37:05 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/buysells?page=0&size=8&startDate=2025-02-15&endDate=2026-02-15&investmentSelector=-1", parameters={masked}
+invest_consultms  | 2026-02-15 15:37:05 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.BuysellController#getAllBuysells(int, int, String, String, int)
+invest_consultms  | 2026-02-15 15:37:05 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766
+invest_consultms  | 2026-02-15 15:37:05 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:37:06 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:37:06 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:06 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@4249a998]
+invest_consultms  | 2026-02-15 15:37:06 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766": corems]
+invest_consultms  | 2026-02-15 15:37:06 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:37:13 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/positions?page=0&size=8&includeZeroes=false", parameters={masked}
+invest_consultms  | 2026-02-15 15:37:13 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.PositionController#getAllPositions(int, int, boolean, boolean)
+invest_consultms  | 2026-02-15 15:37:13 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/9
+invest_consultms  | 2026-02-15 15:37:13 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:37:13 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:37:13 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:13 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@389652fb]
+invest_consultms  | 2026-02-15 15:37:13 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/9": corems]
+invest_consultms  | 2026-02-15 15:37:13 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:37:35 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/springboot-crud-rest-consultms/authenticate", parameters={}
+invest_consultms  | 2026-02-15 15:37:35 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.AuthenticateController#authenticate(AuthenticationRequest)
+invest_consultms  | 2026-02-15 15:37:35 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [AuthenticationRequest(email=erik, password=erik)]
+invest_consultms  | com.erixit.investms.consultms.model.UserPrincipal@1a5602c8
+invest_consultms  | 2026-02-15 15:37:35 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:35 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [AuthenticationResponse(token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlcmlrIiwiaWF0IjoxNzcxMTY5ODU1LCJleHAiOj (truncated)...]
+invest_consultms  | 2026-02-15 15:37:35 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+invest_consultms  | 2026-02-15 15:37:35 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments?page=0&size=8", parameters={masked}
+invest_consultms  | 2026-02-15 15:37:35 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:37:35 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:35 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:37:35 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments", parameters={}
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/buysells?page=0&size=8&startDate=2025-02-15&endDate=2026-02-15&investmentSelector=-1", parameters={masked}
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.BuysellController#getAllBuysells(int, int, String, String, int)
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@b3c7c0c]
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766": corems]
+invest_consultms  | 2026-02-15 15:37:39 [http-nio-0.0.0.0-6680-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments", parameters={}
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/buysells?page=0&size=8&startDate=2025-02-15&endDate=2026-02-15&investmentSelector=-1", parameters={masked}
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.BuysellController#getAllBuysells(int, int, String, String, int)
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@60be0643]
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766": corems]
+invest_consultms  | 2026-02-15 15:37:46 [http-nio-0.0.0.0-6680-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:37:47 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments", parameters={}
+invest_consultms  | 2026-02-15 15:37:47 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:37:47 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:47 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:37:47 [http-nio-0.0.0.0-6680-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:37:47 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/cashtransactions?page=0&size=8&investmentSelector=-1", parameters={masked}
+invest_consultms  | 2026-02-15 15:37:47 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.CashtransactionController#getAllCashtransactions(int, int, int)
+invest_consultms  | 2026-02-15 15:37:48 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:48 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 11 containing com.erixit.invest.dto.CashtransactionDto instances]
+invest_consultms  | 2026-02-15 15:37:48 [http-nio-0.0.0.0-6680-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments", parameters={}
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/dividendtransactions?page=0&size=8&startDate=2025-02-15&endDate=2026-02-15&investmentSelector=-1", parameters={masked}
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.DividendtransactionController#getAllDividendtransactions(int, int, String, String, int)
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-5] DEBUG c.e.i.c.c.DividendtransactionController - Received /dividendtransactions request, with params 0 8
+invest_consultms  | 
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-5] DEBUG c.e.i.r.s.s.i.DividendtransactionServiceImpl - enrich com.erixit.investms.restapi.services.model.Dividendtransaction@47f972e6
+invest_consultms  | 
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/8130
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@112cc4be]
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/8130": corems]
+invest_consultms  | 2026-02-15 15:37:49 [http-nio-0.0.0.0-6680-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:37:51 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/stocksplits?page=0&size=8", parameters={masked}
+invest_consultms  | 2026-02-15 15:37:51 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.StocksplitController#getAllStocksplits(int, int)
+invest_consultms  | 2026-02-15 15:37:51 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/501
+invest_consultms  | 2026-02-15 15:37:51 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:37:51 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:37:51 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:37:51 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@75267653]
+invest_consultms  | 2026-02-15 15:37:51 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/501": corems]
+invest_consultms  | 2026-02-15 15:37:51 [http-nio-0.0.0.0-6680-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/investments", parameters={}
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.InvestmentController#getAllInvestments(int, int)
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.erixit.invest.dto.InvestmentDto instances]
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/springboot-crud-rest-consultms/api/v1/buysells?page=0&size=8&startDate=2025-02-15&endDate=2026-02-15&investmentSelector=-1", parameters={masked}
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.erixit.investms.consultms.controller.BuysellController#getAllBuysells(int, int, String, String, int)
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.client.RestTemplate - HTTP GET http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.erixit.investms.consultms.exception.GlobalExceptionHandler#globleExcpetionHandler(Exception, WebRequest)
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.erixit.investms.consultms.exception.ErrorDetails@4c1a2e64]
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://corems:6980/springboot-crud-rest-corems/api/v1/shares/6766": corems]
+invest_consultms  | 2026-02-15 15:43:33 [http-nio-0.0.0.0-6680-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR

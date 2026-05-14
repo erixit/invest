@@ -1,0 +1,874 @@
+2026-05-13 20:13:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 344 of 3853: BE0003837540 ATENOR, diff: -2.86
+2026-05-13 20:13:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 345 of 3853: FR0013455482 ATLAND, diff: 1.79
+2026-05-13 20:13:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 346 of 3853: NO0013464750 ATLANTIC SAPPHIRE, diff: 154.49
+2026-05-13 20:13:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 347 of 3853: FR0004153930 ATON, diff: 90.00
+2026-05-13 20:13:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 348 of 3853: IT0005449464 ATON GREEN STORAGE, diff: -36.70
+2026-05-13 20:13:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 349 of 3853: FR001400X2S4 ATOS, diff: -2.22
+2026-05-13 20:13:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 350 of 3853: FR001400X2S4 ATOS, diff: -2.22
+2026-05-13 20:13:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 351 of 3853: PTTBI0AM0006 ATRIUM BIRE SIGI, diff: 0.00
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 352 of 3853: FR0000063737 AUBAY, diff: 20.00
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 353 of 3853: FR00140059B5 AUDACIA, diff: -0.77
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 354 of 3853: FR0000061780 AUGROS COSMETIC, diff: -0.91
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 355 of 3853: DE000A2DAM03 AUMANN, diff: 3.41
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 356 of 3853: DE000A2DAM03 AUMANN, diff: 3.41
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 357 of 3853: DE000A2DAM03 AUMANN, diff: -0.16
+2026-05-13 20:13:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 358 of 3853: FR0000039232 AUREA, diff: -7.14
+2026-05-13 20:13:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 359 of 3853: NO0006001601 AURSKOG SPAREBANK, diff: 1.53
+2026-05-13 20:13:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 360 of 3853: NO0010073489 AUSTEVOLL SEAFOOD, diff: -7.19
+2026-05-13 20:13:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 361 of 3853: DE000A2LQ884 AUTO1 Group SE, diff: 20.76
+2026-05-13 20:13:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 362 of 3853: US0527691069 AUTODESK, diff: -2.01
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 363 of 3853: US0527691069 AUTODESK, diff: -2.01
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 364 of 3853: US0527691069 AUTODESK, diff: -2.01
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 365 of 3853: US0530151036 AUTOMATIC DATA PROCESSING, diff: 2.72
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 366 of 3853: US0530151036 AUTOMATIC DATA PROCESSING, diff: 5.46
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 367 of 3853: US0530151036 AUTOMATIC DATA PROCESSING, diff: 5.46
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 368 of 3853: BMG0670A1099 AUTOSTORE HOLDINGS, diff: 29.60
+2026-05-13 20:13:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 369 of 3853: IT0000084043 AUTOSTRADE MERID, diff: -3.91
+2026-05-13 20:13:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 370 of 3853: US0533321024 AUTOZONE, diff: 6.75
+2026-05-13 20:13:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 371 of 3853: US0533321024 AUTOZONE, diff: 6.75
+2026-05-13 20:13:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 372 of 3853: US0533321024 AUTOZONE, diff: 6.41
+2026-05-13 20:13:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 373 of 3853: NL0015002IE0 AVANTIUM, diff: 12.44
+2026-05-13 20:13:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 374 of 3853: FR001400CFI7 AVENIR TELECOM, diff: 2.29
+2026-05-13 20:13:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 375 of 3853: IT0005119810 AVIO, diff: -4.71
+2026-05-13 20:13:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 376 of 3853: US0537741052 AVIS BUDGET GROUP INC, diff: 38.50
+2026-05-13 20:13:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 377 of 3853: CH0023405456 AVOLTA N, diff: -9.90
+2026-05-13 20:13:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 378 of 3853: NO0010607971 AWILCO LNG, diff: 21.29
+2026-05-13 20:13:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 379 of 3853: FR0000120628 AXA, diff: 4.63
+2026-05-13 20:13:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 380 of 3853: FR0000120628 AXA, diff: 4.57
+2026-05-13 20:13:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 381 of 3853: FR0000120628 AXA, diff: 4.33
+2026-05-13 20:13:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 382 of 3853: FR0000120628 AXA, diff: 4.63
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 383 of 3853: FR0014013Q98 AXA NV26, diff: 8.56
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 384 of 3853: NO0010840515 AXACTOR, diff: -22.39
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 385 of 3853: US0545402085 AXCELIS TECHNOLOGIES INC, diff: 49.05
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 386 of 3853: US05464T1043 AXSOME THERAPEUTICS INC, diff: 7.45
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 387 of 3853: NO0012861683 AYFIE INTERNATIONA, diff: 3.51
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 388 of 3853: FR0013258662 AYVENS, diff: 14.57
+2026-05-13 20:13:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 389 of 3853: FR0013258662 AYVENS, diff: 14.57
+2026-05-13 20:13:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 390 of 3853: IT0004812258 AZ LEASING, diff: 0.00
+2026-05-13 20:13:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 391 of 3853: BE0974400328 AZELIS GROUP, diff: 29.95
+2026-05-13 20:13:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 392 of 3853: NL00150006Z9 AZERION, diff: 16.28
+2026-05-13 20:13:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 393 of 3853: IT0003261697 AZIMUT, diff: 10.36
+2026-05-13 20:13:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 394 of 3853: IT0003261697 AZIMUT, diff: 10.36
+2026-05-13 20:13:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 395 of 3853: PTAZR0AM0006 AZOREAN TECH, diff: 18.42
+2026-05-13 20:13:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 396 of 3853: US0028241000 Abbott LaB, diff: -12.42
+2026-05-13 20:13:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 397 of 3853: IE00B4BNMY34 Accenture PLC, diff: -11.49
+2026-05-13 20:13:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 398 of 3853: ES0125220311 Acciona, diff: 14.63
+2026-05-13 20:13:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 399 of 3853: ES0132105018 Acerinox, diff: 10.75
+2026-05-13 20:13:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 400 of 3853: SE0014781795 AddTech, diff: 6.09
+2026-05-13 20:13:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 401 of 3853: US0010551028 Aflac Inc, diff: 1.82
+2026-05-13 20:13:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 402 of 3853: VGG885761301 Agility Capital H, diff: -6.02
+2026-05-13 20:13:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 403 of 3853: US0126531013 Albemarle, diff: 6.52
+2026-05-13 20:13:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 404 of 3853: CH0432492467 Alcon AG, diff: -3.97
+2026-05-13 20:13:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 405 of 3853: SE0000695876 Alfa Laval, diff: 11.87
+2026-05-13 20:13:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 406 of 3853: US0162551016 Align Technology, diff: 1.92
+2026-05-13 20:13:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 407 of 3853: IE00BFRT3W74 Allegion plc, diff: -4.10
+2026-05-13 20:13:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 408 of 3853: US0200021014 Allstate Corp, diff: 0.08
+2026-05-13 20:13:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 409 of 3853: JE00BV7DQ550 Amcor PLC, diff: -5.20
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 410 of 3853: US0239391016 Amentum H, diff: -1.47
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 411 of 3853: US0236081024 Ameren Corp, diff: 4.09
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 412 of 3853: US0255371017 American Electric, diff: 2.74
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 413 of 3853: US03076C1062 Ameriprise Fin, diff: 10.11
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 414 of 3853: US0320951017 Amphenol Corp, diff: 16.78
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 415 of 3853: US0320951017 Amphenol Corp, diff: 16.78
+2026-05-13 20:13:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 416 of 3853: US0320951017 Amphenol Corp, diff: 16.72
+2026-05-13 20:13:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 417 of 3853: IE00BLP1HW54 Aon PLC, diff: -8.13
+2026-05-13 20:13:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 418 of 3853: US03831W1080 AppLovin Corp, diff: 11.70
+2026-05-13 20:13:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 419 of 3853: US0381692070 Applied Digital, diff: 54.60
+2026-05-13 20:13:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 420 of 3853: BMG0450A1053 Arch Capital G, diff: -2.55
+2026-05-13 20:13:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 421 of 3853: US0404132054 Arista Networks, diff: 40.95
+2026-05-13 20:13:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 422 of 3853: LU1673108939 Aroundtown SA, diff: 7.11
+2026-05-13 20:13:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 423 of 3853: US3635761097 Arthur Gallagher, diff: -7.80
+2026-05-13 20:13:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 424 of 3853: SE0007100581 Assa Abloy, diff: 26.60
+2026-05-13 20:13:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 425 of 3853: SE0017486889 Atlas Copco, diff: 5.53
+2026-05-13 20:13:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 426 of 3853: SE0017486897 Atlas Copco B, diff: 14.26
+2026-05-13 20:13:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 427 of 3853: US0494681010 Atlassian Corp, diff: -1.00
+2026-05-13 20:13:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 428 of 3853: US0495601058 Atmos Energy, diff: 3.45
+2026-05-13 20:13:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 429 of 3853: DE000AUM0V10 Aumovio, diff: 7.80
+2026-05-13 20:13:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 430 of 3853: DE0006766504 Aurubis, diff: 21.70
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 431 of 3853: SE0012454072 Avanza Bank, diff: -17.17
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 432 of 3853: US0536111091 Avery Den, diff: -1.40
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 433 of 3853: SE0006993770 Axfood AB, diff: -4.79
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 434 of 3853: US05464C1018 Axon Ent, diff: -6.26
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 435 of 3853: IT0001268561 B&C SPEAKERS, diff: 4.70
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 436 of 3853: PTBCP0AM0015 B.C.P.-BCO COMERCIAL PORTUGUES, diff: 9.25
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 437 of 3853: PTBCP0AM0015 B.COM.PORTUGUES, diff: 9.25
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 438 of 3853: IT0005187460 B.F., diff: 18.05
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 439 of 3853: NO0010633951 B2 Impact, diff: 4.95
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 440 of 3853: FR0013384369 BAIKOWSKI, diff: 1.51
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 441 of 3853: MC0000031187 BAINS MER MONACO, diff: 3.94
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 442 of 3853: FO0000000179 BAKKAFROST, diff: 4.84
+2026-05-13 20:13:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 443 of 3853: NO0010810476 BALTIC SEA PROP, diff: -1.04
+2026-05-13 20:13:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 444 of 3853: NL0000337319 BAM GROEP KON, diff: 8.47
+2026-05-13 20:13:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 445 of 3853: IT0001031084 BANCA GENERALI, diff: 10.41
+2026-05-13 20:13:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 446 of 3853: IT0001031084 BANCA GENERALI, diff: 9.53
+2026-05-13 20:13:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 447 of 3853: IT0003188064 BANCA IFIS, diff: 10.58
+2026-05-13 20:13:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 448 of 3853: IT0004776628 BANCA MEDIOLANUM, diff: 7.81
+2026-05-13 20:13:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 449 of 3853: IT0004776628 BANCA MEDIOLANUM, diff: 8.28
+2026-05-13 20:13:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 450 of 3853: IT0005508921 BANCA MONTE PASCHI SIENA, diff: 20.92
+2026-05-13 20:13:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 451 of 3853: IT0005508921 BANCA MONTE PASCHI SIENA, diff: 20.87
+2026-05-13 20:13:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 452 of 3853: IT0003173629 BANCA SISTEMA, diff: -4.18
+2026-05-13 20:13:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 453 of 3853: IT0005218380 BANCO BPM, diff: 3.55
+2026-05-13 20:13:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 454 of 3853: IT0005218380 BANCO BPM, diff: 3.39
+2026-05-13 20:13:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 455 of 3853: ES0113860A34 BANCO DE SABADELL, diff: 8.26
+2026-05-13 20:13:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 456 of 3853: ES0113860A34 BANCO DE SABADELL, diff: 8.26
+2026-05-13 20:13:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 457 of 3853: ES0113860A34 BANCO DE SABADELL, diff: 8.26
+2026-05-13 20:13:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 458 of 3853: ES0113900J37 BANCO SANTANDER, diff: 8.79
+2026-05-13 20:13:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 459 of 3853: ES0113900J37 BANCO SANTANDER, diff: 8.79
+2026-05-13 20:13:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 460 of 3853: ES0113900J37 BANCO SANTANDER, diff: 8.94
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 461 of 3853: NL0015000X07 BANIJAY GROUP, diff: 0.59
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 462 of 3853: BE0003870871 BANIMMO A, diff: -2.10
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 463 of 3853: US0605051046 BANK OF AMERICA, diff: 10.06
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 464 of 3853: US0605051046 BANK OF AMERICA, diff: 10.01
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 465 of 3853: US0605051046 BANK OF AMERICA, diff: 10.06
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 466 of 3853: IE00BD1RP616 BANK OF IRELAND GP, diff: 8.45
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 467 of 3853: US06417N1037 BANK OZK, diff: 4.10
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 468 of 3853: BE0974371032 BANQUP GROUP, diff: -19.67
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 469 of 3853: FR0000062788 BARBARA BUI, diff: 2.00
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 470 of 3853: BE0974362940 BARCO, diff: 0.63
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 471 of 3853: BE0974362940 BARCO, diff: 0.63
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 472 of 3853: ES0105362000 BARINGS CORE SPAIN, diff: 0.00
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 473 of 3853: SGXZ33675836 BARRAMUNDI GROUP, diff: -10.12
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 474 of 3853: CH0009002962 BARRY CALLEBAUT N, diff: -14.93
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 475 of 3853: DE000BASF111 BASF, diff: 4.44
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 476 of 3853: DE000BASF111 BASF, diff: 2.14
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 477 of 3853: DE000BASF111 BASF, diff: 4.41
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 478 of 3853: NL0011872650 BASIC-FIT, diff: -2.99
+2026-05-13 20:13:39 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:39 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 479 of 3853: NL0011872650 BASIC-FIT, diff: -2.99
+2026-05-13 20:13:39 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:39 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 480 of 3853: IT0001033700 BASICNET, diff: 13.52
+2026-05-13 20:13:39 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:39 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 481 of 3853: FR0004023208 BASSAC, diff: 2.47
+2026-05-13 20:13:39 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:39 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 482 of 3853: FR0000035370 BASTIDE LE CONFORT, diff: 7.51
+2026-05-13 20:13:39 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:39 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 483 of 3853: IT0004412497 BASTOGI SPA, diff: -2.13
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 484 of 3853: AT0000BAWAG2 BAWAG Group, diff: 12.43
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 485 of 3853: US0718131099 BAXTER INTERNATIONAL, diff: 6.92
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 486 of 3853: US0718131099 BAXTER INTERNATIONAL, diff: 6.92
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 487 of 3853: US0718131099 BAXTER INTERNATIONAL, diff: 7.03
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 488 of 3853: DE000BAY0017 BAYER, diff: -4.12
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:40 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 489 of 3853: DE000BAY0017 BAYER, diff: -3.46
+2026-05-13 20:13:41 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:41 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 490 of 3853: DE000BAY0017 BAYER, diff: -3.23
+2026-05-13 20:13:41 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:41 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 491 of 3853: ES0113211835 BBVA, diff: 3.72
+2026-05-13 20:13:41 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:41 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 492 of 3853: ES0113211835 BBVA, diff: 3.64
+2026-05-13 20:13:41 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:41 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 493 of 3853: ES0113211835 BBVA, diff: 3.64
+2026-05-13 20:13:41 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:41 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 494 of 3853: IT0001073045 BCA PROFILO, diff: 24.83
+2026-05-13 20:13:42 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:42 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 495 of 3853: IT0001041000 BCO DESIO BRIANZA, diff: 7.21
+2026-05-13 20:13:42 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:42 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 496 of 3853: NL0012866412 BE SEMICONDUCTOR, diff: 38.14
+2026-05-13 20:13:42 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:42 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 497 of 3853: NL0012866412 BE Semiconductor Industries N., diff: 38.14
+2026-05-13 20:13:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 498 of 3853: CH1148983609 BEBO HEALTH, diff: -87.26
+2026-05-13 20:13:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 499 of 3853: US0758871091 BECTON, DICKINSON AND COMPANY, diff: -5.92
+2026-05-13 20:13:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 1 of 16, result 500 of 3853: US0758871091 BECTON, DICKINSON AND COMPANY, diff: -5.92
+2026-05-13 20:13:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:52 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 501 of 3853: US0758871091 BECTON, DICKINSON AND COMPANY, diff: -6.25
+2026-05-13 20:13:52 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:52 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 502 of 3853: IT0001487047 BEEWIZE, diff: 16.57
+2026-05-13 20:13:53 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:53 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 503 of 3853: DE0005200000 BEIERSDORF, diff: -7.47
+2026-05-13 20:13:53 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:53 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 504 of 3853: DE0005200000 BEIERSDORF, diff: -10.54
+2026-05-13 20:13:53 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:53 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 505 of 3853: DE0005200000 BEIERSDORF, diff: -7.58
+2026-05-13 20:13:53 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:53 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 506 of 3853: BE0974258874 BEKAERT, diff: 4.88
+2026-05-13 20:13:53 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:53 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 507 of 3853: CH1101098163 BELIMO N, diff: 10.29
+2026-05-13 20:13:54 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:54 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 508 of 3853: IT0005497042 BELLINI NAUTICA, diff: 13.39
+2026-05-13 20:13:54 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:54 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 509 of 3853: BE0003723377 BELUGA, diff: 0.00
+2026-05-13 20:13:54 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:54 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 510 of 3853: BE0974314461 BELYSSE GROUP, diff: 0.34
+2026-05-13 20:13:54 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:54 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 511 of 3853: BE0046318490 BEM INVEST, diff: 0.00
+2026-05-13 20:13:54 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:54 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 512 of 3853: FR0000035164 BENETEAU, diff: 1.26
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 513 of 3853: FR0000035164 BENETEAU, diff: 1.26
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 514 of 3853: PTSLB0AM0010 BENFICA, diff: 26.90
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 515 of 3853: US08265T2087 BENTLEY SYSTEMS INC-CLASS B, diff: -6.55
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 516 of 3853: NO0010950249 BERGEN CARBON SOL, diff: -4.93
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 517 of 3853: US0846707026 BERKSHIRE HATHAWAY B, diff: -1.76
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:55 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 518 of 3853: US0846707026 BERKSHIRE HATHAWAY B, diff: -1.77
+2026-05-13 20:13:56 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:56 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 519 of 3853: US0846707026 BERKSHIRE HATHAWAY B, diff: -1.83
+2026-05-13 20:13:56 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:56 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 520 of 3853: FR0000066961 BERNARD LOISEAU, diff: 7.69
+2026-05-13 20:13:56 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:56 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 521 of 3853: US0865161014 BEST BUY CO, diff: -8.37
+2026-05-13 20:13:56 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:56 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 522 of 3853: US0865161014 BEST BUY CO, diff: -8.26
+2026-05-13 20:13:56 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:56 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 523 of 3853: US0865161014 BEST BUY CO, diff: -8.26
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 524 of 3853: IT0005611642 BESTBE HOLDING, diff: 0.00
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 525 of 3853: NL0000285278 BEVER HOLDING, diff: 0.00
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 526 of 3853: NO0010890965 BEWI, diff: 2.16
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 527 of 3853: NO0013711721 BEWI INVEST, diff: 0.74
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 528 of 3853: US08862E1091 BEYOND MEAT, diff: 33.37
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:57 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 529 of 3853: US08862E1091 BEYOND MEAT, diff: 32.92
+2026-05-13 20:13:58 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:58 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 530 of 3853: US08862E1091 BEYOND MEAT, diff: 33.37
+2026-05-13 20:13:58 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:58 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 531 of 3853: IT0005244402 BFF BANK, diff: 44.03
+2026-05-13 20:13:58 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:58 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 532 of 3853: LU0097891112 BGL BNP PARIBAS, diff: 0.00
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 533 of 3853: FR0000120966 BIC, diff: 8.94
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 534 of 3853: FR0000120966 BIC, diff: 8.94
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 535 of 3853: NO0012706763 BIEN SPAREBANK, diff: 4.75
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 536 of 3853: IT0003097257 BIESSE, diff: 14.34
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 537 of 3853: FR0000074072 BIGBEN INTERACTIVE, diff: 41.96
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:13:59 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 538 of 3853: LU0006040975 BIL, diff: 0.00
+2026-05-13 20:14:00 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:00 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 539 of 3853: FR0004174233 BILENDI, diff: 10.22
+2026-05-13 20:14:00 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:00 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 540 of 3853: US0900431000 BILL HOLDINGS INC, diff: 1.54
+2026-05-13 20:14:00 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:00 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 541 of 3853: ES0106008008 BIMMART INVESTMENT, diff: 0.00
+2026-05-13 20:14:00 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:00 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 542 of 3853: FR0013345493 BIO-UV GROUP, diff: 8.80
+2026-05-13 20:14:00 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:00 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 543 of 3853: US09062X1037 BIOGEN, diff: 5.58
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 544 of 3853: US09062X1037 BIOGEN, diff: 5.70
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 545 of 3853: US09062X1037 BIOGEN, diff: 5.70
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 546 of 3853: US09061G1013 BIOMARIN PHARMACEUTICAL, diff: -3.78
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 547 of 3853: US09061G1013 BIOMARIN PHARMACEUTICAL, diff: -3.78
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 548 of 3853: US09061G1013 BIOMARIN PHARMACEUTICAL, diff: -3.78
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:01 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 549 of 3853: FR0013280286 BIOMERIEUX, diff: -21.90
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 550 of 3853: FR0013280286 BIOMERIEUX, diff: -21.90
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 551 of 3853: FR001400OLP5 BIOPHYTIS, diff: 16.11
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 552 of 3853: BE0974280126 BIOSENIC, diff: -4.35
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 553 of 3853: FR0011005933 BIOSYNEX, diff: 2.02
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 554 of 3853: BE0974386188 BIOTALYS, diff: 77.51
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:02 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 555 of 3853: LU0110790085 BIP INV. PARTNERS, diff: 0.00
+2026-05-13 20:14:03 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:03 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 556 of 3853: DE000A1TNV91 BITCOIN GROUP, diff: 4.91
+2026-05-13 20:14:03 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:03 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 557 of 3853: DE000A1TNV91 BITCOIN GROUP, diff: 4.91
+2026-05-13 20:14:03 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:03 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 558 of 3853: DE000A1TNV91 BITCOIN GROUP, diff: 3.59
+2026-05-13 20:14:03 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:03 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 559 of 3853: CH0130293662 BKW N, diff: 1.61
+2026-05-13 20:14:03 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:03 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 560 of 3853: NO0013685750 BLACK SEA PROPERTY, diff: 22.58
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 561 of 3853: US09290D1019 BLACKROCK, diff: 10.81
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 562 of 3853: US09290D1019 BLACKROCK, diff: 10.81
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 563 of 3853: US09290D1019 BLACKROCK, diff: 10.33
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 564 of 3853: FR0000062150 BLEECKER, diff: 0.00
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 565 of 3853: US8522341036 BLOCK, diff: 17.68
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:04 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 566 of 3853: US8522341036 BLOCK, diff: 17.68
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 567 of 3853: US8522341036 BLOCK, diff: 17.77
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 568 of 3853: US0937121079 BLOOM ENERGY CORP- A, diff: 110.29
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 569 of 3853: US09581B1035 BLUE OWL CAPITAL INC, diff: 9.55
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 570 of 3853: FR0013340973 BLUE SHARK POWER, diff: -0.61
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 571 of 3853: FR0011041011 BLUELINEA, diff: -6.12
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:05 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 572 of 3853: NO0010379266 BLUENORD, diff: 7.50
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 573 of 3853: KYG137071075 BM3EAC, diff: -1.74
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 574 of 3853: DE0005190003 BMW, diff: 0.08
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 575 of 3853: DE0005190003 BMW, diff: 0.08
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 576 of 3853: DE0005190003 BMW, diff: 0.03
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 577 of 3853: DE0005190037 BMW PREF, diff: -0.06
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:06 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 578 of 3853: DE0005190037 BMW PREF, diff: -0.06
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 579 of 3853: DE0005190037 BMW PREF, diff: -0.45
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 580 of 3853: FR0000131104 BNP PARIBAS, diff: 9.92
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 581 of 3853: FR0000131104 BNP PARIBAS, diff: 10.06
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 582 of 3853: FR0000131104 BNP PARIBAS, diff: 9.92
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 583 of 3853: FR0000131104 BNP PARIBAS ACT.A, diff: 10.17
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:07 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 584 of 3853: BE0172505399 BNP PARIBAS FORTIS, diff: 0.96
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 585 of 3853: FR0011365907 BOA CONCEPT, diff: 21.93
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 586 of 3853: FR0010106039 BODY ONE, diff: 0.00
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 587 of 3853: US0970231058 BOEING, diff: 12.86
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 588 of 3853: US0970231058 BOEING, diff: 12.79
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 589 of 3853: US0970231058 BOEING, diff: 12.86
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:08 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 590 of 3853: FR0000061129 BOIRON, diff: 1.48
+2026-05-13 20:14:09 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:09 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 591 of 3853: FR0000039299 BOLLORE, diff: 9.64
+2026-05-13 20:14:09 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:09 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 592 of 3853: FR0000039299 BOLLORE SE, diff: 9.64
+2026-05-13 20:14:09 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:09 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 593 of 3853: IT0003516066 BOLOGNAFIERE, diff: 0.00
+2026-05-13 20:14:09 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:09 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 594 of 3853: FR0000063935 BONDUELLE, diff: 2.61
+2026-05-13 20:14:09 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:09 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 595 of 3853: NO0003110603 BONHEUR, diff: 14.76
+2026-05-13 20:14:10 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:10 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 596 of 3853: BE6333353298 BONYF, diff: -5.80
+2026-05-13 20:14:10 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:10 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 597 of 3853: US09857L1089 BOOKING HOLDINGS, diff: -95.98
+2026-05-13 20:14:10 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:10 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 598 of 3853: US09857L1089 BOOKING HOLDINGS, diff: -95.98
+2026-05-13 20:14:10 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:10 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 599 of 3853: US09857L1089 BOOKING HOLDINGS, diff: -95.98
+2026-05-13 20:14:10 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:10 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 600 of 3853: FR00140153G5 BOOSTHEAT, diff: -21.70
+2026-05-13 20:14:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 601 of 3853: US0995021062 BOOZ ALLEN HAMILTON HOLDINGS, diff: -7.36
+2026-05-13 20:14:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 602 of 3853: NO0013256180 BORGESTAD, diff: 4.34
+2026-05-13 20:14:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 603 of 3853: IT0003217335 BORGOSESIA, diff: 0.00
+2026-05-13 20:14:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 604 of 3853: BMG1466R1732 BORR DRILLING, diff: 0.79
+2026-05-13 20:14:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:11 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 605 of 3853: DE0005493092 BORUSSIA DORTMUND, diff: 4.58
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 606 of 3853: DE0005493092 BORUSSIA DORTMUND, diff: 4.58
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 607 of 3853: US1011371077 BOSTON SCIENTIFIC, diff: -10.29
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 608 of 3853: US1011371077 BOSTON SCIENTIFIC, diff: -10.25
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 609 of 3853: US1011371077 BOSTON SCIENTIFIC, diff: -10.25
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 610 of 3853: FR0000054421 BOURRELIER GROUP, diff: 3.38
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:12 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 611 of 3853: FR0000074254 BOURSE DIRECT, diff: 13.51
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 612 of 3853: NO0010360266 BOUVET, diff: 4.79
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 613 of 3853: FR0000120503 BOUYGUES, diff: 1.76
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 614 of 3853: FR0000120503 BOUYGUES, diff: 1.32
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 615 of 3853: FR0000120503 BOUYGUES, diff: 1.76
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 616 of 3853: IT0000066123 BPER BANCA, diff: 11.48
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:13 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 617 of 3853: IT0000066123 BPER BANCA, diff: 11.51
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 618 of 3853: BE0974268972 BPOST, diff: 1.12
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 619 of 3853: BE0003008019 BQUE NAT. BELGIQUE, diff: -5.45
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 620 of 3853: IT0005640286 BRAGA MORO, diff: 7.83
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 621 of 3853: US10576N1028 BRAZE INC-A, diff: -5.40
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 622 of 3853: LU1068091351 BREDERODE, diff: 1.38
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:14 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 623 of 3853: NL0015001KT6 BREMBO, diff: -1.42
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 624 of 3853: DE000A1DAHH0 BRENNTAG, diff: 7.17
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 625 of 3853: DE000A1DAHH0 BRENNTAG, diff: 7.17
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 626 of 3853: US10806X1028 BRIDGEBIO PHARMA INC, diff: -3.46
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 627 of 3853: US1096411004 BRINKER INTERNATIONAL INC, diff: 4.76
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 628 of 3853: IT0000066180 BRIOSCHI, diff: 1.39
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:15 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 629 of 3853: US1101221083 BRISTOL-MYERS SQUIBB, diff: -1.15
+2026-05-13 20:14:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 630 of 3853: US1101221083 BRISTOL-MYERS SQUIBB, diff: -1.92
+2026-05-13 20:14:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 631 of 3853: US1101221083 BRISTOL-MYERS SQUIBB, diff: -2.19
+2026-05-13 20:14:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 632 of 3853: US11135F1012 BROADCOM, diff: 31.70
+2026-05-13 20:14:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 633 of 3853: US11135F1012 BROADCOM, diff: 31.70
+2026-05-13 20:14:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:16 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 634 of 3853: US11135F1012 BROADCOM, diff: 31.64
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 635 of 3853: FR001400AJZ7 BROADPEAK, diff: 13.13
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 636 of 3853: US1167941087 BRUKER CORP, diff: 1.47
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 637 of 3853: NL0010776944 BRUNEL INTERNAT, diff: 9.86
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 638 of 3853: IT0004764699 BRUNELLO CUCINELLI, diff: 10.97
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 639 of 3853: IT0004764699 BRUNELLO CUCINELLI, diff: 10.81
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:17 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 640 of 3853: NO0013036814 BRUTON, diff: 6.53
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 641 of 3853: FR0006174348 BUREAU VERITAS, diff: 1.40
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 642 of 3853: FR0006174348 BUREAU VERITAS, diff: 1.40
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 643 of 3853: FR0000061137 BURELLE, diff: 10.46
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 644 of 3853: IT0001347308 BUZZI, diff: 6.89
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 645 of 3853: IT0001347308 BUZZI, diff: 6.92
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:18 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 646 of 3853: BMG0702P1086 BW ENERGY LIMITED, diff: -4.37
+2026-05-13 20:14:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 647 of 3853: SGXZ69436764 BW LPG, diff: 11.09
+2026-05-13 20:14:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 648 of 3853: BMG1738J1247 BW OFFSHORE LTD, diff: 4.34
+2026-05-13 20:14:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 649 of 3853: NO0003087603 BYGGMA, diff: 37.00
+2026-05-13 20:14:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 650 of 3853: US0584981064 Ball Corp, diff: 0.51
+2026-05-13 20:14:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:19 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 651 of 3853: ES0113679I37 Bankinter, diff: 4.67
+2026-05-13 20:14:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 652 of 3853: DE0005158703 Bechtle, diff: 6.50
+2026-05-13 20:14:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 653 of 3853: SE0015949748 Beijer Ref AB, diff: 0.17
+2026-05-13 20:14:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 654 of 3853: DE0005909006 Bilfinger SE, diff: 5.33
+2026-05-13 20:14:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 655 of 3853: US09073M1045 Bio-Techne Corp, diff: 1.08
+2026-05-13 20:14:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:20 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 656 of 3853: KYG114481008 Bitdeer Tech, diff: 33.26
+2026-05-13 20:14:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 657 of 3853: US09260D1072 Blackstone Inc, diff: 9.75
+2026-05-13 20:14:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 658 of 3853: SE0020050417 Boliden, diff: 6.24
+2026-05-13 20:14:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 659 of 3853: US0997241064 BorgWarner, diff: 1.41
+2026-05-13 20:14:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 660 of 3853: NO0010657505 Borregaard, diff: -10.42
+2026-05-13 20:14:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:21 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 661 of 3853: US1152361010 Brown Brown, diff: -11.12
+2026-05-13 20:14:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 662 of 3853: US1156372096 Brown-Forman, diff: -3.01
+2026-05-13 20:14:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 663 of 3853: US12008R1077 Builders FS, diff: -1.88
+2026-05-13 20:14:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 664 of 3853: US12468P1049 C3.ai Inc, diff: 6.17
+2026-05-13 20:14:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:22 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 665 of 3853: US12468P1049 C3.ai Inc, diff: 6.17
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 666 of 3853: AT0000641352 CA Immobilien, diff: 14.12
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 667 of 3853: FR0000045544 CA TOULOUSE 31 CCI, diff: 11.72
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 668 of 3853: FR001400DIY6 CABASSE, diff: 33.33
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 669 of 3853: NL00150000S7 CABKA, diff: 10.56
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 670 of 3853: NL00150002R5 CABKA DSC2 TS, diff: 0.00
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:23 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 671 of 3853: DK0061412772 CADELER, diff: 17.01
+2026-05-13 20:14:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 672 of 3853: FR0010151589 CAFOM, diff: 1.85
+2026-05-13 20:14:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 673 of 3853: IE00BWY4ZF18 CAIRN HOMES PLC, diff: 3.81
+2026-05-13 20:14:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 674 of 3853: IT0004329733 CAIRO COMMUNICATION, diff: -2.53
+2026-05-13 20:14:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 675 of 3853: ES0140609019 CAIXABANK, diff: 6.83
+2026-05-13 20:14:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:24 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 676 of 3853: ES0140609019 CAIXABANK, diff: 6.88
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 677 of 3853: ES0140609019 CAIXABANK, diff: 6.83
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 678 of 3853: US1280302027 CAL-MAINE FOODS INC, diff: -4.46
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 679 of 3853: IT0003025019 CALEFFI, diff: -1.75
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 680 of 3853: FR0014004QR6 CALIBRE, diff: 33.33
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 681 of 3853: IT0003127930 CALTAGIRONE, diff: 13.87
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:25 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 682 of 3853: IT0001472171 CALTAGIRONE EDIT, diff: 27.01
+2026-05-13 20:14:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 683 of 3853: NO0010078850 CAMBI, diff: 5.77
+2026-05-13 20:14:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 684 of 3853: FR001400SUB7 CAMBODGE NOM., diff: 0.99
+2026-05-13 20:14:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 685 of 3853: NL0015435975 CAMPARI, diff: 2.44
+2026-05-13 20:14:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 686 of 3853: NL0015435975 CAMPARI, diff: 2.21
+2026-05-13 20:14:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:26 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 687 of 3853: BE0003825420 CAMPINE, diff: 12.82
+2026-05-13 20:14:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 688 of 3853: BE0974298300 CANDELA INVEST, diff: -16.67
+2026-05-13 20:14:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 689 of 3853: FR0000125338 CAPGEMINI, diff: 3.08
+2026-05-13 20:14:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 690 of 3853: FR0000125338 CAPGEMINI, diff: 2.49
+2026-05-13 20:14:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 691 of 3853: FR0000125338 CAPGEMINI, diff: 2.49
+2026-05-13 20:14:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:27 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 692 of 3853: FR0011053636 CAPITAL B, diff: 0.47
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 693 of 3853: MHY1096C1093 CAPITAL TANKERS, diff: 4.04
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 694 of 3853: NO0010923121 CAPSOL TECHNOLOGI, diff: -5.14
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 695 of 3853: FR0011648716 CARBIOS, diff: -10.61
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 696 of 3853: BE0974273055 CARE PROPERTY INV., diff: 5.55
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 697 of 3853: IT0005331019 CAREL INDUSTRIES, diff: 17.91
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:28 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 698 of 3853: DE0005313704 CARL ZEISS MEDITEC, diff: 9.78
+2026-05-13 20:14:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 699 of 3853: DE0005313704 CARL ZEISS MEDITEC, diff: 9.78
+2026-05-13 20:14:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 700 of 3853: DE0005313704 CARL ZEISS MEDITEC, diff: 9.78
+2026-05-13 20:14:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 701 of 3853: US14316J1088 CARLYLE GROUP INC/THE, diff: 1.90
+2026-05-13 20:14:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:29 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 702 of 3853: FR0010828137 CARMILA, diff: 2.04
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 703 of 3853: FR0010828137 CARMILA, diff: 2.04
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 704 of 3853: FR0000120172 CARREFOUR, diff: 6.57
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 705 of 3853: FR0000120172 CARREFOUR, diff: 6.57
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 706 of 3853: FR0000120172 CARREFOUR, diff: 7.01
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 707 of 3853: US1468691027 CARVANA CO, diff: 28.63
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:30 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 708 of 3853: FR0013333077 CARVOLIX, diff: -9.00
+2026-05-13 20:14:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 709 of 3853: FR001400OKR3 CASINO GUICHARD, diff: 12.77
+2026-05-13 20:14:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 710 of 3853: FR001400OKR3 CASINO GUICHARD, diff: 12.77
+2026-05-13 20:14:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 711 of 3853: IT0005003782 CASTA DIVA GROUP, diff: 14.96
+2026-05-13 20:14:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 712 of 3853: FR0010193052 CATANA GROUP, diff: -4.29
+2026-05-13 20:14:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:31 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 713 of 3853: FR0000064446 CATERING INTL SCES, diff: 30.74
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 714 of 3853: US1491231015 CATERPILLAR, diff: 27.56
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 715 of 3853: US1491231015 CATERPILLAR, diff: 27.22
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 716 of 3853: NO0013219535 CAVENDISH HYDROGEN, diff: 43.03
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 717 of 3853: FR0014007LW0 CBI, diff: -5.32
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 718 of 3853: FR0010193979 CBO TERRITORIA, diff: 0.51
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:32 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 719 of 3853: US12504L1098 CBRE Group Inc, diff: 3.05
+2026-05-13 20:14:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 720 of 3853: US12514G1085 CDW Corp/DE, diff: 11.13
+2026-05-13 20:14:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 721 of 3853: DE0007257503 CECONOMY, diff: -1.65
+2026-05-13 20:14:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 722 of 3853: DE0007257503 CECONOMY, diff: -1.42
+2026-05-13 20:14:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 723 of 3853: DE0007257503 CECONOMY, diff: -1.42
+2026-05-13 20:14:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:33 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 724 of 3853: FR0000053506 CEGEDIM, diff: 2.56
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 725 of 3853: FR0010425595 CELLECTIS, diff: 17.32
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 726 of 3853: IT0005244618 CELLULARLINE, diff: -2.23
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 727 of 3853: BE0974260896 CELYAD ONCOLOGY, diff: -2.81
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 728 of 3853: IT0001128047 CEMBRE, diff: 17.32
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 729 of 3853: NL0013995087 CEMENTIR HOLDING, diff: -0.78
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:34 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 730 of 3853: BE0974303357 CENERGY, diff: 25.50
+2026-05-13 20:14:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 731 of 3853: US15135B1017 CENTENE, diff: 62.05
+2026-05-13 20:14:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 732 of 3853: US15135B1017 CENTENE, diff: 62.02
+2026-05-13 20:14:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 733 of 3853: US15135B1017 CENTENE, diff: 62.02
+2026-05-13 20:14:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 734 of 3853: IT0003023980 CENTRALE DEL LATTE D'ITALIA, diff: 12.38
+2026-05-13 20:14:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:35 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 735 of 3853: US1252691001 CF Industries, diff: -7.30
+2026-05-13 20:14:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 736 of 3853: BE0003883031 CFE, diff: 11.82
+2026-05-13 20:14:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 737 of 3853: FR0000037475 CFI, diff: -17.39
+2026-05-13 20:14:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 738 of 3853: MC0010000826 CFM INDOSUEZWEALTH, diff: -2.34
+2026-05-13 20:14:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 739 of 3853: FR0000037871 CH.FER DEPARTEMENTAUX, diff: 1.62
+2026-05-13 20:14:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:36 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 740 of 3853: BE0010381029 CHARB BONNIER, diff: 0.00
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 741 of 3853: US16119P1084 CHARTER COMMUNICATIONS - CLASS, diff: -24.53
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 742 of 3853: US16119P1084 CHARTER COMMUNICATIONS - CLASS, diff: -24.39
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 743 of 3853: US16119P1084 CHARTER COMMUNICATIONS - CLASS, diff: -24.39
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 744 of 3853: FR001400AJ60 CHARWOOD ENERGY, diff: 7.53
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 745 of 3853: FR0000060907 CHAUSSERIA, diff: 7.69
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:37 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 746 of 3853: US1630721017 CHEESECAKE FACTORY INC/THE, diff: 14.06
+2026-05-13 20:14:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 747 of 3853: US16411R2085 CHENIERE ENERGY INC, diff: -7.96
+2026-05-13 20:14:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 748 of 3853: FR0010447086 CHEOPS TECHNOLOGY, diff: 0.88
+2026-05-13 20:14:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 749 of 3853: US1667641005 CHEVRON, diff: -9.25
+2026-05-13 20:14:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 2 of 16, result 750 of 3853: US1667641005 CHEVRON, diff: -9.40
+2026-05-13 20:14:38 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:45 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 3 of 16, result 751 of 3853: US1667641005 CHEVRON, diff: -9.17
+2026-05-13 20:14:45 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:45 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 3 of 16, result 752 of 3853: US16679L1098 CHEWY INC - CLASS A, diff: -7.48
+2026-05-13 20:14:45 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Save Message: Invest: Successful operation
+2026-05-13 20:14:45 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO c.e.i.m.h.i.MonthResultsMessageHandler - Handling page 3 of 16, result 753 of 3853: US1696561059 CHIPOTLE MEXICAN GRILL INC, diff: 6.09
+2026-05-13 20:14:46 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR c.e.i.m.services.ReceiverService - Job finished with failure: 500  on PUT request for "http://localhost:6780/springboot-crud-rest-adminms/api/v1/jobs/1016654": "{"timestamp":"2026-05-13T18:14:46.079+00:00","message":"Could not commit JPA transaction","details":"uri=/springboot-crud
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500  on PUT request for "http://localhost:6780/springboot-crud-rest-adminms/api/v1/jobs/1016654": "{"timestamp":"2026-05-13T18:14:46.079+00:00","message":"Could not commit JPA transaction","details":"uri=/springboot-crud-rest-adminms/api/v1/jobs/1016654"}"
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:189)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801)
+	at org.springframework.web.client.RestTemplate.put(RestTemplate.java:578)
+	at com.erixit.investms.adminmsclient.impl.InvestAdminMSClientImpl.updateJob(InvestAdminMSClientImpl.java:96)
+	at com.erixit.investms.messaging.handlers.impl.BaseMessageHandler.setStatus(BaseMessageHandler.java:17)
+	at com.erixit.investms.messaging.handlers.impl.MonthResultsMessageHandler.handlePage(MonthResultsMessageHandler.java:72)
+	at com.erixit.investms.messaging.handlers.impl.MonthResultsMessageHandler.handle(MonthResultsMessageHandler.java:52)
+	at com.erixit.investms.messaging.services.ReceiverService.receiveMessage(ReceiverService.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:819)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:776)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:754)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1420)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1410)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1287)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-05-13 20:14:46 [org.springframework.jms.JmsListenerEndpointContainer#0-1] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - client ack messageID = 60396
+2026-05-13 20:19:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessionImpl [name=55eb4b13-4eb0-11f1-a6d6-6e8bc18f4185, username=artemis, closed=false, factory = org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@420b55ed, metaData=()]@5accbc3c
+2026-05-13 20:19:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl [name=55eb4b13-4eb0-11f1-a6d6-6e8bc18f4185, username=artemis, closed=false, factory = org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@420b55ed, metaData=()]@5accbc3c
+2026-05-13 20:19:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessionImpl [name=55cdff12-4eb0-11f1-a6d6-6e8bc18f4185, username=artemis, closed=false, factory = org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@420b55ed, metaData=(jms-session=,)]@68360fb9
+2026-05-13 20:19:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl [name=55cdff12-4eb0-11f1-a6d6-6e8bc18f4185, username=artemis, closed=false, factory = org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@420b55ed, metaData=(jms-session=,)]@68360fb9
+2026-05-13 20:19:43 [Thread-1 (ActiveMQ-client-global-threads)] DEBUG o.a.a.a.c.c.i.ClientSessionFactoryImpl - Failure captured on connectionID=1facf080, performing failover or reconnection now
+org.apache.activemq.artemis.api.core.ActiveMQNotConnectedException: AMQ219006: Channel disconnected
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:417)
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector$Listener.lambda$connectionDestroyed$0(NettyConnector.java:1254)
+	at org.apache.activemq.artemis.utils.actors.OrderedExecutor.doTask(OrderedExecutor.java:59)
+	at org.apache.activemq.artemis.utils.actors.OrderedExecutor.doTask(OrderedExecutor.java:32)
+	at org.apache.activemq.artemis.utils.actors.ProcessorBase.executePendingTasks(ProcessorBase.java:68)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.activemq.artemis.utils.ActiveMQThreadFactory$1.run(ActiveMQThreadFactory.java:120)
+2026-05-13 20:19:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Session was already closed, giving up now, this=ClientSessionImpl [name=55eb4b13-4eb0-11f1-a6d6-6e8bc18f4185, username=artemis, closed=true, factory = org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@420b55ed, metaData=()]@5accbc3c
+2026-05-13 20:19:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Session was already closed, giving up now, this=ClientSessionImpl [name=55cdff12-4eb0-11f1-a6d6-6e8bc18f4185, username=artemis, closed=true, factory = org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@420b55ed, metaData=(jms-session=,)]@68360fb9
+2026-05-13 20:19:43 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-13 20:19:43 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-13 20:19:43 [SpringApplicationShutdownHook] DEBUG o.s.j.l.DefaultMessageListenerContainer - Shutting down JMS listener container
+2026-05-13 20:19:43 [SpringApplicationShutdownHook] DEBUG o.s.j.l.DefaultMessageListenerContainer - Waiting for shutdown of message listener invokers
+2026-05-13 20:19:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] DEBUG o.s.j.l.DefaultMessageListenerContainer - Lowered scheduled invoker count: 0
+2026-05-13 20:19:43 [org.springframework.jms.JmsListenerEndpointContainer#0-1] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Session was already closed, giving up now, this=ClientSessionImpl [name=55eb4b13-4eb0-11f1-a6d6-6e8bc18f4185, username=artemis, closed=true, factory = org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@420b55ed, metaData=()]@5accbc3c

@@ -1,0 +1,5 @@
+2026-05-13 20:19:42 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-13 20:19:42 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-13 20:19:42 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-13 20:19:43 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-13 20:19:43 [SpringApplicationShutdownHook] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'

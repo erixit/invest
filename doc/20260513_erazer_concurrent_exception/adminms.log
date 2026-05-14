@@ -1,0 +1,728 @@
+2026-05-03 14:34:57 [main] INFO c.e.i.a.AdminMicroServiceApplication - Starting AdminMicroServiceApplication using Java 17.0.18 with PID 1 (/app/app.jar started by root in /logs)
+2026-05-03 14:34:57 [main] INFO c.e.i.a.AdminMicroServiceApplication - The following 1 profile is active: "linux"
+2026-05-03 14:35:02 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-03 14:35:03 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 594 ms. Found 14 JPA repository interfaces.
+2026-05-03 14:35:10 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6780 (http)
+2026-05-03 14:35:10 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-03 14:35:10 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-03 14:35:10 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-03 14:35:10 [main] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-adminms] - Initializing Spring embedded WebApplicationContext
+2026-05-03 14:35:10 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 13411 ms
+2026-05-03 14:35:12 [main] INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-03 14:35:13 [main] INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2026-05-03 14:35:13 [main] INFO o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-05-03 14:35:14 [main] INFO o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-03 14:35:15 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-03 14:35:16 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46bdc55e
+2026-05-03 14:35:16 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-03 14:35:16 [main] WARN org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-03 14:35:16 [main] INFO o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-03 14:35:19 [main] INFO o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-05-03 14:35:24 [main] INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-03 14:35:24 [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03 14:35:26 [main] INFO o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-03 14:35:31 [main] INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.data.domain.Sort com.erixit.investms.restapi.services.service.impl.JobServiceImpl.SortById
+2026-05-03 14:35:33 [main] INFO c.e.i.s.impl.YahooFinanceManager - Yahoo responses will be written to '/home/pi/data/invest_data/yahoo_prices'.
+2026-05-03 14:35:35 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://fc.yahoo.com'
+2026-05-03 14:35:36 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://query1.finance.yahoo.com/v1/test/getcrumb'
+2026-05-03 14:35:37 [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-03 14:35:38 [main] WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [applicationUserDetailsServiceImpl, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-05-03 14:35:41 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-03 14:35:41 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6780 (http) with context path '/springboot-crud-rest-adminms'
+2026-05-03 14:35:42 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6790 (http)
+2026-05-03 14:35:42 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6790"]
+2026-05-03 14:35:42 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-03 14:35:42 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-03 14:35:42 [main] INFO o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-03 14:35:42 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 680 ms
+2026-05-03 14:35:42 [main] INFO o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-05-03 14:35:42 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6790"]
+2026-05-03 14:35:42 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6790 (http) with context path '/'
+2026-05-03 14:35:43 [main] INFO c.e.i.a.AdminMicroServiceApplication - Started AdminMicroServiceApplication in 49.404 seconds (process running for 53.476)
+2026-05-03 14:40:31 [http-nio-0.0.0.0-6780-exec-1] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-adminms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-03 14:40:31 [http-nio-0.0.0.0-6780-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-03 14:40:31 [http-nio-0.0.0.0-6780-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-05-03 14:56:07 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-03 14:56:07 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-03 14:56:07 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-03 14:56:07 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-03 14:56:08 [SpringApplicationShutdownHook] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03 14:56:08 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-03 14:56:08 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-03 15:14:36 [main] INFO c.e.i.a.AdminMicroServiceApplication - Starting AdminMicroServiceApplication using Java 17.0.18 with PID 1 (/app/app.jar started by root in /logs)
+2026-05-03 15:14:36 [main] INFO c.e.i.a.AdminMicroServiceApplication - The following 1 profile is active: "linux"
+2026-05-03 15:14:42 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-03 15:14:43 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 588 ms. Found 14 JPA repository interfaces.
+2026-05-03 15:14:50 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6780 (http)
+2026-05-03 15:14:50 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-03 15:14:50 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-03 15:14:50 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-03 15:14:51 [main] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-adminms] - Initializing Spring embedded WebApplicationContext
+2026-05-03 15:14:51 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 15096 ms
+2026-05-03 15:14:53 [main] INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-03 15:14:54 [main] INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2026-05-03 15:14:54 [main] INFO o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-05-03 15:14:56 [main] INFO o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-03 15:14:56 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-03 15:14:58 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46bdc55e
+2026-05-03 15:14:58 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-03 15:14:58 [main] WARN org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-03 15:14:58 [main] INFO o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-03 15:15:01 [main] INFO o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-05-03 15:15:07 [main] INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-03 15:15:08 [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03 15:15:10 [main] INFO o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-03 15:15:16 [main] INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.data.domain.Sort com.erixit.investms.restapi.services.service.impl.JobServiceImpl.SortById
+2026-05-03 15:15:17 [main] INFO c.e.i.s.impl.YahooFinanceManager - Yahoo responses will be written to '/home/pi/data/invest_data/yahoo_prices'.
+2026-05-03 15:15:19 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://fc.yahoo.com'
+2026-05-03 15:15:20 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://query1.finance.yahoo.com/v1/test/getcrumb'
+2026-05-03 15:15:21 [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-03 15:15:22 [main] WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [applicationUserDetailsServiceImpl, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-05-03 15:15:26 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-03 15:15:26 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6780 (http) with context path '/springboot-crud-rest-adminms'
+2026-05-03 15:15:27 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6790 (http)
+2026-05-03 15:15:27 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6790"]
+2026-05-03 15:15:27 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-03 15:15:27 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-03 15:15:27 [main] INFO o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-03 15:15:27 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 603 ms
+2026-05-03 15:15:27 [main] INFO o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-05-03 15:15:27 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6790"]
+2026-05-03 15:15:27 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6790 (http) with context path '/'
+2026-05-03 15:15:27 [main] INFO c.e.i.a.AdminMicroServiceApplication - Started AdminMicroServiceApplication in 55.311 seconds (process running for 59.771)
+2026-05-03 15:21:16 [http-nio-0.0.0.0-6780-exec-1] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-adminms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-03 15:21:16 [http-nio-0.0.0.0-6780-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-03 15:21:16 [http-nio-0.0.0.0-6780-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 77 ms
+2026-05-03 15:22:17 [http-nio-0.0.0.0-6780-exec-6] WARN o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: S1000
+2026-05-03 15:22:17 [http-nio-0.0.0.0-6780-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Not a navigable ResultSet.
+2026-05-03 15:46:25 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-03 15:46:25 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-03 15:46:25 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-03 15:46:25 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-03 15:46:25 [SpringApplicationShutdownHook] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03 15:46:25 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-03 15:46:25 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-03 16:11:51 [main] INFO c.e.i.a.AdminMicroServiceApplication - Starting AdminMicroServiceApplication using Java 17.0.18 with PID 1 (/app/app.jar started by root in /logs)
+2026-05-03 16:11:51 [main] INFO c.e.i.a.AdminMicroServiceApplication - The following 1 profile is active: "linux"
+2026-05-03 16:11:57 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-03 16:11:57 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 597 ms. Found 14 JPA repository interfaces.
+2026-05-03 16:12:05 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6780 (http)
+2026-05-03 16:12:05 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-03 16:12:05 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-03 16:12:05 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-03 16:12:06 [main] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-adminms] - Initializing Spring embedded WebApplicationContext
+2026-05-03 16:12:06 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 14783 ms
+2026-05-03 16:12:07 [main] INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-03 16:12:08 [main] INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2026-05-03 16:12:08 [main] INFO o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-05-03 16:12:10 [main] INFO o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-03 16:12:10 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-03 16:12:11 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46bdc55e
+2026-05-03 16:12:11 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-03 16:12:11 [main] WARN org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-03 16:12:11 [main] INFO o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-03 16:12:14 [main] INFO o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-05-03 16:12:19 [main] INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-03 16:12:19 [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03 16:12:20 [main] INFO o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-03 16:12:27 [main] INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.data.domain.Sort com.erixit.investms.restapi.services.service.impl.JobServiceImpl.SortById
+2026-05-03 16:12:29 [main] INFO c.e.i.s.impl.YahooFinanceManager - Yahoo responses will be written to '/home/pi/data/invest_data/yahoo_prices'.
+2026-05-03 16:12:31 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://fc.yahoo.com'
+2026-05-03 16:12:31 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://query1.finance.yahoo.com/v1/test/getcrumb'
+2026-05-03 16:12:32 [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-03 16:12:33 [main] WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [applicationUserDetailsServiceImpl, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-05-03 16:12:37 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-03 16:12:37 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6780 (http) with context path '/springboot-crud-rest-adminms'
+2026-05-03 16:12:38 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6790 (http)
+2026-05-03 16:12:38 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6790"]
+2026-05-03 16:12:38 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-03 16:12:38 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-03 16:12:38 [main] INFO o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-03 16:12:38 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 504 ms
+2026-05-03 16:12:38 [main] INFO o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-05-03 16:12:38 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6790"]
+2026-05-03 16:12:38 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6790 (http) with context path '/'
+2026-05-03 16:12:38 [main] INFO c.e.i.a.AdminMicroServiceApplication - Started AdminMicroServiceApplication in 50.902 seconds (process running for 55.218)
+2026-05-03 16:14:00 [http-nio-0.0.0.0-6780-exec-1] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-adminms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-03 16:14:00 [http-nio-0.0.0.0-6780-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-03 16:14:00 [http-nio-0.0.0.0-6780-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-05-03 17:55:35 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-03 17:55:35 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-03 17:55:35 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-03 17:55:35 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-03 17:55:36 [SpringApplicationShutdownHook] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03 17:55:36 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-03 17:55:36 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-09 10:20:05 [main] INFO c.e.i.a.AdminMicroServiceApplication - Starting AdminMicroServiceApplication using Java 17.0.18 with PID 1 (/app/app.jar started by root in /logs)
+2026-05-09 10:20:05 [main] INFO c.e.i.a.AdminMicroServiceApplication - The following 1 profile is active: "linux"
+2026-05-09 10:20:11 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-09 10:20:12 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 578 ms. Found 14 JPA repository interfaces.
+2026-05-09 10:20:19 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6780 (http)
+2026-05-09 10:20:19 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-09 10:20:19 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-09 10:20:19 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-09 10:20:20 [main] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-adminms] - Initializing Spring embedded WebApplicationContext
+2026-05-09 10:20:20 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 14411 ms
+2026-05-09 10:20:22 [main] INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-09 10:20:22 [main] INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2026-05-09 10:20:23 [main] INFO o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-05-09 10:20:25 [main] INFO o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-09 10:20:25 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-09 10:20:26 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46bdc55e
+2026-05-09 10:20:26 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-09 10:20:26 [main] WARN org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-09 10:20:26 [main] INFO o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-09 10:20:29 [main] INFO o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-05-09 10:20:34 [main] INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-09 10:20:35 [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-09 10:20:36 [main] INFO o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-09 10:20:41 [main] INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.data.domain.Sort com.erixit.investms.restapi.services.service.impl.JobServiceImpl.SortById
+2026-05-09 10:20:43 [main] INFO c.e.i.s.impl.YahooFinanceManager - Yahoo responses will be written to '/home/pi/data/invest_data/yahoo_prices'.
+2026-05-09 10:20:44 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://fc.yahoo.com'
+2026-05-09 10:20:45 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://query1.finance.yahoo.com/v1/test/getcrumb'
+2026-05-09 10:20:46 [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-09 10:20:47 [main] WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [applicationUserDetailsServiceImpl, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-05-09 10:20:50 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-09 10:20:50 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6780 (http) with context path '/springboot-crud-rest-adminms'
+2026-05-09 10:20:50 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6790 (http)
+2026-05-09 10:20:50 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6790"]
+2026-05-09 10:20:51 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-09 10:20:51 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-09 10:20:51 [main] INFO o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-09 10:20:51 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 496 ms
+2026-05-09 10:20:51 [main] INFO o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-05-09 10:20:51 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6790"]
+2026-05-09 10:20:51 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6790 (http) with context path '/'
+2026-05-09 10:20:51 [main] INFO c.e.i.a.AdminMicroServiceApplication - Started AdminMicroServiceApplication in 49.601 seconds (process running for 54.923)
+2026-05-09 10:23:22 [http-nio-0.0.0.0-6780-exec-1] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-adminms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-09 10:23:22 [http-nio-0.0.0.0-6780-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-09 10:23:22 [http-nio-0.0.0.0-6780-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-05-09 10:26:28 [http-nio-0.0.0.0-6780-exec-3] WARN o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: S1000
+2026-05-09 10:26:28 [http-nio-0.0.0.0-6780-exec-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Operation not allowed after ResultSet closed
+2026-05-09 22:27:32 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-09 22:27:32 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-09 22:27:32 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-09 22:27:32 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-09 22:27:32 [Thread-1 (ActiveMQ-client-global-threads)] INFO o.a.activemq.artemis.core.client - AMQ214036: Connection closure to localhost/127.0.0.1:61616 has been detected: AMQ219015: The connection was disconnected because of server shutdown [code=DISCONNECTED]
+2026-05-09 22:27:32 [Thread-0] INFO o.s.j.c.CachingConnectionFactory - Encountered a JMSException - resetting the underlying JMS Connection
+jakarta.jms.JMSException: ActiveMQDisconnectedException[errorType=DISCONNECTED message=AMQ219015: The connection was disconnected because of server shutdown]
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnection$JMSFailureListener.connectionFailed(ActiveMQConnection.java:705)
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnection$JMSFailureListener.connectionFailed(ActiveMQConnection.java:721)
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.callSessionFailureListeners(ClientSessionFactoryImpl.java:865)
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.failoverOrReconnect(ClientSessionFactoryImpl.java:791)
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.handleConnectionFailure(ClientSessionFactoryImpl.java:567)
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl$DelegatingFailureListener.connectionFailed(ClientSessionFactoryImpl.java:1366)
+	at org.apache.activemq.artemis.spi.core.protocol.AbstractRemotingConnection.callFailureListeners(AbstractRemotingConnection.java:98)
+	at org.apache.activemq.artemis.core.protocol.core.impl.RemotingConnectionImpl.fail(RemotingConnectionImpl.java:203)
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl$CloseRunnable.run(ClientSessionFactoryImpl.java:1151)
+	at org.apache.activemq.artemis.utils.actors.OrderedExecutor.doTask(OrderedExecutor.java:59)
+	at org.apache.activemq.artemis.utils.actors.OrderedExecutor.doTask(OrderedExecutor.java:32)
+	at org.apache.activemq.artemis.utils.actors.ProcessorBase.executePendingTasks(ProcessorBase.java:68)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.activemq.artemis.utils.ActiveMQThreadFactory$1.run(ActiveMQThreadFactory.java:120)
+Caused by: org.apache.activemq.artemis.api.core.ActiveMQDisconnectedException: AMQ219015: The connection was disconnected because of server shutdown
+	... 7 common frames omitted
+2026-05-09 22:27:32 [SpringApplicationShutdownHook] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-09 22:27:32 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-09 22:27:32 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-13 11:15:01 [main] INFO c.e.i.a.AdminMicroServiceApplication - Starting AdminMicroServiceApplication using Java 17.0.18 with PID 1 (/app/app.jar started by root in /logs)
+2026-05-13 11:15:01 [main] INFO c.e.i.a.AdminMicroServiceApplication - The following 1 profile is active: "linux"
+2026-05-13 11:15:07 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-13 11:15:07 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 613 ms. Found 14 JPA repository interfaces.
+2026-05-13 11:15:14 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6780 (http)
+2026-05-13 11:15:14 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-13 11:15:14 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-13 11:15:14 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-13 11:15:15 [main] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-adminms] - Initializing Spring embedded WebApplicationContext
+2026-05-13 11:15:15 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 13315 ms
+2026-05-13 11:15:17 [main] INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-13 11:15:17 [main] INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2026-05-13 11:15:18 [main] INFO o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-05-13 11:15:19 [main] INFO o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-13 11:15:20 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-13 11:15:21 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fbbd98c
+2026-05-13 11:15:21 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-13 11:15:22 [main] WARN org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-13 11:15:22 [main] INFO o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-13 11:15:25 [main] INFO o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-05-13 11:15:29 [main] INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-13 11:15:30 [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-13 11:15:31 [main] INFO o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-13 11:15:36 [main] INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.data.domain.Sort com.erixit.investms.restapi.services.service.impl.JobServiceImpl.SortById
+2026-05-13 11:15:38 [main] INFO c.e.i.s.impl.YahooFinanceManager - Yahoo responses will be written to '/home/pi/data/invest_data/yahoo_prices'.
+2026-05-13 11:15:39 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://fc.yahoo.com'
+2026-05-13 11:15:40 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://query1.finance.yahoo.com/v1/test/getcrumb'
+2026-05-13 11:15:40 [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-13 11:15:41 [main] WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [applicationUserDetailsServiceImpl, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-05-13 11:15:45 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-13 11:15:45 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6780 (http) with context path '/springboot-crud-rest-adminms'
+2026-05-13 11:15:45 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6790 (http)
+2026-05-13 11:15:45 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6790"]
+2026-05-13 11:15:45 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-13 11:15:45 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-13 11:15:45 [main] INFO o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-13 11:15:45 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 493 ms
+2026-05-13 11:15:45 [main] INFO o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-05-13 11:15:45 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6790"]
+2026-05-13 11:15:45 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6790 (http) with context path '/'
+2026-05-13 11:15:46 [main] INFO c.e.i.a.AdminMicroServiceApplication - Started AdminMicroServiceApplication in 46.898 seconds (process running for 51.969)
+2026-05-13 11:44:15 [main] INFO c.e.i.a.AdminMicroServiceApplication - Starting AdminMicroServiceApplication using Java 17.0.18 with PID 1 (/app/app.jar started by root in /logs)
+2026-05-13 11:44:15 [main] INFO c.e.i.a.AdminMicroServiceApplication - The following 1 profile is active: "linux"
+2026-05-13 11:44:22 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-13 11:44:23 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 699 ms. Found 15 JPA repository interfaces.
+2026-05-13 11:44:31 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6780 (http)
+2026-05-13 11:44:31 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-13 11:44:31 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-13 11:44:31 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-13 11:44:31 [main] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-adminms] - Initializing Spring embedded WebApplicationContext
+2026-05-13 11:44:31 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 15704 ms
+2026-05-13 11:44:33 [main] INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-13 11:44:33 [main] INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2026-05-13 11:44:34 [main] INFO o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-05-13 11:44:36 [main] INFO o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-13 11:44:36 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-13 11:44:37 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@cfc4601
+2026-05-13 11:44:37 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-13 11:44:37 [main] WARN org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-13 11:44:38 [main] INFO o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-13 11:44:41 [main] INFO o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-05-13 11:44:46 [main] INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-13 11:44:47 [main] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-13 11:44:49 [main] INFO o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-13 11:44:54 [main] INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.data.domain.Sort com.erixit.investms.restapi.services.service.impl.JobServiceImpl.SortById
+2026-05-13 11:44:55 [main] INFO c.e.i.s.impl.YahooFinanceManager - Yahoo responses will be written to '/home/pi/data/invest_data/yahoo_prices'.
+2026-05-13 11:44:57 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://fc.yahoo.com'
+2026-05-13 11:44:57 [main] INFO c.e.i.s.impl.YahooFinanceManager - Response obtained for 'https://query1.finance.yahoo.com/v1/test/getcrumb'
+2026-05-13 11:44:58 [main] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-13 11:44:59 [main] WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [applicationUserDetailsServiceImpl, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-05-13 11:45:03 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-6780"]
+2026-05-13 11:45:03 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6780 (http) with context path '/springboot-crud-rest-adminms'
+2026-05-13 11:45:03 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 6790 (http)
+2026-05-13 11:45:03 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6790"]
+2026-05-13 11:45:03 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-13 11:45:03 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2026-05-13 11:45:03 [main] INFO o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-13 11:45:03 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 492 ms
+2026-05-13 11:45:03 [main] INFO o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-05-13 11:45:04 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6790"]
+2026-05-13 11:45:04 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 6790 (http) with context path '/'
+2026-05-13 11:45:04 [main] INFO c.e.i.a.AdminMicroServiceApplication - Started AdminMicroServiceApplication in 53.1 seconds (process running for 58.136)
+2026-05-13 11:45:28 [http-nio-0.0.0.0-6780-exec-1] INFO o.a.c.c.C.[.[.[/springboot-crud-rest-adminms] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-13 11:45:28 [http-nio-0.0.0.0-6780-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-13 11:45:28 [http-nio-0.0.0.0-6780-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-05-13 11:46:01 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 9 ACANTHE DEV. occurence 0 originalShareid 9 reason share changed before buysell 30 buysells 12 firstbuydate Tue Jul 09 00:00:00 CEST 2013 lastbuydate Mon Sep 11 00:00:00 CEST 2023 numberofshares 5000.0 currentprice 0.229 currentexchangerate 1.0
+2026-05-13 11:46:02 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 17 ACKERMANS V.HAAREN occurence 0 originalShareid 17 reason share changed before buysell 108 buysells 2 firstbuydate Fri Aug 16 00:00:00 CEST 2002 lastbuydate Mon Oct 31 00:00:00 CET 2005 numberofshares 0.0 currentprice 289.8 currentexchangerate 1.0
+2026-05-13 11:46:03 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 30 AGFA-GEVAERT occurence 0 originalShareid 30 reason share changed before buysell 1 buysells 2 firstbuydate Tue Feb 16 00:00:00 CET 2010 lastbuydate Fri Nov 12 00:00:00 CET 2010 numberofshares 137.0 currentprice 0.482 currentexchangerate 1.0
+2026-05-13 11:46:04 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 47 ALCATEL occurence 1 originalShareid 47 reason same share reopened before buysell 13 buysells 2 firstbuydate Fri Sep 29 00:00:00 CEST 2000 lastbuydate Wed Nov 22 00:00:00 CET 2000 numberofshares 0.0 currentprice 3.5 currentexchangerate 1.0
+2026-05-13 11:46:04 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 47 ALCATEL occurence 2 originalShareid 47 reason share changed before buysell 285190 buysells 2 firstbuydate Thu Feb 08 00:00:00 CET 2001 lastbuydate Mon Jan 11 00:00:00 CET 2016 numberofshares 0.0 currentprice 3.5 currentexchangerate 1.0
+2026-05-13 11:46:05 [http-nio-0.0.0.0-6780-exec-8] WARN c.e.i.r.s.s.i.PositionServiceImpl - Stock split record 886207 has newshareid=0, cannot apply stock split. Original shareid=94
+2026-05-13 11:46:05 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 94 ATOS ORIGIN occurence 0 originalShareid 94 reason share changed before buysell 149 buysells 3 firstbuydate Tue Mar 08 00:00:00 CET 2022 lastbuydate Thu Oct 02 00:00:00 CEST 2025 numberofshares 11.0 currentprice 37.04 currentexchangerate 1.0
+2026-05-13 11:46:11 [http-nio-0.0.0.0-6780-exec-2] WARN c.e.i.r.s.s.i.PositionServiceImpl - Stock split record 426506 has newshareid=0, cannot apply stock split. Original shareid=106
+2026-05-13 11:46:11 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 106 AVENIR TELECOM occurence 0 originalShareid 106 reason share changed before buysell 44 buysells 2 firstbuydate Tue Aug 06 00:00:00 CEST 2013 lastbuydate Thu Oct 13 00:00:00 CEST 2022 numberofshares 0.0 currentprice 0.0904 currentexchangerate 1.0
+2026-05-13 11:46:12 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 128 BARCO occurence 0 originalShareid 128 reason share changed before buysell 661718 buysells 2 firstbuydate Mon Nov 17 00:00:00 CET 2003 lastbuydate Mon Jul 04 00:00:00 CEST 2005 numberofshares 0.0 currentprice 8.96 currentexchangerate 1.0
+2026-05-13 11:46:12 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 137 Proximus occurence 0 originalShareid 137 reason share changed before buysell 380104 buysells 1 firstbuydate Wed Oct 18 00:00:00 CEST 2023 lastbuydate Wed Oct 18 00:00:00 CEST 2023 numberofshares 75.0 currentprice 6.61 currentexchangerate 1.0
+2026-05-13 11:46:13 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 147 BIC occurence 0 originalShareid 147 reason share changed before buysell 133 buysells 1 firstbuydate Wed Oct 12 00:00:00 CEST 2022 lastbuydate Wed Oct 12 00:00:00 CEST 2022 numberofshares 9.0 currentprice 57.5 currentexchangerate 1.0
+2026-05-13 11:46:13 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 156 BNP PARIBAS occurence 0 originalShareid 156 reason share changed before buysell 952832 buysells 2 firstbuydate Wed May 02 00:00:00 CEST 2012 lastbuydate Thu Dec 15 00:00:00 CET 2016 numberofshares 10.0 currentprice 91.55 currentexchangerate 1.0
+2026-05-13 11:46:14 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 161 BONDUELLE occurence 0 originalShareid 161 reason share changed before buysell 55 buysells 1 firstbuydate Mon Dec 15 00:00:00 CET 2025 lastbuydate Mon Dec 15 00:00:00 CET 2025 numberofshares 62.0 currentprice 8.2 currentexchangerate 1.0
+2026-05-13 11:46:15 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 184 BUHRMANN occurence 0 originalShareid 184 reason share changed before buysell 185 buysells 6 firstbuydate Tue Sep 28 00:00:00 CEST 2004 lastbuydate Wed Aug 09 00:00:00 CEST 2006 numberofshares 0.0 currentprice 10.079999923706055 currentexchangerate 1.0
+2026-05-13 11:46:16 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 207 CASINO GUICHARD occurence 0 originalShareid 207 reason share changed before buysell 124 buysells 2 firstbuydate Fri Sep 21 00:00:00 CEST 2018 lastbuydate Sat Jun 15 00:00:00 CEST 2024 numberofshares 0.0 currentprice 0.2306 currentexchangerate 1.0
+2026-05-13 11:46:17 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 225 CHARGEURS occurence 0 originalShareid 225 reason share changed before buysell 15 buysells 3 firstbuydate Mon May 09 00:00:00 CEST 2011 lastbuydate Mon May 15 00:00:00 CEST 2017 numberofshares 0.0 currentprice 8.7 currentexchangerate 1.0
+2026-05-13 11:46:17 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 229 CHEMUNEX occurence 0 originalShareid 229 reason share changed before buysell 229 buysells 2 firstbuydate Fri Feb 16 00:00:00 CET 2001 lastbuydate Thu Jul 05 00:00:00 CEST 2001 numberofshares 0.0 currentprice 0.0 currentexchangerate 1.0
+2026-05-13 11:46:18 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 250 CNP ASSURANCES occurence 0 originalShareid 250 reason share changed before buysell 573314 buysells 2 firstbuydate Fri May 22 00:00:00 CEST 2020 lastbuydate Mon Feb 07 00:00:00 CET 2022 numberofshares 0.0 currentprice 20.82 currentexchangerate 1.0
+2026-05-13 11:46:18 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 291 CREDIT AGRICOLE occurence 0 originalShareid 291 reason share changed before buysell 200 buysells 1 firstbuydate Mon Feb 20 00:00:00 CET 2023 lastbuydate Mon Feb 20 00:00:00 CET 2023 numberofshares 47.0 currentprice 17.03 currentexchangerate 1.0
+2026-05-13 11:46:24 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 299 CUMERIO occurence 0 originalShareid 299 reason share changed before buysell 152 buysells 2 firstbuydate Fri Apr 29 00:00:00 CEST 2005 lastbuydate Tue Mar 04 00:00:00 CET 2008 numberofshares 0.0 currentprice 29.600000381469727 currentexchangerate 1.0
+2026-05-13 11:46:24 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 316 DECEUNINCK occurence 0 originalShareid 316 reason share changed before buysell 33 buysells 2 firstbuydate Mon Nov 11 00:00:00 CET 2013 lastbuydate Mon Aug 23 00:00:00 CEST 2021 numberofshares 175.0 currentprice 2.03 currentexchangerate 1.0
+2026-05-13 11:46:25 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 319 DELHAIZE GROUP occurence 0 originalShareid 319 reason share changed before buysell 130 buysells 4 firstbuydate Fri Apr 11 00:00:00 CEST 2003 lastbuydate Wed May 03 00:00:00 CEST 2006 numberofshares 0.0 currentprice 94.52999877929688 currentexchangerate 1.0
+2026-05-13 11:46:26 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 327 DEXIA occurence 0 originalShareid 327 reason share changed before buysell 103 buysells 2 firstbuydate Thu Nov 24 00:00:00 CET 2011 lastbuydate Tue Apr 03 00:00:00 CEST 2012 numberofshares 0.0 currentprice 0.03400000184774399 currentexchangerate 1.0
+2026-05-13 11:46:27 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 344 DRAKA HOLDING occurence 0 originalShareid 344 reason share changed before buysell 9 buysells 2 firstbuydate Tue Aug 25 00:00:00 CEST 2009 lastbuydate Mon Jan 24 00:00:00 CET 2011 numberofshares 0.0 currentprice 17.81999969482422 currentexchangerate 1.0
+2026-05-13 11:46:27 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 364 ELECTRABEL occurence 0 originalShareid 364 reason share changed before buysell 174 buysells 3 firstbuydate Tue Nov 28 00:00:00 CET 2000 lastbuydate Wed Nov 30 00:00:00 CET 2005 numberofshares 0.0 currentprice 589.5 currentexchangerate 1.0
+2026-05-13 11:46:28 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 376 ERAMET occurence 0 originalShareid 376 reason share changed before buysell 109 buysells 2 firstbuydate Mon Aug 14 00:00:00 CEST 2017 lastbuydate Fri Jan 12 00:00:00 CET 2018 numberofshares 6.0 currentprice 58.1 currentexchangerate 1.0
+2026-05-13 11:46:29 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 388 ETAM DEVELOPPEMENT occurence 0 originalShareid 388 reason share changed before buysell 228 buysells 2 firstbuydate Mon Mar 15 00:00:00 CET 2010 lastbuydate Wed Dec 29 00:00:00 CET 2010 numberofshares 0.0 currentprice 49.29999923706055 currentexchangerate 1.0
+2026-05-13 11:46:30 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 397 EUROCOMM. PROP CD occurence 0 originalShareid 397 reason share changed before buysell 100 buysells 3 firstbuydate Fri May 22 00:00:00 CEST 2020 lastbuydate Fri Jul 07 00:00:00 CEST 2023 numberofshares 32.0 currentprice 27.35 currentexchangerate 1.0
+2026-05-13 11:46:30 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 401 EURONAV occurence 1 originalShareid 401 reason same share reopened before buysell 143 buysells 2 firstbuydate Thu May 21 00:00:00 CEST 2009 lastbuydate Tue Jul 19 00:00:00 CEST 2011 numberofshares 0.0 currentprice 12.74 currentexchangerate 1.0
+2026-05-13 11:46:37 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 401 EURONAV occurence 2 originalShareid 401 reason share changed before buysell 436192 buysells 3 firstbuydate Fri May 10 00:00:00 CEST 2013 lastbuydate Thu Sep 22 00:00:00 CEST 2022 numberofshares 0.0 currentprice 12.74 currentexchangerate 1.0
+2026-05-13 11:46:38 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 419 Forvia occurence 0 originalShareid 419 reason share changed before buysell 573315 buysells 1 firstbuydate Mon Nov 28 00:00:00 CET 2022 lastbuydate Mon Nov 28 00:00:00 CET 2022 numberofshares 39.0 currentprice 10.39 currentexchangerate 1.0
+2026-05-13 11:46:38 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 444 Covivio occurence 0 originalShareid 444 reason share changed before buysell 128 buysells 1 firstbuydate Mon Feb 20 00:00:00 CET 2023 lastbuydate Mon Feb 20 00:00:00 CET 2023 numberofshares 10.0 currentprice 55.4 currentexchangerate 1.0
+2026-05-13 11:46:39 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 445 Peugeot Invest occurence 0 originalShareid 445 reason share changed before buysell 29 buysells 2 firstbuydate Wed Aug 10 00:00:00 CEST 2011 lastbuydate Wed Feb 01 00:00:00 CET 2017 numberofshares 7.0 currentprice 67.6 currentexchangerate 1.0
+2026-05-13 11:46:40 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 455 FORTIS occurence 0 originalShareid 455 reason share changed before buysell 129 buysells 3 firstbuydate Thu Jul 25 00:00:00 CEST 2002 lastbuydate Thu Sep 06 00:00:00 CEST 2007 numberofshares 0.0 currentprice 0.9279999732971191 currentexchangerate 1.0
+2026-05-13 11:46:40 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Applying stock split 488 -> 7375 dated 2016-07-20 00:00:00.0
+2026-05-13 11:46:41 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7375 CGG occurence 0 originalShareid 488 reason share changed before buysell 202 buysells 3 firstbuydate Thu Aug 11 00:00:00 CEST 2011 lastbuydate Fri Feb 05 00:00:00 CET 2016 numberofshares 5.0 currentprice 0.5574 currentexchangerate 1.0
+2026-05-13 11:46:41 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 494 GIMV occurence 1 originalShareid 494 reason same share reopened before buysell 436194 buysells 2 firstbuydate Wed Oct 11 00:00:00 CEST 2000 lastbuydate Fri Dec 01 00:00:00 CET 2000 numberofshares 0.0 currentprice 48.2 currentexchangerate 1.0
+2026-05-13 11:46:42 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 494 GIMV occurence 2 originalShareid 494 reason share changed before buysell 4 buysells 2 firstbuydate Tue Nov 29 00:00:00 CET 2022 lastbuydate Tue Feb 11 00:00:00 CET 2025 numberofshares 17.0 currentprice 48.2 currentexchangerate 1.0
+2026-05-13 11:46:42 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Applying stock split 501 -> 7355 dated 2016-04-15 00:00:00.0
+2026-05-13 11:46:43 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7355 GLOBAL GRAPHICS occurence 0 originalShareid 501 reason share changed before buysell 140 buysells 1 firstbuydate Wed Oct 11 00:00:00 CEST 2000 lastbuydate Wed Oct 11 00:00:00 CEST 2000 numberofshares 18.0 currentprice 3.9 currentexchangerate 1.0
+2026-05-13 11:46:43 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 521 GROUPE PARTOUCHE occurence 0 originalShareid 521 reason share changed before buysell 68 buysells 2 firstbuydate Tue Feb 12 00:00:00 CET 2013 lastbuydate Wed Oct 02 00:00:00 CEST 2013 numberofshares 0.0 currentprice 1.6299999952316284 currentexchangerate 1.0
+2026-05-13 11:46:44 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 523 GROUPE STERIA occurence 0 originalShareid 523 reason share changed before buysell 694257 buysells 2 firstbuydate Wed Aug 17 00:00:00 CEST 2005 lastbuydate Thu May 04 00:00:00 CEST 2006 numberofshares 0.0 currentprice 15.460000038146973 currentexchangerate 1.0
+2026-05-13 11:46:44 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 525 GUERBET occurence 0 originalShareid 525 reason share changed before buysell 58 buysells 1 firstbuydate Wed Feb 21 00:00:00 CET 2024 lastbuydate Wed Feb 21 00:00:00 CET 2024 numberofshares 20.0 currentprice 10.56 currentexchangerate 1.0
+2026-05-13 11:46:45 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 562 IBA occurence 0 originalShareid 562 reason share changed before buysell 52 buysells 2 firstbuydate Sun Dec 26 00:00:00 CET 2004 lastbuydate Wed May 11 00:00:00 CEST 2005 numberofshares 0.0 currentprice 15.0 currentexchangerate 1.0
+2026-05-13 11:46:45 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 581 IMMOBEL occurence 0 originalShareid 581 reason share changed before buysell 22 buysells 2 firstbuydate Thu Apr 22 00:00:00 CEST 2004 lastbuydate Wed May 03 00:00:00 CEST 2006 numberofshares 0.0 currentprice 21.3 currentexchangerate 1.0
+2026-05-13 11:46:50 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 588 INBEV(EX.INTERBREW occurence 0 originalShareid 588 reason share changed before buysell 73 buysells 2 firstbuydate Tue Mar 05 00:00:00 CET 2002 lastbuydate Fri Apr 14 00:00:00 CEST 2006 numberofshares 0.0 currentprice 116.5999984741211 currentexchangerate 1.0
+2026-05-13 11:46:51 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 630 KARDAN occurence 1 originalShareid 630 reason same share reopened before buysell 113 buysells 2 firstbuydate Mon Nov 14 00:00:00 CET 2005 lastbuydate Thu Jun 29 00:00:00 CEST 2006 numberofshares 0.0 currentprice 0.00279999990016222 currentexchangerate 1.0
+2026-05-13 11:46:52 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 630 KARDAN occurence 2 originalShareid 630 reason share changed before buysell 99 buysells 2 firstbuydate Fri Nov 12 00:00:00 CET 2010 lastbuydate Tue Oct 20 00:00:00 CEST 2020 numberofshares 0.0 currentprice 0.00279999990016222 currentexchangerate 1.0
+2026-05-13 11:46:52 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 633 KBC occurence 0 originalShareid 633 reason share changed before buysell 3 buysells 3 firstbuydate Thu May 21 00:00:00 CEST 2009 lastbuydate Fri May 21 00:00:00 CEST 2010 numberofshares 0.0 currentprice 114.8 currentexchangerate 1.0
+2026-05-13 11:46:53 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 636 KEYTRADE BANK occurence 1 originalShareid 636 reason same share reopened before buysell 25 buysells 2 firstbuydate Tue Oct 10 00:00:00 CEST 2000 lastbuydate Tue Nov 07 00:00:00 CET 2000 numberofshares 0.0 currentprice 31.219999313354492 currentexchangerate 1.0
+2026-05-13 11:46:54 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 636 KEYTRADE BANK occurence 2 originalShareid 636 reason share changed before buysell 53 buysells 3 firstbuydate Mon Apr 08 00:00:00 CEST 2002 lastbuydate Wed Sep 14 00:00:00 CEST 2005 numberofshares 0.0 currentprice 31.219999313354492 currentexchangerate 1.0
+2026-05-13 11:46:54 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 676 LSG occurence 0 originalShareid 676 reason share changed before buysell 11 buysells 2 firstbuydate Fri Aug 27 00:00:00 CEST 2004 lastbuydate Mon Apr 11 00:00:00 CEST 2005 numberofshares 0.0 currentprice 11.350000381469727 currentexchangerate 1.0
+2026-05-13 11:46:55 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 704 MELEXIS(TIT.DEMAT) occurence 0 originalShareid 704 reason share changed before buysell 186 buysells 3 firstbuydate Tue Dec 12 00:00:00 CET 2000 lastbuydate Wed Sep 21 00:00:00 CEST 2016 numberofshares 9.0 currentprice 78.45 currentexchangerate 1.0
+2026-05-13 11:46:55 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 738 QUADIENT occurence 0 originalShareid 738 reason share changed before buysell 38 buysells 1 firstbuydate Fri Sep 21 00:00:00 CEST 2018 lastbuydate Fri Sep 21 00:00:00 CEST 2018 numberofshares 25.0 currentprice 11.68 currentexchangerate 1.0
+2026-05-13 11:46:56 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 768 OCE occurence 0 originalShareid 768 reason share changed before buysell 2 buysells 2 firstbuydate Tue Aug 26 00:00:00 CEST 2003 lastbuydate Wed May 03 00:00:00 CEST 2006 numberofshares 0.0 currentprice 9.699999809265137 currentexchangerate 1.0
+2026-05-13 11:46:56 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 771 OMEGA PHARMA occurence 0 originalShareid 771 reason share changed before buysell 135 buysells 2 firstbuydate Mon Oct 09 00:00:00 CEST 2000 lastbuydate Mon Mar 04 00:00:00 CET 2002 numberofshares 0.0 currentprice 50.85 currentexchangerate 1.0
+2026-05-13 11:47:02 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 778 ORDINA occurence 0 originalShareid 778 reason share changed before buysell 26 buysells 3 firstbuydate Thu Sep 13 00:00:00 CEST 2012 lastbuydate Tue Feb 01 00:00:00 CET 2022 numberofshares 0.0 currentprice 5.68 currentexchangerate 1.0
+2026-05-13 11:47:02 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 787 P&O NEDLLOYD occurence 0 originalShareid 787 reason share changed before buysell 153 buysells 4 firstbuydate Tue Jun 18 00:00:00 CEST 2002 lastbuydate Wed May 11 00:00:00 CEST 2005 numberofshares 0.0 currentprice 57.25 currentexchangerate 1.0
+2026-05-13 11:47:03 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 814 PIERRE VACANCES occurence 0 originalShareid 814 reason share changed before buysell 723078 buysells 2 firstbuydate Mon Dec 23 00:00:00 CET 2013 lastbuydate Mon Sep 19 00:00:00 CEST 2022 numberofshares 158.0 currentprice 1.916 currentexchangerate 1.0
+2026-05-13 11:47:03 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 841 Iep Invest occurence 0 originalShareid 841 reason share changed before buysell 6 buysells 1 firstbuydate Mon Jun 24 00:00:00 CEST 2024 lastbuydate Mon Jun 24 00:00:00 CEST 2024 numberofshares 53.0 currentprice 5.1 currentexchangerate 1.0
+2026-05-13 11:47:04 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 845 QUESTFOR GR-PRICAF occurence 0 originalShareid 845 reason share changed before buysell 102 buysells 4 firstbuydate Wed Nov 08 00:00:00 CET 2000 lastbuydate Tue Sep 25 00:00:00 CEST 2007 numberofshares 0.0 currentprice 3.05 currentexchangerate 1.0
+2026-05-13 11:47:05 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 849 RALLYE occurence 0 originalShareid 849 reason share changed before buysell 59 buysells 2 firstbuydate Fri Jun 12 00:00:00 CEST 2009 lastbuydate Thu Apr 09 00:00:00 CEST 2026 numberofshares 0.0 currentprice 0.0441 currentexchangerate 1.0
+2026-05-13 11:47:05 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 860 RENAULT occurence 0 originalShareid 860 reason share changed before buysell 158 buysells 2 firstbuydate Wed Feb 09 00:00:00 CET 2005 lastbuydate Mon Jul 24 00:00:00 CEST 2006 numberofshares 0.0 currentprice 28.6 currentexchangerate 1.0
+2026-05-13 11:47:06 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 881 ROOD TESTHOUSE occurence 0 originalShareid 881 reason share changed before buysell 27 buysells 2 firstbuydate Thu Jul 10 00:00:00 CEST 2014 lastbuydate Wed Nov 01 00:00:00 CET 2023 numberofshares 0.0 currentprice 0.336 currentexchangerate 1.0
+2026-05-13 11:47:06 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 886 ROULARTA occurence 0 originalShareid 886 reason share changed before buysell 406862 buysells 4 firstbuydate Tue Jun 18 00:00:00 CEST 2002 lastbuydate Wed May 03 00:00:00 CEST 2006 numberofshares 0.0 currentprice 13.0 currentexchangerate 1.0
+2026-05-13 11:47:07 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 964 SOFINA occurence 0 originalShareid 964 reason share changed before buysell 723074 buysells 1 firstbuydate Wed Nov 09 00:00:00 CET 2022 lastbuydate Wed Nov 09 00:00:00 CET 2022 numberofshares 3.0 currentprice 218.4 currentexchangerate 1.0
+2026-05-13 11:47:07 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 973 SOLVAY occurence 0 originalShareid 973 reason share changed before buysell 119 buysells 1 firstbuydate Mon Jun 24 00:00:00 CEST 2024 lastbuydate Mon Jun 24 00:00:00 CEST 2024 numberofshares 19.0 currentprice 26.28 currentexchangerate 1.0
+2026-05-13 11:47:12 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 998 STMICROELECTRONICS occurence 0 originalShareid 998 reason share changed before buysell 40 buysells 2 firstbuydate Thu Jan 06 00:00:00 CET 2011 lastbuydate Tue Jul 19 00:00:00 CEST 2011 numberofshares 0.0 currentprice 49.03 currentexchangerate 1.0
+2026-05-13 11:47:13 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 999 STORK occurence 0 originalShareid 999 reason share changed before buysell 340098 buysells 3 firstbuydate Mon Oct 13 00:00:00 CEST 2003 lastbuydate Fri May 19 00:00:00 CEST 2006 numberofshares 0.0 currentprice 46.97999954223633 currentexchangerate 1.0
+2026-05-13 11:47:13 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1002 SUEZ occurence 0 originalShareid 1002 reason share changed before buysell 51 buysells 2 firstbuydate Wed Nov 30 00:00:00 CET 2005 lastbuydate Tue Jul 22 00:00:00 CEST 2008 numberofshares 0.0 currentprice 35.0 currentexchangerate 1.0
+2026-05-13 11:47:14 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1061 TRADER CLASSIF.MED occurence 0 originalShareid 1061 reason share changed before buysell 97 buysells 2 firstbuydate Wed Apr 21 00:00:00 CEST 2004 lastbuydate Fri Apr 14 00:00:00 CEST 2006 numberofshares 0.0 currentprice 0.029999999329447746 currentexchangerate 1.0
+2026-05-13 11:47:14 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1063 TRIGANO occurence 0 originalShareid 1063 reason share changed before buysell 117 buysells 3 firstbuydate Tue May 12 00:00:00 CEST 2009 lastbuydate Thu Dec 02 00:00:00 CET 2010 numberofshares 0.0 currentprice 157.6 currentexchangerate 1.0
+2026-05-13 11:47:15 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1069 U10 occurence 0 originalShareid 1069 reason share changed before buysell 18 buysells 1 firstbuydate Mon Dec 13 00:00:00 CET 2010 lastbuydate Mon Dec 13 00:00:00 CET 2010 numberofshares 145.0 currentprice 1.31 currentexchangerate 1.0
+2026-05-13 11:47:15 [http-nio-0.0.0.0-6780-exec-9] WARN o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: S1000
+2026-05-13 11:47:15 [http-nio-0.0.0.0-6780-exec-9] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Not a navigable ResultSet.
+2026-05-13 11:47:16 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1071 UBIZEN DEMAT occurence 0 originalShareid 1071 reason share changed before buysell 23 buysells 2 firstbuydate Wed Sep 12 00:00:00 CEST 2001 lastbuydate Sun Nov 02 00:00:00 CET 2003 numberofshares 0.0 currentprice 2.0199999809265137 currentexchangerate 1.0
+2026-05-13 11:47:16 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1072 UCB occurence 0 originalShareid 1072 reason share changed before buysell 19 buysells 2 firstbuydate Wed Mar 06 00:00:00 CET 2002 lastbuydate Mon Mar 19 00:00:00 CET 2007 numberofshares 0.0 currentprice 234.1 currentexchangerate 1.0
+2026-05-13 11:47:17 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1076 UMICORE occurence 0 originalShareid 1076 reason share changed before buysell 709933 buysells 3 firstbuydate Tue Feb 05 00:00:00 CET 2002 lastbuydate Thu Jan 18 00:00:00 CET 2007 numberofshares 0.0 currentprice 152.11000061035156 currentexchangerate 1.0
+2026-05-13 11:47:17 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1109 V Lanschot Kempen occurence 0 originalShareid 1109 reason share changed before buysell 35 buysells 1 firstbuydate Mon Jun 17 00:00:00 CEST 2024 lastbuydate Mon Jun 17 00:00:00 CEST 2024 numberofshares 16.0 currentprice 64.2 currentexchangerate 1.0
+2026-05-13 11:47:18 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1118 VERSATEL occurence 0 originalShareid 1118 reason share changed before buysell 604330 buysells 3 firstbuydate Tue May 20 00:00:00 CEST 2003 lastbuydate Mon Oct 17 00:00:00 CEST 2005 numberofshares 0.0 currentprice 0.6000000238418579 currentexchangerate 1.0
+2026-05-13 11:47:22 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1121 VICAT occurence 0 originalShareid 1121 reason share changed before buysell 184 buysells 2 firstbuydate Mon Mar 20 00:00:00 CET 2023 lastbuydate Mon Jun 02 00:00:00 CEST 2025 numberofshares 11.0 currentprice 63.0 currentexchangerate 1.0
+2026-05-13 11:47:23 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1146 WERELDHAVE occurence 0 originalShareid 1146 reason share changed before buysell 232 buysells 1 firstbuydate Fri Sep 21 00:00:00 CEST 2018 lastbuydate Fri Sep 21 00:00:00 CEST 2018 numberofshares 20.0 currentprice 21.6 currentexchangerate 1.0
+2026-05-13 11:47:23 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1162 EVS BROADC.EQUIPM. occurence 0 originalShareid 1162 reason share changed before buysell 177 buysells 2 firstbuydate Wed Jul 15 00:00:00 CEST 2020 lastbuydate Thu Feb 20 00:00:00 CET 2025 numberofshares 19.0 currentprice 36.8 currentexchangerate 1.0
+2026-05-13 11:47:24 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1168 CATANA GROUP occurence 0 originalShareid 1168 reason share changed before buysell 36 buysells 3 firstbuydate Mon Nov 13 00:00:00 CET 2017 lastbuydate Mon Apr 04 00:00:00 CEST 2022 numberofshares 0.0 currentprice 3.35 currentexchangerate 1.0
+2026-05-13 11:47:25 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1197 PETROPLUS INTERNAT occurence 0 originalShareid 1197 reason share changed before buysell 8 buysells 3 firstbuydate Tue May 20 00:00:00 CEST 2003 lastbuydate Tue Feb 17 00:00:00 CET 2004 numberofshares 0.0 currentprice 8.970000267028809 currentexchangerate 1.0
+2026-05-13 11:47:25 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1204 ALMANIJ occurence 0 originalShareid 1204 reason share changed before buysell 47 buysells 3 firstbuydate Tue Nov 28 00:00:00 CET 2000 lastbuydate Thu Feb 24 00:00:00 CET 2005 numberofshares 0.0 currentprice 85.4000015258789 currentexchangerate 1.0
+2026-05-13 11:47:26 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1301 WANADOO occurence 0 originalShareid 1301 reason share changed before buysell 159 buysells 2 firstbuydate Mon Feb 23 00:00:00 CET 2004 lastbuydate Mon Apr 05 00:00:00 CEST 2004 numberofshares 0.0 currentprice 8.619999885559082 currentexchangerate 1.0
+2026-05-13 11:47:26 [http-nio-0.0.0.0-6780-exec-8] WARN c.e.i.r.s.s.i.PositionServiceImpl - Stock split record 436004 has newshareid=0, cannot apply stock split. Original shareid=1546
+2026-05-13 11:47:27 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1546 FUGRO occurence 0 originalShareid 1546 reason share changed before buysell 31 buysells 4 firstbuydate Mon Nov 10 00:00:00 CET 2014 lastbuydate Tue Feb 16 00:00:00 CET 2021 numberofshares 84.0 currentprice 11.6 currentexchangerate 1.0
+2026-05-13 11:47:27 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1556 ENGIE occurence 1 originalShareid 1556 reason same share reopened before buysell 237 buysells 2 firstbuydate Tue Aug 20 00:00:00 CEST 2002 lastbuydate Fri Apr 14 00:00:00 CEST 2006 numberofshares 0.0 currentprice 26.99 currentexchangerate 1.0
+2026-05-13 11:47:28 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1556 ENGIE occurence 2 originalShareid 1556 reason share changed before buysell 142 buysells 1 firstbuydate Tue Jul 22 00:00:00 CEST 2008 lastbuydate Tue Jul 22 00:00:00 CEST 2008 numberofshares 8.0 currentprice 26.99 currentexchangerate 1.0
+2026-05-13 11:47:33 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1584 EDF occurence 0 originalShareid 1584 reason share changed before buysell 24 buysells 6 firstbuydate Fri May 10 00:00:00 CEST 2013 lastbuydate Tue Feb 14 00:00:00 CET 2023 numberofshares 0.0 currentprice 12.0 currentexchangerate 1.0
+2026-05-13 11:47:33 [http-nio-0.0.0.0-6780-exec-1] WARN c.e.i.r.s.s.i.PositionServiceImpl - Stock split record 304294 has newshareid=0, cannot apply stock split. Original shareid=1917
+2026-05-13 11:47:33 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1917 GENERAL ELECTRIC occurence 0 originalShareid 1917 reason share changed before buysell 436317 buysells 1 firstbuydate Mon Apr 08 00:00:00 CEST 2002 lastbuydate Mon Apr 08 00:00:00 CEST 2002 numberofshares 1.0 currentprice 297.15 currentexchangerate 1.0
+2026-05-13 11:47:34 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1969 ORCO PROPERTY GRP occurence 0 originalShareid 1969 reason share changed before buysell 28 buysells 2 firstbuydate Mon Dec 29 00:00:00 CET 2014 lastbuydate Tue Jan 05 00:00:00 CET 2016 numberofshares 0.0 currentprice 0.15000000596046448 currentexchangerate 1.0
+2026-05-13 11:47:34 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 1993 SONY CERT occurence 0 originalShareid 1993 reason share changed before buysell 723073 buysells 2 firstbuydate Thu Jul 25 00:00:00 CEST 2002 lastbuydate Thu Feb 23 00:00:00 CET 2006 numberofshares 0.0 currentprice 33.85 currentexchangerate 1.0
+2026-05-13 11:47:35 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2006 TOTAL GABON occurence 0 originalShareid 2006 reason share changed before buysell 155 buysells 1 firstbuydate Mon Jun 24 00:00:00 CEST 2024 lastbuydate Mon Jun 24 00:00:00 CEST 2024 numberofshares 2.0 currentprice 231.0 currentexchangerate 1.0
+2026-05-13 11:47:35 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2042 MEMSCAP REGPT occurence 0 originalShareid 2042 reason share changed before buysell 134 buysells 3 firstbuydate Thu Mar 13 00:00:00 CET 2014 lastbuydate Fri Mar 01 00:00:00 CET 2024 numberofshares 0.0 currentprice 4.93 currentexchangerate 1.0
+2026-05-13 11:47:36 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2070 AEGON occurence 0 originalShareid 2070 reason share changed before buysell 696259 buysells 1 firstbuydate Thu Sep 13 00:00:00 CEST 2012 lastbuydate Thu Sep 13 00:00:00 CEST 2012 numberofshares 140.0 currentprice 7.08 currentexchangerate 1.0
+2026-05-13 11:47:36 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2076 BAM GROEP KON occurence 0 originalShareid 2076 reason share changed before buysell 191 buysells 2 firstbuydate Mon Mar 25 00:00:00 CET 2024 lastbuydate Mon May 26 00:00:00 CEST 2025 numberofshares 90.0 currentprice 9.66 currentexchangerate 1.0
+2026-05-13 11:47:37 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2100 MAROC TELECOM occurence 0 originalShareid 2100 reason share changed before buysell 288614 buysells 1 firstbuydate Wed Feb 20 00:00:00 CET 2019 lastbuydate Wed Feb 20 00:00:00 CET 2019 numberofshares 44.0 currentprice 9.34 currentexchangerate 1.0
+2026-05-13 11:47:37 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2103 PARROT PROMESSES occurence 0 originalShareid 2103 reason share changed before buysell 175 buysells 2 firstbuydate Wed May 11 00:00:00 CEST 2022 lastbuydate Thu Jun 05 00:00:00 CEST 2025 numberofshares 55.0 currentprice 9.1 currentexchangerate 1.0
+2026-05-13 11:47:38 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2116 OXURION occurence 0 originalShareid 2116 reason share changed before buysell 105 buysells 3 firstbuydate Tue Oct 17 00:00:00 CEST 2017 lastbuydate Wed Jan 24 00:00:00 CET 2024 numberofshares 0.0 currentprice 0.0038 currentexchangerate 1.0
+2026-05-13 11:47:38 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2124 PROLOGIS EURO PROP occurence 0 originalShareid 2124 reason share changed before buysell 707836 buysells 2 firstbuydate Thu Sep 10 00:00:00 CEST 2009 lastbuydate Fri May 21 00:00:00 CEST 2010 numberofshares 0.0 currentprice 6.460999965667725 currentexchangerate 1.0
+2026-05-13 11:47:43 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2144 CLARIANE occurence 0 originalShareid 2144 reason share changed before buysell 101 buysells 3 firstbuydate Mon May 20 00:00:00 CEST 2024 lastbuydate Fri Jun 27 00:00:00 CEST 2025 numberofshares 165.0 currentprice 4.292 currentexchangerate 1.0
+2026-05-13 11:47:44 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2156 GROUPE VIAL occurence 0 originalShareid 2156 reason share changed before buysell 187 buysells 2 firstbuydate Thu Jun 11 00:00:00 CEST 2009 lastbuydate Fri Nov 13 00:00:00 CET 2009 numberofshares 0.0 currentprice 0.0 currentexchangerate 1.0
+2026-05-13 11:47:44 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2240 DREAMNEX occurence 0 originalShareid 2240 reason share changed before buysell 136 buysells 1 firstbuydate Mon Sep 24 00:00:00 CEST 2018 lastbuydate Mon Sep 24 00:00:00 CEST 2018 numberofshares 95.0 currentprice 18.3 currentexchangerate 1.0
+2026-05-13 11:47:45 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2250 TIGENIX NV occurence 0 originalShareid 2250 reason share changed before buysell 210 buysells 2 firstbuydate Thu Sep 13 00:00:00 CEST 2012 lastbuydate Tue Aug 20 00:00:00 CEST 2013 numberofshares 0.0 currentprice 1.78 currentexchangerate 1.0
+2026-05-13 11:47:45 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Applying stock split 2296 -> 7498 dated 2017-09-01 00:00:00.0
+2026-05-13 11:47:45 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7498 EUROBIO-SCIENTIFIC occurence 0 originalShareid 2296 reason share changed before buysell 460755 buysells 1 firstbuydate Mon Dec 29 00:00:00 CET 2014 lastbuydate Mon Dec 29 00:00:00 CET 2014 numberofshares 37.0 currentprice 22.3 currentexchangerate 1.0
+2026-05-13 11:47:46 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2314 MASTRAD occurence 0 originalShareid 2314 reason share changed before buysell 123 buysells 2 firstbuydate Wed May 20 00:00:00 CEST 2015 lastbuydate Thu Oct 15 00:00:00 CEST 2015 numberofshares 0.0 currentprice 0.006 currentexchangerate 1.0
+2026-05-13 11:47:46 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2326 NYSE EURONEXT occurence 0 originalShareid 2326 reason share changed before buysell 116 buysells 2 firstbuydate Mon Mar 07 00:00:00 CET 2011 lastbuydate Thu Jan 03 00:00:00 CET 2013 numberofshares 0.0 currentprice 32.22999954223633 currentexchangerate 1.0
+2026-05-13 11:47:47 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2349 SINCLAIR PHARMA occurence 0 originalShareid 2349 reason share changed before buysell 120 buysells 2 firstbuydate Mon Dec 13 00:00:00 CET 2010 lastbuydate Fri May 24 00:00:00 CEST 2013 numberofshares 0.0 currentprice 0.27 currentexchangerate 1.0
+2026-05-13 11:47:47 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2393 AMG occurence 0 originalShareid 2393 reason share changed before buysell 98 buysells 3 firstbuydate Fri Jan 07 00:00:00 CET 2011 lastbuydate Tue Oct 31 00:00:00 CET 2017 numberofshares 0.0 currentprice 38.4 currentexchangerate 1.0
+2026-05-13 11:47:48 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Applying stock split 2437 -> 7370 dated 2016-06-06 00:00:00.0
+2026-05-13 11:47:48 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7370 NYRSTAR occurence 1 originalShareid 2437 reason same share reopened before buysell 213 buysells 2 firstbuydate Wed May 20 00:00:00 CEST 2009 lastbuydate Fri May 21 00:00:00 CEST 2010 numberofshares 0.0 currentprice 0.0756 currentexchangerate 1.0
+2026-05-13 11:47:48 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Applying stock split 2437 -> 7370 dated 2016-06-06 00:00:00.0
+2026-05-13 11:47:49 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7370 NYRSTAR occurence 2 originalShareid 2437 reason share changed before buysell 141 buysells 2 firstbuydate Tue Nov 03 00:00:00 CET 2015 lastbuydate Mon Feb 29 00:00:00 CET 2016 numberofshares 60.0 currentprice 0.0756 currentexchangerate 1.0
+2026-05-13 11:47:49 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Applying stock split 2443 -> 7472 dated 2017-05-18 00:00:00.0
+2026-05-13 11:47:50 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7472 ARCELORMITTAL SA occurence 0 originalShareid 2443 reason share changed before buysell 709934 buysells 2 firstbuydate Wed Feb 13 00:00:00 CET 2013 lastbuydate Tue Apr 05 00:00:00 CEST 2016 numberofshares 28.0 currentprice 52.06 currentexchangerate 1.0
+2026-05-13 11:47:50 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2474 CFE (D) occurence 0 originalShareid 2474 reason share changed before buysell 359420 buysells 1 firstbuydate Mon Jun 17 00:00:00 CEST 2024 lastbuydate Mon Jun 17 00:00:00 CEST 2024 numberofshares 79.0 currentprice 11.7 currentexchangerate 1.0
+2026-05-13 11:47:50 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 2592 SUEZ ENVIRONNEMENT occurence 0 originalShareid 2592 reason share changed before buysell 145 buysells 2 firstbuydate Tue Jul 22 00:00:00 CEST 2008 lastbuydate Wed Feb 23 00:00:00 CET 2022 numberofshares 0.0 currentprice 19.829999923706055 currentexchangerate 1.0
+2026-05-13 11:47:55 [http-nio-0.0.0.0-6780-exec-4] WARN c.e.i.r.s.s.i.PositionServiceImpl - Stock split record 356091 has newshareid=0, cannot apply stock split. Original shareid=5318
+2026-05-13 11:47:55 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 5318 ACHETER-LOUER.FR occurence 0 originalShareid 5318 reason share changed before buysell 146 buysells 2 firstbuydate Mon Jul 08 00:00:00 CEST 2013 lastbuydate Mon Jun 26 00:00:00 CEST 2017 numberofshares 0.0 currentprice 0.0028 currentexchangerate 1.0
+2026-05-13 11:47:56 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 5547 GEOREX PROV.REGPT occurence 0 originalShareid 5547 reason share changed before buysell 212 buysells 2 firstbuydate Mon Jul 08 00:00:00 CEST 2013 lastbuydate Mon Aug 05 00:00:00 CEST 2013 numberofshares 0.0 currentprice 0.0 currentexchangerate 1.0
+2026-05-13 11:47:56 [http-nio-0.0.0.0-6780-exec-2] WARN c.e.i.r.s.s.i.PositionServiceImpl - Stock split record 286569 has newshareid=0, cannot apply stock split. Original shareid=6305
+2026-05-13 11:47:56 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6305 NEOVACS occurence 0 originalShareid 6305 reason share changed before buysell 132 buysells 2 firstbuydate Mon Jan 25 00:00:00 CET 2016 lastbuydate Thu Jun 16 00:00:00 CEST 2016 numberofshares 0.0 currentprice 2.0E-4 currentexchangerate 1.0
+2026-05-13 11:47:57 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6349 LBI INTERNATIONAL occurence 0 originalShareid 6349 reason share changed before buysell 227 buysells 2 firstbuydate Tue Apr 10 00:00:00 CEST 2012 lastbuydate Mon Jan 21 00:00:00 CET 2013 numberofshares 0.0 currentprice 2.700000047683716 currentexchangerate 1.0
+2026-05-13 11:47:57 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6478 POSTNL occurence 0 originalShareid 6478 reason share changed before buysell 888370 buysells 2 firstbuydate Fri May 22 00:00:00 CEST 2020 lastbuydate Wed Oct 07 00:00:00 CEST 2020 numberofshares 225.0 currentprice 0.9465 currentexchangerate 1.0
+2026-05-13 11:47:58 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6486 LEADMEDIA occurence 0 originalShareid 6486 reason share changed before buysell 215 buysells 1 firstbuydate Mon May 26 00:00:00 CEST 2025 lastbuydate Mon May 26 00:00:00 CEST 2025 numberofshares 100.0 currentprice 0.6502 currentexchangerate 1.0
+2026-05-13 11:47:58 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6517 SMALTO occurence 0 originalShareid 6517 reason share changed before buysell 192 buysells 2 firstbuydate Mon Mar 09 00:00:00 CET 2015 lastbuydate Thu Jun 19 00:00:00 CEST 2025 numberofshares 0.0 currentprice 0.03 currentexchangerate 1.0
+2026-05-13 11:47:58 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6561 ADOCIA occurence 0 originalShareid 6561 reason share changed before buysell 216 buysells 1 firstbuydate Mon May 13 00:00:00 CEST 2019 lastbuydate Mon May 13 00:00:00 CEST 2019 numberofshares 35.0 currentprice 4.786 currentexchangerate 1.0
+2026-05-13 11:47:59 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6571 VERIMATRIX occurence 0 originalShareid 6571 reason share changed before buysell 211 buysells 3 firstbuydate Thu Aug 25 00:00:00 CEST 2016 lastbuydate Thu Jun 19 00:00:00 CEST 2025 numberofshares 0.0 currentprice 0.1875 currentexchangerate 1.0
+2026-05-13 11:47:59 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6572 INTRASENSE occurence 0 originalShareid 6572 reason share changed before buysell 447534 buysells 3 firstbuydate Thu Aug 27 00:00:00 CEST 2015 lastbuydate Fri May 26 00:00:00 CEST 2023 numberofshares 0.0 currentprice 0.228 currentexchangerate 1.0
+2026-05-13 11:48:00 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6622 THEOLIA occurence 0 originalShareid 6622 reason share changed before buysell 218 buysells 2 firstbuydate Mon Mar 09 00:00:00 CET 2015 lastbuydate Sat Aug 20 00:00:00 CEST 2016 numberofshares 0.0 currentprice 1.1449999809265137 currentexchangerate 1.0
+2026-05-13 11:48:05 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6629 NOVACYT occurence 0 originalShareid 6629 reason share changed before buysell 209 buysells 4 firstbuydate Mon Feb 10 00:00:00 CET 2020 lastbuydate Wed Jul 01 00:00:00 CEST 2020 numberofshares 0.0 currentprice 0.538 currentexchangerate 1.0
+2026-05-13 11:48:06 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6707 EKINOPS occurence 0 originalShareid 6707 reason share changed before buysell 707426 buysells 3 firstbuydate Thu Aug 25 00:00:00 CEST 2016 lastbuydate Thu Jun 19 00:00:00 CEST 2025 numberofshares 0.0 currentprice 2.515 currentexchangerate 1.0
+2026-05-13 11:48:06 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6730 FNAC DARTY occurence 0 originalShareid 6730 reason share changed before buysell 447625 buysells 1 firstbuydate Fri May 17 00:00:00 CEST 2024 lastbuydate Fri May 17 00:00:00 CEST 2024 numberofshares 19.0 currentprice 35.2 currentexchangerate 1.0
+2026-05-13 11:48:07 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6756 EON MOTORS GROUP occurence 0 originalShareid 6756 reason share changed before buysell 778930 buysells 4 firstbuydate Wed Jul 15 00:00:00 CEST 2015 lastbuydate Wed Jun 15 00:00:00 CEST 2016 numberofshares 0.0 currentprice 0.0 currentexchangerate 1.0
+2026-05-13 11:48:07 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6766 FIGEAC AERO occurence 0 originalShareid 6766 reason share changed before buysell 888371 buysells 1 firstbuydate Mon Feb 17 00:00:00 CET 2025 lastbuydate Mon Feb 17 00:00:00 CET 2025 numberofshares 80.0 currentprice 10.96 currentexchangerate 1.0
+2026-05-13 11:48:08 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6815 CARE PROPERTY INV. occurence 0 originalShareid 6815 reason share changed before buysell 220 buysells 2 firstbuydate Mon May 26 00:00:00 CEST 2025 lastbuydate Mon Dec 15 00:00:00 CET 2025 numberofshares 52.0 currentprice 13.06 currentexchangerate 1.0
+2026-05-13 11:48:08 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6826 GENOMIC VISION occurence 0 originalShareid 6826 reason share changed before buysell 447726 buysells 3 firstbuydate Tue Mar 03 00:00:00 CET 2020 lastbuydate Wed Jan 24 00:00:00 CET 2024 numberofshares 0.0 currentprice 0.0018 currentexchangerate 1.0
+2026-05-13 11:48:09 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Applying stock split 6846 -> 7716 dated 2018-04-17 00:00:00.0
+2026-05-13 11:48:09 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7716 PARAGON ID occurence 0 originalShareid 6846 reason share changed before buysell 337262 buysells 1 firstbuydate Thu Aug 27 00:00:00 CEST 2015 lastbuydate Thu Aug 27 00:00:00 CEST 2015 numberofshares 5.0 currentprice 38.01 currentexchangerate 1.0
+2026-05-13 11:48:09 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 6849 ELIOR occurence 0 originalShareid 6849 reason share changed before buysell 20 buysells 1 firstbuydate Thu Aug 25 00:00:00 CEST 2022 lastbuydate Thu Aug 25 00:00:00 CEST 2022 numberofshares 187.0 currentprice 2.706 currentexchangerate 1.0
+2026-05-13 11:48:10 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7013 PROLASER occurence 0 originalShareid 7013 reason share changed before buysell 478831 buysells 2 firstbuydate Tue Feb 05 00:00:00 CET 2002 lastbuydate Tue Mar 05 00:00:00 CET 2002 numberofshares 0.0 currentprice 0.0 currentexchangerate 1.0
+2026-05-13 11:48:10 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7149 GROUPE GUILLIN occurence 0 originalShareid 7149 reason share changed before buysell 182 buysells 1 firstbuydate Mon Jan 09 00:00:00 CET 2023 lastbuydate Mon Jan 09 00:00:00 CET 2023 numberofshares 27.0 currentprice 22.7 currentexchangerate 1.0
+2026-05-13 11:48:11 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7192 ALTICE B occurence 0 originalShareid 7192 reason share changed before buysell 223 buysells 2 firstbuydate Mon Jul 02 00:00:00 CEST 2018 lastbuydate Wed Jan 27 00:00:00 CET 2021 numberofshares 0.0 currentprice 5.33 currentexchangerate 1.0
+2026-05-13 11:48:11 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7271 CURETIS occurence 0 originalShareid 7271 reason share changed before buysell 199 buysells 2 firstbuydate Tue Mar 24 00:00:00 CET 2020 lastbuydate Tue Apr 21 00:00:00 CEST 2020 numberofshares 0.0 currentprice 0.32100000977516174 currentexchangerate 1.0
+2026-05-13 11:48:16 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7277 NOKIA occurence 0 originalShareid 7277 reason share changed before buysell 672146 buysells 2 firstbuydate Mon Jan 11 00:00:00 CET 2016 lastbuydate Fri Dec 05 00:00:00 CET 2025 numberofshares 0.0 currentprice 5.55 currentexchangerate 1.0
+2026-05-13 11:48:16 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7290 XIOR occurence 0 originalShareid 7290 reason share changed before buysell 181 buysells 1 firstbuydate Mon Dec 18 00:00:00 CET 2023 lastbuydate Mon Dec 18 00:00:00 CET 2023 numberofshares 21.0 currentprice 27.7 currentexchangerate 1.0
+2026-05-13 11:48:16 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - STOCK SPLIT HANDLING: Found existing open persisted position id=1016521 with shareid=7355 in repository for buysell 203. Adding buysell to existing position instead of closing.
+2026-05-13 11:48:17 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7351 BAMBU occurence 0 originalShareid 7351 reason share changed before buysell 768594 buysells 2 firstbuydate Mon Mar 19 00:00:00 CET 2018 lastbuydate Thu Apr 25 00:00:00 CEST 2019 numberofshares 0.0 currentprice 0.0 currentexchangerate 1.0
+2026-05-13 11:48:17 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - STOCK SPLIT HANDLING: Found existing open persisted position id=1016592 with shareid=7370 in repository for buysell 673087. Adding buysell to existing position instead of closing.
+2026-05-13 11:48:18 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7357 MDM PROMESSES occurence 0 originalShareid 7357 reason share changed before buysell 950890 buysells 1 firstbuydate Mon Oct 21 00:00:00 CEST 2024 lastbuydate Mon Oct 21 00:00:00 CEST 2024 numberofshares 140.0 currentprice 0.554 currentexchangerate 1.0
+2026-05-13 11:48:18 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - STOCK SPLIT HANDLING: Found existing open persisted position id=1016518 with shareid=7375 in repository for buysell 687040. Adding buysell to existing position instead of closing.
+2026-05-13 11:48:19 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7372 VALEO occurence 0 originalShareid 7372 reason share changed before buysell 304295 buysells 1 firstbuydate Mon Nov 17 00:00:00 CET 2025 lastbuydate Mon Nov 17 00:00:00 CET 2025 numberofshares 50.0 currentprice 11.63 currentexchangerate 1.0
+2026-05-13 11:48:19 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7378 GENSIGHT BIOLOGICS occurence 0 originalShareid 7378 reason share changed before buysell 994158 buysells 2 firstbuydate Mon Jun 13 00:00:00 CEST 2022 lastbuydate Mon Apr 24 00:00:00 CEST 2023 numberofshares 0.0 currentprice 0.0806 currentexchangerate 1.0
+2026-05-13 11:48:20 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7449 SOITEC occurence 0 originalShareid 7449 reason share changed before buysell 122 buysells 2 firstbuydate Mon Mar 23 00:00:00 CET 2026 lastbuydate Thu Apr 23 00:00:00 CEST 2026 numberofshares 5.0 currentprice 171.35 currentexchangerate 1.0
+2026-05-13 11:48:20 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7454 NATIXIS NV occurence 1 originalShareid 7454 reason same share reopened before buysell 230 buysells 2 firstbuydate Mon Mar 07 00:00:00 CET 2011 lastbuydate Tue Jul 19 00:00:00 CEST 2011 numberofshares 0.0 currentprice 4.001 currentexchangerate 1.0
+2026-05-13 11:48:20 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - STOCK SPLIT HANDLING: Found existing open persisted position id=1016593 with shareid=7472 in repository for buysell 976396. Adding buysell to existing position instead of closing.
+2026-05-13 11:48:21 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7454 NATIXIS NV occurence 2 originalShareid 7454 reason share changed before buysell 899834 buysells 2 firstbuydate Fri May 22 00:00:00 CEST 2020 lastbuydate Fri Jul 23 00:00:00 CEST 2021 numberofshares 0.0 currentprice 4.001 currentexchangerate 1.0
+2026-05-13 11:48:21 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - STOCK SPLIT HANDLING: Found existing open persisted position id=1016586 with shareid=7498 in repository for buysell 775925. Adding buysell to existing position instead of closing.
+2026-05-13 11:48:21 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - STOCK SPLIT HANDLING: Found existing open persisted position id=1016614 with shareid=7716 in repository for buysell 668990. Adding buysell to existing position instead of closing.
+2026-05-13 11:48:22 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7486 ONE EXPERIENCE occurence 0 originalShareid 7486 reason share changed before buysell 193 buysells 1 firstbuydate Tue Jun 17 00:00:00 CEST 2025 lastbuydate Tue Jun 17 00:00:00 CEST 2025 numberofshares 200.0 currentprice 0.4235 currentexchangerate 1.0
+2026-05-13 11:48:22 [http-nio-0.0.0.0-6780-exec-9] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7717 OXATIS occurence 0 originalShareid 7717 reason share changed before buysell 235 buysells 2 firstbuydate Mon Jul 08 00:00:00 CEST 2019 lastbuydate Tue Mar 24 00:00:00 CET 2020 numberofshares 0.0 currentprice 0.0 currentexchangerate 1.0
+2026-05-13 11:48:23 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7724 VOLUNTIS PROMESSES occurence 0 originalShareid 7724 reason share changed before buysell 1006671 buysells 2 firstbuydate Mon Oct 19 00:00:00 CEST 2020 lastbuydate Tue Jul 20 00:00:00 CEST 2021 numberofshares 0.0 currentprice 8.7 currentexchangerate 1.0
+2026-05-13 11:48:28 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7731 KALRAY occurence 0 originalShareid 7731 reason share changed before buysell 285506 buysells 2 firstbuydate Tue Mar 24 00:00:00 CET 2026 lastbuydate Mon Apr 27 00:00:00 CEST 2026 numberofshares 75.0 currentprice 7.98 currentexchangerate 1.0
+2026-05-13 11:48:28 [http-nio-0.0.0.0-6780-exec-7] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7740 NAVYA occurence 0 originalShareid 7740 reason share changed before buysell 644257 buysells 2 firstbuydate Mon Mar 14 00:00:00 CET 2022 lastbuydate Tue Aug 15 00:00:00 CEST 2023 numberofshares 0.0 currentprice 0.03 currentexchangerate 1.0
+2026-05-13 11:48:29 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7759 SOLUTIONS 30 SE occurence 0 originalShareid 7759 reason share changed before buysell 233 buysells 1 firstbuydate Fri Jun 16 00:00:00 CEST 2023 lastbuydate Fri Jun 16 00:00:00 CEST 2023 numberofshares 190.0 currentprice 0.641 currentexchangerate 1.0
+2026-05-13 11:48:29 [http-nio-0.0.0.0-6780-exec-6] WARN c.e.i.r.s.s.i.PositionServiceImpl - Stock split record 660154 has newshareid=0, cannot apply stock split. Original shareid=7874
+2026-05-13 11:48:29 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7874 PROSUS occurence 0 originalShareid 7874 reason share changed before buysell 639501 buysells 1 firstbuydate Mon Sep 14 00:00:00 CEST 2020 lastbuydate Mon Sep 14 00:00:00 CEST 2020 numberofshares 17.0 currentprice 41.01 currentexchangerate 1.0
+2026-05-13 11:48:30 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7878 HOFFMANN occurence 0 originalShareid 7878 reason share changed before buysell 287846 buysells 1 firstbuydate Mon May 29 00:00:00 CEST 2023 lastbuydate Mon May 29 00:00:00 CEST 2023 numberofshares 61.0 currentprice 4.285 currentexchangerate 1.0
+2026-05-13 11:48:30 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7912 VALLOUREC occurence 0 originalShareid 7912 reason share changed before buysell 478832 buysells 2 firstbuydate Fri Apr 22 00:00:00 CEST 2022 lastbuydate Thu Apr 16 00:00:00 CEST 2026 numberofshares 26.0 currentprice 23.6 currentexchangerate 1.0
+2026-05-13 11:48:31 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7950 INPOST occurence 0 originalShareid 7950 reason share changed before buysell 723076 buysells 2 firstbuydate Mon Jan 09 00:00:00 CET 2023 lastbuydate Mon Sep 09 00:00:00 CEST 2024 numberofshares 36.0 currentprice 15.29 currentexchangerate 1.0
+2026-05-13 11:48:31 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7974 ABG SUNDAL COLLIER occurence 0 originalShareid 7974 reason share changed before buysell 285191 buysells 1 firstbuydate Mon Jun 24 00:00:00 CEST 2024 lastbuydate Mon Jun 24 00:00:00 CEST 2024 numberofshares 1075.0 currentprice 7.0 currentexchangerate 10.8545878349
+2026-05-13 11:48:32 [http-nio-0.0.0.0-6780-exec-5] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7987 AKER HORIZONS occurence 0 originalShareid 7987 reason share changed before buysell 994159 buysells 2 firstbuydate Thu Mar 10 00:00:00 CET 2022 lastbuydate Tue Apr 21 00:00:00 CEST 2026 numberofshares 0.0 currentprice 0.0126 currentexchangerate 10.8545878349
+2026-05-13 11:48:32 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 7989 AKER SOLUTIONS occurence 0 originalShareid 7989 reason share changed before buysell 723077 buysells 1 firstbuydate Mon Mar 23 00:00:00 CET 2026 lastbuydate Mon Mar 23 00:00:00 CET 2026 numberofshares 155.0 currentprice 42.28 currentexchangerate 10.8545878349
+2026-05-13 11:48:33 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 8061 Elmera Group ASA occurence 0 originalShareid 8061 reason share changed before buysell 656684 buysells 1 firstbuydate Mon Jun 24 00:00:00 CEST 2024 lastbuydate Mon Jun 24 00:00:00 CEST 2024 numberofshares 205.0 currentprice 31.3 currentexchangerate 10.8545878349
+2026-05-13 11:48:33 [http-nio-0.0.0.0-6780-exec-8] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 8074 GREEN MINERALS occurence 0 originalShareid 8074 reason share changed before buysell 285815 buysells 2 firstbuydate Thu Jul 20 00:00:00 CEST 2023 lastbuydate Thu Mar 27 00:00:00 CET 2025 numberofshares 1719.0 currentprice 1.4 currentexchangerate 10.8545878349
+2026-05-13 11:48:34 [http-nio-0.0.0.0-6780-exec-6] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 8083 HEXAGON PURUS occurence 0 originalShareid 8083 reason share changed before buysell 723075 buysells 1 firstbuydate Tue Mar 15 00:00:00 CET 2022 lastbuydate Tue Mar 15 00:00:00 CET 2022 numberofshares 190.0 currentprice 1.49 currentexchangerate 10.8545878349
+2026-05-13 11:48:34 [http-nio-0.0.0.0-6780-exec-1] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 8130 MPC CONTAINER SHIP occurence 0 originalShareid 8130 reason share changed before buysell 683569 buysells 1 firstbuydate Mon Jun 24 00:00:00 CEST 2024 lastbuydate Mon Jun 24 00:00:00 CEST 2024 numberofshares 325.0 currentprice 23.42 currentexchangerate 10.8545878349
+2026-05-13 11:48:35 [http-nio-0.0.0.0-6780-exec-10] WARN c.e.i.r.s.s.i.PositionServiceImpl - Stock split record 762764 has newshareid=0, cannot apply stock split. Original shareid=8277
+2026-05-13 11:48:35 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 8277 XXL occurence 0 originalShareid 8277 reason share changed before buysell 937268 buysells 3 firstbuydate Fri Jan 12 00:00:00 CET 2024 lastbuydate Wed Jul 09 00:00:00 CEST 2025 numberofshares 0.0 currentprice 9.87 currentexchangerate 10.8545878349
+2026-05-13 11:48:36 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 8280 ZAPTEC occurence 0 originalShareid 8280 reason share changed before buysell 774384 buysells 1 firstbuydate Mon Aug 25 00:00:00 CEST 2025 lastbuydate Mon Aug 25 00:00:00 CEST 2025 numberofshares 250.0 currentprice 42.35 currentexchangerate 10.8545878349
+2026-05-13 11:48:36 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 8331 ARAMIS GROUP occurence 0 originalShareid 8331 reason share changed before buysell 12 buysells 1 firstbuydate Wed Dec 18 00:00:00 CET 2024 lastbuydate Wed Dec 18 00:00:00 CET 2024 numberofshares 75.0 currentprice 3.9 currentexchangerate 1.0
+2026-05-13 11:48:38 [http-nio-0.0.0.0-6780-exec-3] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 8424 BRICSNET occurence 0 originalShareid 8424 reason share changed before buysell 16 buysells 2 firstbuydate Tue Dec 12 00:00:00 CET 2000 lastbuydate Fri Jan 24 00:00:00 CET 2003 numberofshares 0.0 currentprice 0.0 currentexchangerate 1.0
+2026-05-13 11:48:38 [http-nio-0.0.0.0-6780-exec-2] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 8425 YLINE occurence 0 originalShareid 8425 reason share changed before buysell 14 buysells 2 firstbuydate Mon Feb 19 00:00:00 CET 2001 lastbuydate Sat Nov 24 00:00:00 CET 2001 numberofshares 0.0 currentprice 0.0 currentexchangerate 1.0
+2026-05-13 11:48:39 [http-nio-0.0.0.0-6780-exec-10] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 8426 META 4 occurence 0 originalShareid 8426 reason share changed before buysell 937233 buysells 2 firstbuydate Fri Feb 16 00:00:00 CET 2001 lastbuydate Tue Jan 20 00:00:00 CET 2004 numberofshares 0.0 currentprice 0.18 currentexchangerate 1.0
+2026-05-13 11:48:39 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 10629 ENERGYVISION occurence 0 originalShareid 10629 reason share changed before buysell 952831 buysells 1 firstbuydate Wed Jul 09 00:00:00 CEST 2025 lastbuydate Wed Jul 09 00:00:00 CEST 2025 numberofshares 55.0 currentprice 12.95 currentexchangerate 1.0
+2026-05-13 11:48:39 [http-nio-0.0.0.0-6780-exec-4] INFO c.e.i.r.s.s.i.PositionServiceImpl - Saving position 10690 MATERIALISE occurence 0 originalShareid 10690 reason last buysell buysells 1 firstbuydate Fri Nov 21 00:00:00 CET 2025 lastbuydate Fri Nov 21 00:00:00 CET 2025 numberofshares 117.0 currentprice 4.78 currentexchangerate 1.0
+2026-05-13 20:14:46 [http-nio-0.0.0.0-6780-exec-8] ERROR c.e.i.a.e.GlobalExceptionHandler - Unhandled exception for request uri=/springboot-crud-rest-adminms/api/v1/jobs/1016654
+org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:571)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:698)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:416)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy174.save(Unknown Source)
+	at com.erixit.investms.restapi.services.service.impl.JobServiceImpl.save(JobServiceImpl.java:116)
+	at com.erixit.investms.restapi.services.service.impl.JobServiceImpl.update(JobServiceImpl.java:147)
+	at com.erixit.investms.adminms.controller.JobController.updateJob(JobController.java:67)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:479)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:340)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:82)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:128)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at com.erixit.investms.adminms.filters.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:80)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:323)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:224)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: jakarta.persistence.RollbackException: Error while committing the transaction
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:67)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 156 common frames omitted
+Caused by: java.util.ConcurrentModificationException: null
+	at java.base/java.util.HashMap.forEach(Unknown Source)
+	at org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl.releaseResources(ResourceRegistryStandardImpl.java:334)
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.afterTransaction(AbstractLogicalConnectionImplementor.java:60)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.afterTransaction(LogicalConnectionManagedImpl.java:185)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.afterCompletion(LogicalConnectionManagedImpl.java:303)
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.commit(AbstractLogicalConnectionImplementor.java:100)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:268)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	... 157 common frames omitted
+2026-05-13 20:19:42 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-13 20:19:42 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-13 20:19:42 [SpringApplicationShutdownHook] INFO o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-13 20:19:42 [tomcat-shutdown] INFO o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-13 20:19:43 [SpringApplicationShutdownHook] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-13 20:19:43 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-13 20:19:43 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
