@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Stop"
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $projectDir = Split-Path -Parent $scriptDir
@@ -17,8 +17,14 @@ if ($args.Count -gt 1) {
 $requestedService = if ($args.Count -eq 1) { $args[0] } else { $null }
 
 $composeFiles = @("docker-compose.windows.yml")
+$envFile = Join-Path $projectDir ".env"
 
 $composeArgs = @("compose")
+if (Test-Path -LiteralPath $envFile) {
+    $composeArgs += @("--env-file", $envFile)
+    Write-Host "Using env file: $envFile"
+}
+
 foreach ($file in $composeFiles) {
     $composeArgs += @("-f", $file)
 }
