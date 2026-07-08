@@ -43,6 +43,7 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/invest?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: ${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}
+      JWT_SECRET: ${JWT_SECRET:?JWT_SECRET is required}
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
     deploy:
       resources:
