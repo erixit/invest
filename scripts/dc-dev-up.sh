@@ -15,21 +15,8 @@ fi
 requested_service="${1:-}"
 
 compose_files=("docker-compose.debian.yml")
-env_file="${project_dir}/.env"
 
 compose_cmd=(docker compose)
-if [[ -f "${env_file}" ]]; then
-  compose_cmd+=( --env-file "${env_file}" )
-  echo "Using env file: ${env_file}"
-fi
-
-for required_var in INVEST_DB_PASSWORD INVEST_ARTEMIS_PASSWORD; do
-  if [[ -z "${!required_var:-}" ]] && ! grep -Eq "^[[:space:]]*${required_var}[[:space:]]*=[[:space:]]*.+" "${env_file}" 2>/dev/null; then
-    echo "${required_var} must be set in ${env_file} or in the current environment." >&2
-    exit 1
-  fi
-done
-
 for file in "${compose_files[@]}"; do
   compose_cmd+=( -f "$file" )
 done
