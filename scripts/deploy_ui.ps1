@@ -58,4 +58,14 @@ function Copy-UiDist {
 Copy-UiDist 'adminui'
 Copy-UiDist 'consultui'
 
+$warSource = Join-Path $scriptDir '..\..\invest_web\web\target\web-1.0.0.war'
+$warDestination = Join-Path $resolvedDeployDir 'web-1.0.0.war'
+
+if (Test-Path -LiteralPath $warSource -PathType Leaf) {
+    Copy-Item -Path $warSource -Destination $warDestination -Force
+    Write-Host "Copied web-1.0.0.war -> $warDestination"
+} else {
+    Write-Warning "WAR file not found at: $warSource"
+}
+
 Write-Host 'UI deployment complete.'

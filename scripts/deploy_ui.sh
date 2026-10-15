@@ -41,4 +41,15 @@ copy_ui_dist() {
 copy_ui_dist "adminui"
 copy_ui_dist "consultui"
 
+war_source="${script_dir}/../../invest_web/web/target/web-1.0.0.war"
+war_destination="${resolved_deploy_dir}/web-1.0.0.war"
+
+if [[ -f "${war_source}" ]]; then
+  cp -f "${war_source}" "${war_destination}"
+  chmod 777 "${war_destination}"
+  echo "Copied web-1.0.0.war -> ${war_destination}"
+else
+  echo "Warning: WAR file not found at: ${war_source}" >&2
+fi
+
 echo "UI deployment complete."

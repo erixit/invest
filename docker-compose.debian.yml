@@ -3,12 +3,11 @@ services:
     image: tomcat:9.0-jdk17
     container_name: invest_tomcat
     restart: always
+    network_mode: host
     volumes:
       - ./deploy/web-1.0.0.war:/usr/local/tomcat/webapps/ROOT.war
       - ./deploy/invest.xml:/usr/local/tomcat/conf/Catalina/localhost/ROOT.xml
       - ./lib/mysql-connector-j-8.3.0.jar:/usr/local/tomcat/lib/mysql-connector.jar
-    ports:
-      - "8080:8080"
     environment:
       TZ: Europe/Brussels
       JAVA_OPTS: "-Xms256m -Xmx512m -Dorg.apache.tomcat.util.digester.PROPERTY_SOURCE=org.apache.tomcat.util.digester.EnvironmentPropertySource"
@@ -22,15 +21,13 @@ services:
       options:
         max-size: "10m"
         max-file: "3"
-    depends_on:
-      db:
-        condition: service_healthy
 
   corems:
     image: eclipse-temurin:17-jre
     container_name: invest_corems
     restart: always
     working_dir: /logs
+    network_mode: "${NETWORK_MODE:-host}"
     ports:
       - "6980:6980"
     volumes:
@@ -40,8 +37,8 @@ services:
     environment:
       TZ: Europe/Brussels
       SPRING_PROFILES_ACTIVE: linux
-      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/invest?useSSL=false&allowPublicKeyRetrieval=true
-      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/invest?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: invest
       SPRING_DATASOURCE_PASSWORD: ${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}
       JWT_SECRET: ${JWT_SECRET:?JWT_SECRET is required}
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
@@ -55,9 +52,6 @@ services:
         max-size: "10m"
         max-file: "3"
     command: ["java", "-jar", "/app/app.jar"]
-    depends_on:
-      db:
-        condition: service_healthy
 
   adminui:
     image: nginx:alpine
@@ -126,8 +120,8 @@ services:
     environment: &adminms_env
       TZ: Europe/Brussels
       SPRING_PROFILES_ACTIVE: linux
-      SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
-      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: invest
       SPRING_DATASOURCE_PASSWORD: ${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}
       SPRING_ARTEMIS_BROKER_URL: tcp://localhost:61616
       SPRING_ARTEMIS_USER: artemis
@@ -145,8 +139,6 @@ services:
         max-file: "3"
     command: ["java", "-jar", "/app/app.jar"]
     depends_on:
-      db:
-        condition: service_healthy
       artemis:
         condition: service_started
 
@@ -176,8 +168,8 @@ services:
       TZ: Europe/Brussels
       SERVER_FORWARD_HEADERS_STRATEGY: NATIVE
       SPRING_PROFILES_ACTIVE: linux
-      SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
-      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: invest
       SPRING_DATASOURCE_PASSWORD: ${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}
       JWT_SECRET: ${JWT_SECRET:?JWT_SECRET is required}
       JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
@@ -191,35 +183,6 @@ services:
         max-size: "10m"
         max-file: "3"
     command: ["java", "-jar", "/app/app.jar"]
-    depends_on:
-      db:
-        condition: service_healthy
-
-  db:
-    image: mysql:8.0
-    container_name: invest_db
-    restart: always
-    command: --lower_case_table_names=1 --disable-log-bin
-    environment:
-      TZ: Europe/Brussels
-      MYSQL_ROOT_PASSWORD: ${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}
-      MYSQL_DATABASE: invest
-    ports:
-      - "3306:3306"
-    volumes:
-      # Relative to the invest folder now
-      - ./init_db:/docker-entrypoint-initdb.d
-      - invest_db_data:/var/lib/mysql
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "3"
-    healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
 
   artemis:
     image: apache/activemq-artemis:latest
@@ -268,9 +231,6 @@ services:
     depends_on:
       artemis:
         condition: service_started
-
-volumes:
-  invest_db_data:
 
 networks:
   default:
