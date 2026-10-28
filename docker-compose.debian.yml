@@ -6,11 +6,12 @@ services:
     network_mode: host
     volumes:
       - ./deploy/web-1.0.0.war:/usr/local/tomcat/webapps/ROOT.war
-      - ./deploy/invest.xml:/usr/local/tomcat/conf/Catalina/localhost/ROOT.xml
+      - ./config/web/invest.xml:/usr/local/tomcat/conf/Catalina/localhost/ROOT.xml
       - ./lib/mysql-connector-j-8.3.0.jar:/usr/local/tomcat/lib/mysql-connector.jar
     environment:
       TZ: Europe/Brussels
       JAVA_OPTS: "-Xms256m -Xmx512m -Dorg.apache.tomcat.util.digester.PROPERTY_SOURCE=org.apache.tomcat.util.digester.EnvironmentPropertySource"
+      INVEST_DB_HOST: 127.0.0.1
       INVEST_DB_PASSWORD: ${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}
     deploy:
       resources:

@@ -1,0 +1,10 @@
+<Context>
+  <Resource
+      name="jdbc/investDS"
+      auth="Container"
+      type="javax.sql.DataSource"
+      driverClassName="com.mysql.cj.jdbc.Driver"
+      url="jdbc:mysql://${INVEST_DB_HOST}:3306/invest?useSSL=false&amp;allowPublicKeyRetrieval=true"
+      username="root"
+      password="${INVEST_DB_PASSWORD}" />
+</Context>

@@ -1,0 +1,245 @@
+services:
+  app:
+    image: tomcat:9.0-jdk17
+    container_name: invest_tomcat
+    restart: always
+    volumes:
+      - ./deploy/web-1.0.0.war:/usr/local/tomcat/webapps/ROOT.war
+      - ./config/web/invest.xml:/usr/local/tomcat/conf/Catalina/localhost/ROOT.xml
+      - ./lib/mysql-connector-j-8.3.0.jar:/usr/local/tomcat/lib/mysql-connector.jar
+    ports:
+      - "8080:8080"
+    environment:
+      TZ: Europe/Brussels
+      JAVA_OPTS: "-Xms256m -Xmx512m -Dorg.apache.tomcat.util.digester.PROPERTY_SOURCE=org.apache.tomcat.util.digester.EnvironmentPropertySource"
+      INVEST_DB_HOST: ${INVEST_DB_HOST:-192.168.0.162}
+      INVEST_DB_PASSWORD: ${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+  corems:
+    image: eclipse-temurin:17-jre
+    container_name: invest_corems
+    restart: always
+    working_dir: /logs
+    ports:
+      - "6980:6980"
+    volumes:
+      - ./deploy/corems-1.0.0.jar:/app/app.jar
+      - C:/msi_data/docker_logs/corems:/logs
+      - C:/msi_data/invest_data:/home/pi/data/invest_data
+    environment:
+      TZ: Europe/Brussels
+      SPRING_PROFILES_ACTIVE: windows
+      SPRING_DATASOURCE_URL: jdbc:mysql://${INVEST_DB_HOST:-192.168.0.162}:3306/invest?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: ${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}
+      JWT_SECRET: ${JWT_SECRET:?JWT_SECRET is required}
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["java", "-jar", "/app/app.jar"]
+  adminui:
+    image: nginx:alpine
+    container_name: invest_adminui
+    restart: always
+    ports:
+      - "8088:80"
+    volumes:
+      - ./deploy/adminui/dist/adminui:/usr/share/nginx/html
+      - ./config/adminui/nginx.windows.conf:/etc/nginx/conf.d/default.conf
+    environment:
+      TZ: Europe/Brussels
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  consultui:
+    image: nginx:alpine
+    container_name: invest_consultui
+    restart: always
+    ports:
+      - "8089:80"
+    volumes:
+      - ./deploy/consultui/dist/consultui:/usr/share/nginx/html
+      - ./config/consultui/nginx.windows.conf:/etc/nginx/conf.d/default.conf
+    environment:
+      TZ: Europe/Brussels
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  adminms:
+    image: eclipse-temurin:17-jre
+    container_name: invest_adminms
+    restart: always
+    profiles:
+      - docker
+    working_dir: /logs
+    ports:
+      - "6780:6780"
+    volumes:
+      - ./deploy/adminms-1.0.0.jar:/app/app.jar
+      - C:/msi_data/invest_data:/home/pi/data/invest_data
+      - C:/msi_data/docker_logs/adminms:/logs
+    environment:
+      TZ: Europe/Brussels
+      SPRING_PROFILES_ACTIVE: windows
+      SPRING_DATASOURCE_URL: jdbc:mysql://${INVEST_DB_HOST:-192.168.0.162}:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: ${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}
+      SPRING_ARTEMIS_BROKER_URL: tcp://artemis:61616
+      SPRING_ARTEMIS_USER: artemis
+      SPRING_ARTEMIS_PASSWORD: ${INVEST_ARTEMIS_PASSWORD:?INVEST_ARTEMIS_PASSWORD is required}
+      JWT_SECRET: ${JWT_SECRET:?JWT_SECRET is required}
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["java", "-jar", "/app/app.jar"]
+    depends_on:
+      artemis:
+        condition: service_started
+
+  adminms_debug:
+    image: eclipse-temurin:17-jre
+    container_name: invest_adminms_debug
+    profiles:
+      - debug
+    restart: always
+    working_dir: /logs
+    ports:
+      - "6780:6780"   
+      - "5005:5005"      
+    volumes:
+      - ./deploy/adminms-1.0.0.jar:/app/app.jar
+      - C:/msi_data/invest_data:/home/pi/data/invest_data
+      - C:/msi_data/docker_logs/adminms_debug:/logs
+    environment:
+      TZ: Europe/Brussels
+      SPRING_PROFILES_ACTIVE: windows
+      SPRING_DATASOURCE_URL: jdbc:mysql://${INVEST_DB_HOST:-192.168.0.162}:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: ${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}
+      SPRING_ARTEMIS_BROKER_URL: tcp://artemis:61616
+      SPRING_ARTEMIS_USER: artemis
+      SPRING_ARTEMIS_PASSWORD: ${INVEST_ARTEMIS_PASSWORD:?INVEST_ARTEMIS_PASSWORD is required}
+      JWT_SECRET: ${JWT_SECRET:?JWT_SECRET is required}
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'      
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["java", "-jar", "/app/app.jar"]
+    depends_on:
+      artemis:
+        condition: service_started
+
+  consultms:
+    image: eclipse-temurin:17-jre
+    container_name: invest_consultms
+    restart: always
+    profiles:
+      - docker
+    working_dir: /logs
+    ports:
+      - "6680:6680"
+    volumes:
+      - ./deploy/consultms-1.0.0.jar:/app/app.jar
+      - C:/msi_data/docker_logs/consultms:/logs
+    environment:
+      TZ: Europe/Brussels
+      SERVER_FORWARD_HEADERS_STRATEGY: NATIVE
+      SPRING_PROFILES_ACTIVE: windows
+      SPRING_DATASOURCE_URL: jdbc:mysql://${INVEST_DB_HOST:-192.168.0.162}:3306/invest_db?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: ${INVEST_DB_PASSWORD:?INVEST_DB_PASSWORD is required}
+      JWT_SECRET: ${JWT_SECRET:?JWT_SECRET is required}
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["java", "-jar", "/app/app.jar"]
+
+  artemis:
+    image: apache/activemq-artemis:latest
+    container_name: invest_artemis
+    restart: always
+    ports:
+      - "8161:8161"
+      - "61616:61616"
+    environment:
+      TZ: Europe/Brussels
+      ARTEMIS_USER: artemis
+      ARTEMIS_PASSWORD: ${INVEST_ARTEMIS_PASSWORD:?INVEST_ARTEMIS_PASSWORD is required}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  messaging:
+    image: eclipse-temurin:17-jre
+    container_name: invest_messaging
+    restart: always
+    profiles:
+      - docker
+    working_dir: /logs
+    volumes:
+      - ./deploy/messaging-1.0.0.jar:/app/app.jar
+      - C:/msi_data/invest_data:/home/pi/data/invest_data      
+      - C:/msi_data/docker_logs/messaging:/logs
+    environment:
+      TZ: Europe/Brussels
+      SPRING_PROFILES_ACTIVE: windows
+      SPRING_ARTEMIS_BROKER_URL: tcp://artemis:61616
+      SPRING_ARTEMIS_USER: artemis
+      SPRING_ARTEMIS_PASSWORD: ${INVEST_ARTEMIS_PASSWORD:?INVEST_ARTEMIS_PASSWORD is required}
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx384m"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["java", "-jar", "/app/app.jar"]
+    depends_on:
+      artemis:
+        condition: service_started
