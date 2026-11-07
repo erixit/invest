@@ -32,8 +32,8 @@ services:
       - "6980:6980"
     volumes:
       - ./deploy/corems-1.0.0.jar:/app/app.jar
-      - C:/msi_data/docker_logs/corems:/logs
-      - C:/msi_data/invest_data:/home/pi/data/invest_data
+      - C:/tuf_data/docker_logs/corems:/logs
+      - C:/tuf_data/invest_data:/home/pi/data/invest_data
     environment:
       TZ: Europe/Brussels
       SPRING_PROFILES_ACTIVE: windows
@@ -97,8 +97,8 @@ services:
       - "6780:6780"
     volumes:
       - ./deploy/adminms-1.0.0.jar:/app/app.jar
-      - C:/msi_data/invest_data:/home/pi/data/invest_data
-      - C:/msi_data/docker_logs/adminms:/logs
+      - C:/tuf_data/invest_data:/home/pi/data/invest_data
+      - C:/tuf_data/docker_logs/adminms:/logs
     environment:
       TZ: Europe/Brussels
       SPRING_PROFILES_ACTIVE: windows
@@ -136,8 +136,8 @@ services:
       - "5005:5005"      
     volumes:
       - ./deploy/adminms-1.0.0.jar:/app/app.jar
-      - C:/msi_data/invest_data:/home/pi/data/invest_data
-      - C:/msi_data/docker_logs/adminms_debug:/logs
+      - C:/tuf_data/invest_data:/home/pi/data/invest_data
+      - C:/tuf_data/docker_logs/adminms_debug:/logs
     environment:
       TZ: Europe/Brussels
       SPRING_PROFILES_ACTIVE: windows
@@ -174,7 +174,7 @@ services:
       - "6680:6680"
     volumes:
       - ./deploy/consultms-1.0.0.jar:/app/app.jar
-      - C:/msi_data/docker_logs/consultms:/logs
+      - C:/tuf_data/docker_logs/consultms:/logs
     environment:
       TZ: Europe/Brussels
       SERVER_FORWARD_HEADERS_STRATEGY: NATIVE
@@ -221,8 +221,8 @@ services:
     working_dir: /logs
     volumes:
       - ./deploy/messaging-1.0.0.jar:/app/app.jar
-      - C:/msi_data/invest_data:/home/pi/data/invest_data      
-      - C:/msi_data/docker_logs/messaging:/logs
+      - C:/tuf_data/invest_data:/home/pi/data/invest_data      
+      - C:/tuf_data/docker_logs/messaging:/logs
     environment:
       TZ: Europe/Brussels
       SPRING_PROFILES_ACTIVE: windows
